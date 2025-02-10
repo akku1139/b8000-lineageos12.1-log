@@ -1,0 +1,209 @@
+- waiting for device -
+--------- beginning of main
+I/lowmemorykiller(  121): Using in-kernel low memory killer interface
+I/auditd  (  118): type=1403 audit(0.0:2): policy loaded auid=4294967295 ses=4294967295
+W/pvrsrvctl(  104): type=1400 audit(0.0:3): avc: denied { execute } for path="/system/vendor/lib/libsrv_init.so" dev="mmcblk0p6" ino=30282 scontext=u:r:init:s0 tcontext=u:object_r:unlabeled:s0 tclass=file
+W/pvrsrvctl(  104): type=1400 audit(0.0:4): avc: denied { sys_module } for capability=16 scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=capability
+W/sysinit (  116): type=1400 audit(0.0:5): avc: denied { search } for name="vendor" dev="mmcblk0p6" ino=30273 scontext=u:r:sysinit:s0 tcontext=u:object_r:unlabeled:s0 tclass=dir
+W/run-parts(  117): type=1400 audit(0.0:6): avc: denied { getattr } for path="/system/etc/init.d/01mod" dev="mmcblk0p6" ino=861 scontext=u:r:sysinit:s0 tcontext=u:object_r:unlabeled:s0 tclass=file
+W/run-parts(  117): type=1400 audit(0.0:7): avc: denied { execute } for name="01mod" dev="mmcblk0p6" ino=861 scontext=u:r:sysinit:s0 tcontext=u:object_r:unlabeled:s0 tclass=file
+W/lmkd    (  121): type=1400 audit(0.0:8): avc: denied { search } for name="vendor" dev="mmcblk0p6" ino=30273 scontext=u:r:lmkd:s0 tcontext=u:object_r:unlabeled:s0 tclass=dir
+W/servicemanager(  122): type=1400 audit(0.0:9): avc: denied { search } for name="vendor" dev="mmcblk0p6" ino=30273 scontext=u:r:servicemanager:s0 tcontext=u:object_r:unlabeled:s0 tclass=dir
+W/logd    (  118): type=1400 audit(0.0:10): avc: denied { search } for name="vendor" dev="mmcblk0p6" ino=30273 scontext=u:r:logd:s0 tcontext=u:object_r:unlabeled:s0 tclass=dir
+W/logd    (  118): type=1400 audit(0.0:17): avc: denied { read } for name="tzdata" dev="mmcblk0p6" ino=45482 scontext=u:r:logd:s0 tcontext=u:object_r:unlabeled:s0 tclass=file
+W/logd    (  118): type=1400 audit(0.0:18): avc: denied { open } for name="tzdata" dev="mmcblk0p6" ino=45482 scontext=u:r:logd:s0 tcontext=u:object_r:unlabeled:s0 tclass=file
+I/cm      (  132): ____ _   _ ____ _  _ ____ ____ ____ _  _ _  _ ____ ___
+W/surfaceflinger(  124): type=1400 audit(0.0:19): avc: denied { read } for name="egl" dev="mmcblk0p6" ino=30289 scontext=u:r:surfaceflinger:s0 tcontext=u:object_r:unlabeled:s0 tclass=dir
+W/surfaceflinger(  124): type=1400 audit(0.0:20): avc: denied { open } for name="egl" dev="mmcblk0p6" ino=30289 scontext=u:r:surfaceflinger:s0 tcontext=u:object_r:unlabeled:s0 tclass=dir
+I/cm      (  141): |     \_/  |__| |\ | |  | | __ |___ |\ | |\/| |  | |  \
+I/cm      (  143): |___   |   |  | | \| |__| |__] |___ | \| |  | |__| |__/
+--------- beginning of system
+I/Vold    (  123): Vold 2.1 (the revenge) firing up
+D/Vold    (  123): Volume sdcard0 state changing -1 (Initializing) -> 0 (No-Media)
+D/Vold    (  123): Volume sdcard1 state changing -1 (Initializing) -> 0 (No-Media)
+D/Vold    (  123): Volume usbdisk0 state changing -1 (Initializing) -> 0 (No-Media)
+I/Cryptfs (  123): Check if PFE is activated on Boot
+E/Cryptfs (  123): Unexpected value for crypto key location
+E/Cryptfs (  123): Error getting crypt footer and key
+I/SurfaceFlinger(  124): SurfaceFlinger is starting
+I/SurfaceFlinger(  124): SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+W/linker  (  124): libEGL_mtk.so: unused DT entry: type 0xf arg 0x5a4
+W/run-parts(  153): type=1400 audit(0.0:21): avc: denied { execute } for name="01mod" dev="mmcblk0p6" ino=861 scontext=u:r:sysinit:s0 tcontext=u:object_r:unlabeled:s0 tclass=file
+W/run-parts(  153): type=1400 audit(0.0:22): avc: denied { read open } for name="01mod" dev="mmcblk0p6" ino=861 scontext=u:r:sysinit:s0 tcontext=u:object_r:unlabeled:s0 tclass=file
+W/run-parts(  153): type=1400 audit(0.0:23): avc: denied { execute_no_trans } for path="/system/etc/init.d/01mod" dev="mmcblk0p6" ino=861 scontext=u:r:sysinit:s0 tcontext=u:object_r:unlabeled:s0 tclass=file
+W/DirectVolume(  123): Deprecated implied prefix pattern detected, please use '/devices/platform/mtk-msdc.0/mmc_host*' instead
+D/Vold    (  123): Volume sdcard0 state changing 0 (No-Media) -> 1 (Idle-Unmounted)
+W/Vold    (  123): Duplicate state (1)
+D/Vold    (  123): Volume sdcard0 state changing 1 (Idle-Unmounted) -> 2 (Pending)
+D/DirectVolume(  123): DirectVolume::handlePartitionAdded -> MAJOR 179, MINOR 1, PARTN 1
+D/DirectVolume(  123): DirectVolume::handlePartitionAdded -> MAJOR 179, MINOR 2, PARTN 2
+D/DirectVolume(  123): DirectVolume::handlePartitionAdded -> MAJOR 179, MINOR 3, PARTN 3
+D/DirectVolume(  123): DirectVolume::handlePartitionAdded -> MAJOR 179, MINOR 4, PARTN 4
+D/DirectVolume(  123): DirectVolume::handlePartitionAdded -> MAJOR 179, MINOR 5, PARTN 5
+W/linker  (  124): libIMGegl.so: unused DT entry: type 0xf arg 0x8d2
+D/DirectVolume(  123): DirectVolume::handlePartitionAdded -> MAJOR 179, MINOR 6, PARTN 6
+D/DirectVolume(  123): DirectVolume::handlePartitionAdded -> MAJOR 179, MINOR 7, PARTN 7
+D/DirectVolume(  123): DirectVolume::handlePartitionAdded -> MAJOR 179, MINOR 8, PARTN 8
+D/Vold    (  123): Volume sdcard0 state changing 2 (Pending) -> 1 (Idle-Unmounted)
+W/Vold    (  123): Duplicate state (1)
+W/Vold    (  123): Duplicate state (1)
+W/linker  (  124): libsrv_um.so: unused DT entry: type 0xf arg 0x17be
+D/libEGL  (  124): loaded /vendor/lib/egl/libEGL_mtk.so
+W/linker  (  124): libGLESv1_CM_mtk.so: unused DT entry: type 0xf arg 0xeec
+W/linker  (  124): libusc.so: unused DT entry: type 0xf arg 0x22d
+I/cm      (  152): Welcome to Android 5.1.1 / CyanogenMod-12.1-20200516-UNOFFICIAL-me173x
+W/linker  (  124): libGLESv2_mtk.so: unused DT entry: type 0xf arg 0x103d
+W/linker  (  124): libGLESv1_CM_mtk.so: unused DT entry: type 0xf arg 0xeec
+W/linker  (  124): libusc.so: unused DT entry: type 0xf arg 0x22d
+D/libEGL  (  124): loaded /vendor/lib/egl/libGLESv1_CM_mtk.so
+I/akkumod (  154): Fixing permissin
+W/chmod   (  156): type=1400 audit(0.0:24): avc: denied { setattr } for name="ion" dev="tmpfs" ino=3133 scontext=u:r:sysinit:s0 tcontext=u:object_r:ion_device:s0 tclass=chr_file
+I/akkumod (  155): /dev/ion
+W/linker  (  124): libGLESv2_mtk.so: unused DT entry: type 0xf arg 0x103d
+D/libEGL  (  124): loaded /vendor/lib/egl/libGLESv2_mtk.so
+W/surfaceflinger(  124): type=1400 audit(0.0:25): avc: denied { read write } for name="pvr_sync" dev="tmpfs" ino=3156 scontext=u:r:surfaceflinger:s0 tcontext=u:object_r:device:s0 tclass=chr_file
+W/surfaceflinger(  124): type=1400 audit(0.0:26): avc: denied { open } for name="pvr_sync" dev="tmpfs" ino=3156 scontext=u:r:surfaceflinger:s0 tcontext=u:object_r:device:s0 tclass=chr_file
+W/linker  (  124): libpvrANDROID_WSEGL.so: unused DT entry: type 0xf arg 0x185
+W/surfaceflinger(  124): type=1400 audit(0.0:27): avc: denied { net_admin } for capability=12 scontext=u:r:surfaceflinger:s0 tcontext=u:r:surfaceflinger:s0 tclass=capability
+W/VSyncThreadHWC(  159): type=1400 audit(0.0:28): avc: denied { sys_nice } for capability=23 scontext=u:r:surfaceflinger:s0 tcontext=u:r:surfaceflinger:s0 tclass=capability
+W/linker  (  124): gralloc.mt6589.so: unused DT entry: type 0xf arg 0x6b5
+W/linker  (  124): libpvr2d.so: unused DT entry: type 0xf arg 0x7bd
+I/hwcomposer(  124): [DPY] Display Information:
+I/hwcomposer(  124): [DPY] # fo devices : 1
+I/hwcomposer(  124): [DPY] -----------------------------
+I/hwcomposer(  124): [DPY] Device id   : 0
+I/hwcomposer(  124): [DPY] Width       : 1280
+I/hwcomposer(  124): [DPY] Height      : 800
+I/hwcomposer(  124): [DPY] xdpi        : 220.000000
+I/hwcomposer(  124): [DPY] ydpi        : 220.000000
+I/hwcomposer(  124): [DPY] vsync       : 1
+I/hwcomposer(  124): [DPY] refresh     : 17250301
+I/hwcomposer(  124): [DPY] connected   : 1
+I/hwcomposer(  124): [DPY] subtype     : 0
+W/hwcomposer(  124): [EVENT] HW VSync State(1)
+I/hwcomposer(  124): [WKR] Set priority to RR: 268435543
+W/hwcomposer(  124): [EVENT] Start to listen uevent, addr.nl_pid(124)
+I/hwcomposer(  124): [WKR] Set priority to RR: 268435543
+D/DISPSYS (  124): [DpBlitStream::DpBlitStream()]
+I/hwcomposer(  124): [WKR] Set priority to RR: 268435543
+I/hwcomposer(  124): [WKR] Set priority to RR: 268435543
+I/hwcomposer(  124): [WKR] Set priority to RR: 268435543
+I/SurfaceFlinger(  124): Using composer version 1.2
+I/hwcomposer(  124): [HWC] getConfigs Display(0)
+I/hwcomposer(  124): [HWC] getAttributes Display(0)
+I/hwcomposer(  124): [HWC] getConfigs Display(1)
+I/hwcomposer(  124): [HWC] getAttributes Display(1)
+E/hwcomposer(  124): [HWC] Failed to get display attributes (dpy=1 is not connected)
+I/SurfaceFlinger(  124): EGL information:
+I/SurfaceFlinger(  124): vendor    : Android
+I/SurfaceFlinger(  124): version   : 1.4 Android META-EGL
+I/SurfaceFlinger(  124): extensions: EGL_KHR_get_all_proc_addresses EGL_ANDROID_presentation_time EGL_KHR_image EGL_KHR_image_base EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_gl_renderbuffer_image EGL_KHR_fence_sync EGL_KHR_create_context EGL_ANDROID_image_native_buffer EGL_KHR_wait_sync EGL_ANDROID_recordable
+I/SurfaceFlinger(  124): Client API: OpenGL_ES
+I/SurfaceFlinger(  124): EGLSurface: 8-8-8-8, config=0x18
+E/cutils-trace(  124): Error opening trace file: No such file or directory (2)
+I/SurfaceFlinger(  124): OpenGL ES informations:
+I/SurfaceFlinger(  124): vendor    : Imagination Technologies
+I/SurfaceFlinger(  124): renderer  : PowerVR SGX 544MP
+I/SurfaceFlinger(  124): version   : OpenGL ES 2.0 build 1.12@2824438
+I/SurfaceFlinger(  124): extensions: GL_EXT_debug_marker GL_OES_rgb8_rgba8 GL_OES_depth24 GL_OES_vertex_half_float GL_OES_texture_float GL_OES_texture_half_float GL_OES_element_index_uint GL_OES_mapbuffer GL_OES_fragment_precision_high GL_OES_compressed_ETC1_RGB8_texture GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_required_internalformat GL_OES_depth_texture GL_OES_get_program_binary GL_OES_packed_depth_stencil GL_OES_standard_derivatives GL_OES_vertex_array_object GL_OES_egl_sync GL_OES_texture_npot GL_OES_surfaceless_context GL_EXT_discard_framebuffer GL_EXT_blend_minmax GL_EXT_multi_draw_arrays GL_EXT_multisampled_render_to_texture GL_EXT_shader_texture_lod GL_EXT_texture_format_BGRA8888 GL_EXT_occlusion_query_boolean GL_EXT_texture_rg GL_EXT_draw_buffers GL_EXT_shader_framebuffer_fetch GL_IMG_shader_binary GL_IMG_texture_compression_pvrtc GL_IMG_texture_compression_pvrtc2 GL_IMG_texture_npot GL_IMG_texture_format_BGRA8888 GL_IMG_read_format GL_IMG_program_binary GL_IMG_uniform_buffer_object GL_IMG_multisampled_render_to_te
+I/SurfaceFlinger(  124): GL_MAX_TEXTURE_SIZE = 4096
+I/SurfaceFlinger(  124): GL_MAX_VIEWPORT_DIMS = 4096
+W/VSyncThreadHWC(  159): type=1400 audit(0.0:29): avc: denied { ioctl } for path="/dev/mtkfb_vsync" dev="tmpfs" ino=3228 scontext=u:r:surfaceflinger:s0 tcontext=u:object_r:device:s0 tclass=chr_file
+W/bootanimation(  169): type=1400 audit(0.0:30): avc: denied { search } for name="vendor" dev="mmcblk0p6" ino=30273 scontext=u:r:bootanim:s0 tcontext=u:object_r:unlabeled:s0 tclass=dir
+W/bootanimation(  169): type=1400 audit(0.0:31): avc: denied { read } for name="libEGL.so" dev="mmcblk0p6" ino=859 scontext=u:r:bootanim:s0 tcontext=u:object_r:unlabeled:s0 tclass=file
+W/bootanimation(  169): type=1400 audit(0.0:32): avc: denied { open } for name="libEGL.so" dev="mmcblk0p6" ino=859 scontext=u:r:bootanim:s0 tcontext=u:object_r:unlabeled:s0 tclass=file
+W/bootanimation(  169): type=1400 audit(0.0:33): avc: denied { getattr } for path="/system/lib/libEGL.so" dev="mmcblk0p6" ino=859 scontext=u:r:bootanim:s0 tcontext=u:object_r:unlabeled:s0 tclass=file
+W/bootanimation(  169): type=1400 audit(0.0:34): avc: denied { execute } for path="/system/lib/libEGL.so" dev="mmcblk0p6" ino=859 scontext=u:r:bootanim:s0 tcontext=u:object_r:unlabeled:s0 tclass=file
+D/SurfaceFlinger(  124): Set power mode=2, type=0 flinger=0xb6482000
+I/hwcomposer(  124): [HWC] Blank(0) Display(0)
+W/linker  (  124): libglslcompiler.so: unused DT entry: type 0xf arg 0x35c
+D/SurfaceFlinger(  124): SF. shader cache generated - 26 shaders in 102.450851 ms
+W/hwcomposer(  124): [JOB] set bypass job: dpy(0) since job not created
+W/BootAnimation(  173): type=1400 audit(0.0:35): avc: denied { read } for name="egl" dev="mmcblk0p6" ino=30289 scontext=u:r:bootanim:s0 tcontext=u:object_r:unlabeled:s0 tclass=dir
+W/BootAnimation(  173): type=1400 audit(0.0:36): avc: denied { open } for name="egl" dev="mmcblk0p6" ino=30289 scontext=u:r:bootanim:s0 tcontext=u:object_r:unlabeled:s0 tclass=dir
+W/linker  (  169): libEGL_mtk.so: unused DT entry: type 0xf arg 0x5a4
+W/linker  (  169): libIMGegl.so: unused DT entry: type 0xf arg 0x8d2
+W/linker  (  169): libsrv_um.so: unused DT entry: type 0xf arg 0x17be
+D/libEGL  (  169): loaded /vendor/lib/egl/libEGL_mtk.so
+W/linker  (  169): libGLESv1_CM_mtk.so: unused DT entry: type 0xf arg 0xeec
+W/linker  (  169): libusc.so: unused DT entry: type 0xf arg 0x22d
+W/linker  (  169): libGLESv2_mtk.so: unused DT entry: type 0xf arg 0x103d
+W/hwcomposer(  124): [COMP] (0:3) FBT might use ION (handle=0xb6473940)
+W/linker  (  169): libGLESv1_CM_mtk.so: unused DT entry: type 0xf arg 0xeec
+W/linker  (  169): libusc.so: unused DT entry: type 0xf arg 0x22d
+D/libEGL  (  169): loaded /vendor/lib/egl/libGLESv1_CM_mtk.so
+W/linker  (  169): libGLESv2_mtk.so: unused DT entry: type 0xf arg 0x103d
+D/libEGL  (  169): loaded /vendor/lib/egl/libGLESv2_mtk.so
+W/linker  (  169): libpvrANDROID_WSEGL.so: unused DT entry: type 0xf arg 0x185
+W/linker  (  169): gralloc.mt6589.so: unused DT entry: type 0xf arg 0x6b5
+W/linker  (  169): libpvr2d.so: unused DT entry: type 0xf arg 0x7bd
+W/BootAnimation(  173): type=1400 audit(0.0:37): avc: denied { read write } for name="pvr_sync" dev="tmpfs" ino=3156 scontext=u:r:bootanim:s0 tcontext=u:object_r:device:s0 tclass=chr_file
+W/BootAnimation(  173): type=1400 audit(0.0:38): avc: denied { open } for name="pvr_sync" dev="tmpfs" ino=3156 scontext=u:r:bootanim:s0 tcontext=u:object_r:device:s0 tclass=chr_file
+E/cutils-trace(  169): Error opening trace file: No such file or directory (2)
+E/BootAnimation(  169): couldn't find audio_conf.txt
+W/BootAnimation(  173): type=1400 audit(0.0:39): avc: denied { ioctl } for path="/dev/pvr_sync" dev="tmpfs" ino=3156 scontext=u:r:bootanim:s0 tcontext=u:object_r:device:s0 tclass=chr_file
+D/BootAnimation(  169): Use save memory method, maybe small fps in actual.
+--------- beginning of crash
+F/libc    (  124): Fatal signal 11 (SIGSEGV), code 1, fault addr 0xbe750ff8 in tid 124 (surfaceflinger)
+F/libc    (  124): Unable to open connection to debuggerd: Connection refused
+E/Surface (  169): queueBuffer: error queuing buffer to SurfaceTexture, -32
+W/SurfaceComposerClient(  169): ComposerService remote (surfaceflinger) died [0xb5c791c0]
+E/IMGSRV  (  169): :0: QueueCancelBufferWrapper: Failed to queue buffer 0xb5464208
+D/BootAnimation(  169): SurfaceFlinger died, exiting...
+I/ServiceManager(  122): service 'SurfaceFlinger' died
+W/app_process(  178): type=1400 audit(0.0:40): avc: denied { search } for name="vendor" dev="mmcblk0p6" ino=30273 scontext=u:r:zygote:s0 tcontext=u:object_r:unlabeled:s0 tclass=dir
+W/app_process(  178): type=1400 audit(0.0:41): avc: denied { read } for name="libEGL.so" dev="mmcblk0p6" ino=859 scontext=u:r:zygote:s0 tcontext=u:object_r:unlabeled:s0 tclass=file
+W/app_process(  178): type=1400 audit(0.0:42): avc: denied { open } for name="libEGL.so" dev="mmcblk0p6" ino=859 scontext=u:r:zygote:s0 tcontext=u:object_r:unlabeled:s0 tclass=file
+W/app_process(  178): type=1400 audit(0.0:43): avc: denied { getattr } for path="/system/lib/libEGL.so" dev="mmcblk0p6" ino=859 scontext=u:r:zygote:s0 tcontext=u:object_r:unlabeled:s0 tclass=file
+W/app_process(  178): type=1400 audit(0.0:44): avc: denied { execute } for path="/system/lib/libEGL.so" dev="mmcblk0p6" ino=859 scontext=u:r:zygote:s0 tcontext=u:object_r:unlabeled:s0 tclass=file
+D/AndroidRuntime(  178): >>>>>> START com.android.internal.os.ZygoteInit uid 0 <<<<<<
+D/AndroidRuntime(  178): CheckJNI is OFF
+I/art     (  178): option[0]=-Xzygote
+I/art     (  178): option[1]=-Xstacktracefile:/data/anr/traces.txt
+I/art     (  178): option[2]=exit
+I/art     (  178): option[3]=vfprintf
+I/art     (  178): option[4]=sensitiveThread
+I/art     (  178): option[5]=-verbose:gc
+I/art     (  178): option[6]=-Xms8m
+I/art     (  178): option[7]=-Xmx384m
+I/art     (  178): option[8]=-XX:mainThreadStackSize=24K
+I/art     (  178): option[9]=-XX:HeapGrowthLimit=80m
+I/art     (  178): option[10]=-XX:HeapMinFree=512k
+I/art     (  178): option[11]=-XX:HeapMaxFree=8m
+I/art     (  178): option[12]=-XX:HeapTargetUtilization=0.75
+I/art     (  178): option[13]=-XX:LowMemoryMode
+I/art     (  178): option[14]=-Xgenregmap
+I/art     (  178): option[15]=-Xgc:precise
+I/art     (  178): option[16]=-agentlib:jdwp=transport=dt_android_adb,suspend=n,server=y
+I/art     (  178): option[17]=-Xlockprofthreshold:500
+I/art     (  178): option[18]=-Ximage-compiler-option
+I/art     (  178): option[19]=--runtime-arg
+I/art     (  178): option[20]=-Ximage-compiler-option
+I/art     (  178): option[21]=-Xms64m
+I/art     (  178): option[22]=-Ximage-compiler-option
+I/art     (  178): option[23]=--runtime-arg
+I/art     (  178): option[24]=-Ximage-compiler-option
+I/art     (  178): option[25]=-Xmx64m
+I/art     (  178): option[26]=-Ximage-compiler-option
+I/art     (  178): option[27]=--compiler-filter=speed
+I/art     (  178): option[28]=-Ximage-compiler-option
+I/art     (  178): option[29]=--image-classes=/system/etc/preloaded-classes
+I/art     (  178): option[30]=-Xcompiler-option
+I/art     (  178): option[31]=--runtime-arg
+I/art     (  178): option[32]=-Xcompiler-option
+I/art     (  178): option[33]=-Xms64m
+I/art     (  178): option[34]=-Xcompiler-option
+I/art     (  178): option[35]=--runtime-arg
+I/art     (  178): option[36]=-Xcompiler-option
+I/art     (  178): option[37]=-Xmx512m
+I/art     (  178): option[38]=-Xcompiler-option
+I/art     (  178): option[39]=--compiler-filter=balanced
+I/art     (  178): option[40]=-Xcompiler-option
+I/art     (  178): option[41]=--no-watch-dog
+I/art     (  178): option[42]=-Duser.language=hdp
+I/art     (  178): option[43]=-Duser.region=US
+I/art     (  178): Pruning dalvik-cache since we are generating an image and will need to recompile
+I/art     (  178): Using an offset of 0xa0e000 from default art base address of 0x70000000
+I/art     (  178): GenerateImage: /system/bin/dex2oat --image=/data/dalvik-cache/arm/system@framework@boot.art --dex-file=/system/framework/core-libart.jar --dex-file=/system/framework/conscrypt.jar --dex-file=/system/framework/okhttp.jar --dex-file=/system/framework/core-junit.jar --dex-file=/system/framework/bouncycastle.jar --dex-file=/system/framework/ext.jar --dex-file=/system/framework/framework.jar --dex-file=/system/framework/telephony-common.jar --dex-file=/system/framework/voip-common.jar --dex-file=/system/framework/ims-common.jar --dex-file=/system/framework/mms-common.jar --dex-file=/system/framework/android.policy.jar --dex-file=/system/framework/apache-xml.jar --oat-file=/data/dalvik-cache/arm/system@framework@boot.oat --instruction-set=arm --instruction-set-features=div --base=0x70a0e000 --runtime-arg -Xms64m --runtime-arg -Xmx64m --compiler-filter=speed --image-classes=/system/etc/preloaded-classes
+E/cutils-trace(  179): Error opening trace file: No such file or directory (2)
+I/dex2oat (  179): /system/bin/dex2oat --image=/data/dalvik-cache/arm/system@framework@boot.art --dex-file=/system/framework/core-libart.jar --dex-file=/system/framework/conscrypt.jar --dex-file=/system/framework/okhttp.jar --dex-file=/system/framework/core-junit.jar --dex-file=/system/framework/bouncycastle.jar --dex-file=/system/framework/ext.jar --dex-file=/system/framework/framework.jar --dex-file=/system/framework/telephony-common.jar --dex-file=/system/framework/voip-common.jar --dex-file=/system/framework/ims-common.jar --dex-file=/system/framework/mms-common.jar --dex-file=/system/framework/android.policy.jar --dex-file=/system/framework/apache-xml.jar --oat-file=/data/dalvik-cache/arm/system@framework@boot.oat --instruction-set=arm --instruction-set-features=div --base=0x70a0e000 --runtime-arg -Xms64m --runtime-arg -Xmx64m --compiler-filter=speed --image-classes=/system/etc/preloaded-classes
