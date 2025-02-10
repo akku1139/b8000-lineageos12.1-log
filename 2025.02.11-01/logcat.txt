@@ -1,0 +1,1096 @@
+- waiting for device -
+--------- beginning of main
+I/cm      (  132): ____ _   _ ____ _  _ ____ ____ ____ _  _ _  _ ____ ___
+I/auditd  (  118): type=1403 audit(0.0:2): policy loaded auid=4294967295 ses=4294967295
+W/pvrsrvctl(  104): type=1400 audit(0.0:3): avc: denied { execute } for path="/system/vendor/lib/libsrv_init.so" dev="mmcblk0p6" ino=30282 scontext=u:r:init:s0 tcontext=u:object_r:unlabeled:s0 tclass=file
+W/pvrsrvctl(  104): type=1400 audit(0.0:4): avc: denied { sys_module } for capability=16 scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=capability
+W/sysinit (  116): type=1400 audit(0.0:5): avc: denied { search } for name="vendor" dev="mmcblk0p6" ino=30273 scontext=u:r:sysinit:s0 tcontext=u:object_r:unlabeled:s0 tclass=dir
+W/run-parts(  117): type=1400 audit(0.0:6): avc: denied { getattr } for path="/system/etc/init.d/01mod" dev="mmcblk0p6" ino=861 scontext=u:r:sysinit:s0 tcontext=u:object_r:unlabeled:s0 tclass=file
+W/run-parts(  117): type=1400 audit(0.0:7): avc: denied { execute } for name="01mod" dev="mmcblk0p6" ino=861 scontext=u:r:sysinit:s0 tcontext=u:object_r:unlabeled:s0 tclass=file
+W/servicemanager(  122): type=1400 audit(0.0:8): avc: denied { search } for name="vendor" dev="mmcblk0p6" ino=30273 scontext=u:r:servicemanager:s0 tcontext=u:object_r:unlabeled:s0 tclass=dir
+W/logd    (  118): type=1400 audit(0.0:9): avc: denied { search } for name="vendor" dev="mmcblk0p6" ino=30273 scontext=u:r:logd:s0 tcontext=u:object_r:unlabeled:s0 tclass=dir
+W/lmkd    (  121): type=1400 audit(0.0:10): avc: denied { search } for name="vendor" dev="mmcblk0p6" ino=30273 scontext=u:r:lmkd:s0 tcontext=u:object_r:unlabeled:s0 tclass=dir
+W/surfaceflinger(  125): type=1400 audit(0.0:13): avc: denied { read } for name="libEGL.so" dev="mmcblk0p6" ino=859 scontext=u:r:surfaceflinger:s0 tcontext=u:object_r:unlabeled:s0 tclass=file
+W/surfaceflinger(  125): type=1400 audit(0.0:14): avc: denied { open } for name="libEGL.so" dev="mmcblk0p6" ino=859 scontext=u:r:surfaceflinger:s0 tcontext=u:object_r:unlabeled:s0 tclass=file
+W/surfaceflinger(  125): type=1400 audit(0.0:15): avc: denied { getattr } for path="/system/lib/libEGL.so" dev="mmcblk0p6" ino=859 scontext=u:r:surfaceflinger:s0 tcontext=u:object_r:unlabeled:s0 tclass=file
+W/surfaceflinger(  125): type=1400 audit(0.0:16): avc: denied { execute } for path="/system/lib/libEGL.so" dev="mmcblk0p6" ino=859 scontext=u:r:surfaceflinger:s0 tcontext=u:object_r:unlabeled:s0 tclass=file
+W/logd    (  118): type=1400 audit(0.0:17): avc: denied { read } for name="tzdata" dev="mmcblk0p6" ino=45482 scontext=u:r:logd:s0 tcontext=u:object_r:unlabeled:s0 tclass=file
+W/logd    (  118): type=1400 audit(0.0:18): avc: denied { open } for name="tzdata" dev="mmcblk0p6" ino=45482 scontext=u:r:logd:s0 tcontext=u:object_r:unlabeled:s0 tclass=file
+I/cm      (  140): |     \_/  |__| |\ | |  | | __ |___ |\ | |\/| |  | |  \
+I/cm      (  143): |___   |   |  | | \| |__| |__] |___ | \| |  | |__| |__/
+I/lowmemorykiller(  121): Using in-kernel low memory killer interface
+--------- beginning of system
+I/Vold    (  123): Vold 2.1 (the revenge) firing up
+D/Vold    (  123): Volume sdcard0 state changing -1 (Initializing) -> 0 (No-Media)
+D/Vold    (  123): Volume sdcard1 state changing -1 (Initializing) -> 0 (No-Media)
+D/Vold    (  123): Volume usbdisk0 state changing -1 (Initializing) -> 0 (No-Media)
+I/Cryptfs (  123): Check if PFE is activated on Boot
+E/Cryptfs (  123): Unexpected value for crypto key location
+E/Cryptfs (  123): Error getting crypt footer and key
+W/run-parts(  150): type=1400 audit(0.0:19): avc: denied { read open } for name="01mod" dev="mmcblk0p6" ino=861 scontext=u:r:sysinit:s0 tcontext=u:object_r:unlabeled:s0 tclass=file
+W/run-parts(  150): type=1400 audit(0.0:20): avc: denied { execute_no_trans } for path="/system/etc/init.d/01mod" dev="mmcblk0p6" ino=861 scontext=u:r:sysinit:s0 tcontext=u:object_r:unlabeled:s0 tclass=file
+W/01mod   (  150): type=1400 audit(0.0:21): avc: denied { read } for name="01mod" dev="mmcblk0p6" ino=861 scontext=u:r:sysinit:s0 tcontext=u:object_r:unlabeled:s0 tclass=file
+W/01mod   (  150): type=1400 audit(0.0:22): avc: denied { open } for name="01mod" dev="mmcblk0p6" ino=861 scontext=u:r:sysinit:s0 tcontext=u:object_r:unlabeled:s0 tclass=file
+W/surfaceflinger(  125): type=1400 audit(0.0:23): avc: denied { read } for name="egl" dev="mmcblk0p6" ino=30289 scontext=u:r:surfaceflinger:s0 tcontext=u:object_r:unlabeled:s0 tclass=dir
+W/surfaceflinger(  125): type=1400 audit(0.0:24): avc: denied { open } for name="egl" dev="mmcblk0p6" ino=30289 scontext=u:r:surfaceflinger:s0 tcontext=u:object_r:unlabeled:s0 tclass=dir
+W/DirectVolume(  123): Deprecated implied prefix pattern detected, please use '/devices/platform/mtk-msdc.0/mmc_host*' instead
+D/Vold    (  123): Volume sdcard0 state changing 0 (No-Media) -> 1 (Idle-Unmounted)
+W/Vold    (  123): Duplicate state (1)
+D/Vold    (  123): Volume sdcard0 state changing 1 (Idle-Unmounted) -> 2 (Pending)
+D/DirectVolume(  123): DirectVolume::handlePartitionAdded -> MAJOR 179, MINOR 1, PARTN 1
+D/DirectVolume(  123): DirectVolume::handlePartitionAdded -> MAJOR 179, MINOR 2, PARTN 2
+D/DirectVolume(  123): DirectVolume::handlePartitionAdded -> MAJOR 179, MINOR 3, PARTN 3
+D/DirectVolume(  123): DirectVolume::handlePartitionAdded -> MAJOR 179, MINOR 4, PARTN 4
+D/DirectVolume(  123): DirectVolume::handlePartitionAdded -> MAJOR 179, MINOR 5, PARTN 5
+D/DirectVolume(  123): DirectVolume::handlePartitionAdded -> MAJOR 179, MINOR 6, PARTN 6
+D/DirectVolume(  123): DirectVolume::handlePartitionAdded -> MAJOR 179, MINOR 7, PARTN 7
+D/DirectVolume(  123): DirectVolume::handlePartitionAdded -> MAJOR 179, MINOR 8, PARTN 8
+D/Vold    (  123): Volume sdcard0 state changing 2 (Pending) -> 1 (Idle-Unmounted)
+W/Vold    (  123): Duplicate state (1)
+W/Vold    (  123): Duplicate state (1)
+I/cm      (  148): Welcome to Android 5.1.1 / CyanogenMod-12.1-20200516-UNOFFICIAL-me173x
+I/SurfaceFlinger(  125): SurfaceFlinger is starting
+I/SurfaceFlinger(  125): SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+W/linker  (  125): libEGL_mtk.so: unused DT entry: type 0xf arg 0x5a4
+W/linker  (  125): libIMGegl.so: unused DT entry: type 0xf arg 0x8d2
+W/linker  (  125): libsrv_um.so: unused DT entry: type 0xf arg 0x17be
+D/libEGL  (  125): loaded /vendor/lib/egl/libEGL_mtk.so
+I/akkumod (  154): Pause SELinux
+W/linker  (  125): libGLESv1_CM_mtk.so: unused DT entry: type 0xf arg 0xeec
+W/setenforce(  157): type=1400 audit(0.0:25): avc: denied { write } for name="enforce" dev="selinuxfs" ino=4 scontext=u:r:sysinit:s0 tcontext=u:object_r:selinuxfs:s0 tclass=file
+W/linker  (  125): libusc.so: unused DT entry: type 0xf arg 0x22d
+W/linker  (  125): libGLESv2_mtk.so: unused DT entry: type 0xf arg 0x103d
+I/akkumod (  156): getenforce: Permissive
+W/linker  (  125): libGLESv1_CM_mtk.so: unused DT entry: type 0xf arg 0xeec
+W/linker  (  125): libusc.so: unused DT entry: type 0xf arg 0x22d
+D/libEGL  (  125): loaded /vendor/lib/egl/libGLESv1_CM_mtk.so
+I/akkumod (  159): getenforce: Permissive
+W/chmod   (  162): type=1400 audit(0.0:26): avc: denied { setattr } for name="ion" dev="tmpfs" ino=3133 scontext=u:r:sysinit:s0 tcontext=u:object_r:ion_device:s0 tclass=chr_file
+W/linker  (  125): libGLESv2_mtk.so: unused DT entry: type 0xf arg 0x103d
+I/akkumod (  160): Fixing permissin
+D/libEGL  (  125): loaded /vendor/lib/egl/libGLESv2_mtk.so
+I/akkumod (  161): /dev/ion
+W/surfaceflinger(  125): type=1400 audit(0.0:27): avc: denied { read write } for name="pvr_sync" dev="tmpfs" ino=3156 scontext=u:r:surfaceflinger:s0 tcontext=u:object_r:device:s0 tclass=chr_file
+W/surfaceflinger(  125): type=1400 audit(0.0:28): avc: denied { open } for name="pvr_sync" dev="tmpfs" ino=3156 scontext=u:r:surfaceflinger:s0 tcontext=u:object_r:device:s0 tclass=chr_file
+W/linker  (  125): libpvrANDROID_WSEGL.so: unused DT entry: type 0xf arg 0x185
+W/linker  (  125): gralloc.mt6589.so: unused DT entry: type 0xf arg 0x6b5
+W/linker  (  125): libpvr2d.so: unused DT entry: type 0xf arg 0x7bd
+W/VSyncThreadHWC(  165): type=1400 audit(0.0:30): avc: denied { sys_nice } for capability=23 scontext=u:r:surfaceflinger:s0 tcontext=u:r:surfaceflinger:s0 tclass=capability
+W/surfaceflinger(  125): type=1400 audit(0.0:29): avc: denied { net_admin } for capability=12 scontext=u:r:surfaceflinger:s0 tcontext=u:r:surfaceflinger:s0 tclass=capability
+I/hwcomposer(  125): [DPY] Display Information:
+I/hwcomposer(  125): [DPY] # fo devices : 1
+I/hwcomposer(  125): [DPY] -----------------------------
+I/hwcomposer(  125): [DPY] Device id   : 0
+I/hwcomposer(  125): [DPY] Width       : 1280
+I/hwcomposer(  125): [DPY] Height      : 800
+I/hwcomposer(  125): [DPY] xdpi        : 220.000000
+I/hwcomposer(  125): [DPY] ydpi        : 220.000000
+I/hwcomposer(  125): [DPY] vsync       : 1
+I/hwcomposer(  125): [DPY] refresh     : 17199862
+I/hwcomposer(  125): [DPY] connected   : 1
+I/hwcomposer(  125): [DPY] subtype     : 0
+W/hwcomposer(  125): [EVENT] HW VSync State(1)
+I/hwcomposer(  125): [WKR] Set priority to RR: 268435543
+W/hwcomposer(  125): [EVENT] Start to listen uevent, addr.nl_pid(125)
+I/hwcomposer(  125): [WKR] Set priority to RR: 268435543
+D/DISPSYS (  125): [DpBlitStream::DpBlitStream()]
+I/hwcomposer(  125): [WKR] Set priority to RR: 268435543
+I/hwcomposer(  125): [WKR] Set priority to RR: 268435543
+I/hwcomposer(  125): [WKR] Set priority to RR: 268435543
+I/SurfaceFlinger(  125): Using composer version 1.2
+I/hwcomposer(  125): [HWC] getConfigs Display(0)
+I/hwcomposer(  125): [HWC] getAttributes Display(0)
+I/hwcomposer(  125): [HWC] getConfigs Display(1)
+I/hwcomposer(  125): [HWC] getAttributes Display(1)
+E/hwcomposer(  125): [HWC] Failed to get display attributes (dpy=1 is not connected)
+I/SurfaceFlinger(  125): EGL information:
+I/SurfaceFlinger(  125): vendor    : Android
+I/SurfaceFlinger(  125): version   : 1.4 Android META-EGL
+I/SurfaceFlinger(  125): extensions: EGL_KHR_get_all_proc_addresses EGL_ANDROID_presentation_time EGL_KHR_image EGL_KHR_image_base EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_gl_renderbuffer_image EGL_KHR_fence_sync EGL_KHR_create_context EGL_ANDROID_image_native_buffer EGL_KHR_wait_sync EGL_ANDROID_recordable
+I/SurfaceFlinger(  125): Client API: OpenGL_ES
+I/SurfaceFlinger(  125): EGLSurface: 8-8-8-8, config=0x18
+E/cutils-trace(  125): Error opening trace file: No such file or directory (2)
+I/SurfaceFlinger(  125): OpenGL ES informations:
+I/SurfaceFlinger(  125): vendor    : Imagination Technologies
+I/SurfaceFlinger(  125): renderer  : PowerVR SGX 544MP
+I/SurfaceFlinger(  125): version   : OpenGL ES 2.0 build 1.12@2824438
+I/SurfaceFlinger(  125): extensions: GL_EXT_debug_marker GL_OES_rgb8_rgba8 GL_OES_depth24 GL_OES_vertex_half_float GL_OES_texture_float GL_OES_texture_half_float GL_OES_element_index_uint GL_OES_mapbuffer GL_OES_fragment_precision_high GL_OES_compressed_ETC1_RGB8_texture GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_required_internalformat GL_OES_depth_texture GL_OES_get_program_binary GL_OES_packed_depth_stencil GL_OES_standard_derivatives GL_OES_vertex_array_object GL_OES_egl_sync GL_OES_texture_npot GL_OES_surfaceless_context GL_EXT_discard_framebuffer GL_EXT_blend_minmax GL_EXT_multi_draw_arrays GL_EXT_multisampled_render_to_texture GL_EXT_shader_texture_lod GL_EXT_texture_format_BGRA8888 GL_EXT_occlusion_query_boolean GL_EXT_texture_rg GL_EXT_draw_buffers GL_EXT_shader_framebuffer_fetch GL_IMG_shader_binary GL_IMG_texture_compression_pvrtc GL_IMG_texture_compression_pvrtc2 GL_IMG_texture_npot GL_IMG_texture_format_BGRA8888 GL_IMG_read_format GL_IMG_program_binary GL_IMG_uniform_buffer_object GL_IMG_multisampled_render_to_te
+I/SurfaceFlinger(  125): GL_MAX_TEXTURE_SIZE = 4096
+I/SurfaceFlinger(  125): GL_MAX_VIEWPORT_DIMS = 4096
+W/VSyncThreadHWC(  165): type=1400 audit(0.0:31): avc: denied { ioctl } for path="/dev/mtkfb_vsync" dev="tmpfs" ino=46 scontext=u:r:surfaceflinger:s0 tcontext=u:object_r:device:s0 tclass=chr_file
+W/bootanimation(  175): type=1400 audit(0.0:32): avc: denied { search } for name="vendor" dev="mmcblk0p6" ino=30273 scontext=u:r:bootanim:s0 tcontext=u:object_r:unlabeled:s0 tclass=dir
+W/bootanimation(  175): type=1400 audit(0.0:33): avc: denied { read } for name="libEGL.so" dev="mmcblk0p6" ino=859 scontext=u:r:bootanim:s0 tcontext=u:object_r:unlabeled:s0 tclass=file
+W/bootanimation(  175): type=1400 audit(0.0:34): avc: denied { open } for name="libEGL.so" dev="mmcblk0p6" ino=859 scontext=u:r:bootanim:s0 tcontext=u:object_r:unlabeled:s0 tclass=file
+W/bootanimation(  175): type=1400 audit(0.0:35): avc: denied { getattr } for path="/system/lib/libEGL.so" dev="mmcblk0p6" ino=859 scontext=u:r:bootanim:s0 tcontext=u:object_r:unlabeled:s0 tclass=file
+W/bootanimation(  175): type=1400 audit(0.0:36): avc: denied { execute } for path="/system/lib/libEGL.so" dev="mmcblk0p6" ino=859 scontext=u:r:bootanim:s0 tcontext=u:object_r:unlabeled:s0 tclass=file
+D/SurfaceFlinger(  125): Set power mode=2, type=0 flinger=0xb6482000
+I/hwcomposer(  125): [HWC] Blank(0) Display(0)
+W/linker  (  125): libglslcompiler.so: unused DT entry: type 0xf arg 0x35c
+D/SurfaceFlinger(  125): SF. shader cache generated - 26 shaders in 99.419464 ms
+W/hwcomposer(  125): [JOB] set bypass job: dpy(0) since job not created
+W/BootAnimation(  179): type=1400 audit(0.0:37): avc: denied { read } for name="egl" dev="mmcblk0p6" ino=30289 scontext=u:r:bootanim:s0 tcontext=u:object_r:unlabeled:s0 tclass=dir
+W/BootAnimation(  179): type=1400 audit(0.0:38): avc: denied { open } for name="egl" dev="mmcblk0p6" ino=30289 scontext=u:r:bootanim:s0 tcontext=u:object_r:unlabeled:s0 tclass=dir
+W/linker  (  175): libEGL_mtk.so: unused DT entry: type 0xf arg 0x5a4
+W/linker  (  175): libIMGegl.so: unused DT entry: type 0xf arg 0x8d2
+W/linker  (  175): libsrv_um.so: unused DT entry: type 0xf arg 0x17be
+D/libEGL  (  175): loaded /vendor/lib/egl/libEGL_mtk.so
+W/linker  (  175): libGLESv1_CM_mtk.so: unused DT entry: type 0xf arg 0xeec
+W/linker  (  175): libusc.so: unused DT entry: type 0xf arg 0x22d
+W/linker  (  175): libGLESv2_mtk.so: unused DT entry: type 0xf arg 0x103d
+W/hwcomposer(  125): [COMP] (0:3) FBT might use ION (handle=0xb6473ac0)
+W/linker  (  175): libGLESv1_CM_mtk.so: unused DT entry: type 0xf arg 0xeec
+W/linker  (  175): libusc.so: unused DT entry: type 0xf arg 0x22d
+D/libEGL  (  175): loaded /vendor/lib/egl/libGLESv1_CM_mtk.so
+W/linker  (  175): libGLESv2_mtk.so: unused DT entry: type 0xf arg 0x103d
+D/libEGL  (  175): loaded /vendor/lib/egl/libGLESv2_mtk.so
+W/linker  (  175): libpvrANDROID_WSEGL.so: unused DT entry: type 0xf arg 0x185
+W/linker  (  175): gralloc.mt6589.so: unused DT entry: type 0xf arg 0x6b5
+W/linker  (  175): libpvr2d.so: unused DT entry: type 0xf arg 0x7bd
+W/BootAnimation(  179): type=1400 audit(0.0:39): avc: denied { read write } for name="pvr_sync" dev="tmpfs" ino=3156 scontext=u:r:bootanim:s0 tcontext=u:object_r:device:s0 tclass=chr_file
+W/BootAnimation(  179): type=1400 audit(0.0:40): avc: denied { open } for name="pvr_sync" dev="tmpfs" ino=3156 scontext=u:r:bootanim:s0 tcontext=u:object_r:device:s0 tclass=chr_file
+E/cutils-trace(  175): Error opening trace file: No such file or directory (2)
+E/BootAnimation(  175): couldn't find audio_conf.txt
+W/BootAnimation(  179): type=1400 audit(0.0:41): avc: denied { ioctl } for path="/dev/pvr_sync" dev="tmpfs" ino=3156 scontext=u:r:bootanim:s0 tcontext=u:object_r:device:s0 tclass=chr_file
+D/BootAnimation(  175): Use save memory method, maybe small fps in actual.
+--------- beginning of crash
+F/libc    (  125): Fatal signal 11 (SIGSEGV), code 1, fault addr 0xbe519ff8 in tid 125 (surfaceflinger)
+F/libc    (  125): Unable to open connection to debuggerd: Connection refused
+E/Surface (  175): queueBuffer: error queuing buffer to SurfaceTexture, -32
+W/SurfaceComposerClient(  175): ComposerService remote (surfaceflinger) died [0xb5c791c0]
+E/IMGSRV  (  175): :0: QueueCancelBufferWrapper: Failed to queue buffer 0xb5464208
+D/BootAnimation(  175): SurfaceFlinger died, exiting...
+I/ServiceManager(  122): service 'SurfaceFlinger' died
+W/app_process(  184): type=1400 audit(0.0:42): avc: denied { search } for name="vendor" dev="mmcblk0p6" ino=30273 scontext=u:r:zygote:s0 tcontext=u:object_r:unlabeled:s0 tclass=dir
+W/app_process(  184): type=1400 audit(0.0:43): avc: denied { read } for name="libEGL.so" dev="mmcblk0p6" ino=859 scontext=u:r:zygote:s0 tcontext=u:object_r:unlabeled:s0 tclass=file
+W/app_process(  184): type=1400 audit(0.0:44): avc: denied { open } for name="libEGL.so" dev="mmcblk0p6" ino=859 scontext=u:r:zygote:s0 tcontext=u:object_r:unlabeled:s0 tclass=file
+W/app_process(  184): type=1400 audit(0.0:45): avc: denied { getattr } for path="/system/lib/libEGL.so" dev="mmcblk0p6" ino=859 scontext=u:r:zygote:s0 tcontext=u:object_r:unlabeled:s0 tclass=file
+W/app_process(  184): type=1400 audit(0.0:46): avc: denied { execute } for path="/system/lib/libEGL.so" dev="mmcblk0p6" ino=859 scontext=u:r:zygote:s0 tcontext=u:object_r:unlabeled:s0 tclass=file
+D/AndroidRuntime(  184): >>>>>> START com.android.internal.os.ZygoteInit uid 0 <<<<<<
+D/AndroidRuntime(  184): CheckJNI is OFF
+I/art     (  184): option[0]=-Xzygote
+I/art     (  184): option[1]=-Xstacktracefile:/data/anr/traces.txt
+I/art     (  184): option[2]=exit
+I/art     (  184): option[3]=vfprintf
+I/art     (  184): option[4]=sensitiveThread
+I/art     (  184): option[5]=-verbose:gc
+I/art     (  184): option[6]=-Xms8m
+I/art     (  184): option[7]=-Xmx384m
+I/art     (  184): option[8]=-XX:mainThreadStackSize=24K
+I/art     (  184): option[9]=-XX:HeapGrowthLimit=80m
+I/art     (  184): option[10]=-XX:HeapMinFree=512k
+I/art     (  184): option[11]=-XX:HeapMaxFree=8m
+I/art     (  184): option[12]=-XX:HeapTargetUtilization=0.75
+I/art     (  184): option[13]=-XX:LowMemoryMode
+I/art     (  184): option[14]=-Xgenregmap
+I/art     (  184): option[15]=-Xgc:precise
+I/art     (  184): option[16]=-agentlib:jdwp=transport=dt_android_adb,suspend=n,server=y
+I/art     (  184): option[17]=-Xlockprofthreshold:500
+I/art     (  184): option[18]=-Ximage-compiler-option
+I/art     (  184): option[19]=--runtime-arg
+I/art     (  184): option[20]=-Ximage-compiler-option
+I/art     (  184): option[21]=-Xms64m
+I/art     (  184): option[22]=-Ximage-compiler-option
+I/art     (  184): option[23]=--runtime-arg
+I/art     (  184): option[24]=-Ximage-compiler-option
+I/art     (  184): option[25]=-Xmx64m
+I/art     (  184): option[26]=-Ximage-compiler-option
+I/art     (  184): option[27]=--compiler-filter=speed
+I/art     (  184): option[28]=-Ximage-compiler-option
+I/art     (  184): option[29]=--image-classes=/system/etc/preloaded-classes
+I/art     (  184): option[30]=-Xcompiler-option
+I/art     (  184): option[31]=--runtime-arg
+I/art     (  184): option[32]=-Xcompiler-option
+I/art     (  184): option[33]=-Xms64m
+I/art     (  184): option[34]=-Xcompiler-option
+I/art     (  184): option[35]=--runtime-arg
+I/art     (  184): option[36]=-Xcompiler-option
+I/art     (  184): option[37]=-Xmx512m
+I/art     (  184): option[38]=-Xcompiler-option
+I/art     (  184): option[39]=--compiler-filter=balanced
+I/art     (  184): option[40]=-Xcompiler-option
+I/art     (  184): option[41]=--no-watch-dog
+I/art     (  184): option[42]=-Duser.language=hdp
+I/art     (  184): option[43]=-Duser.region=US
+W/main    (  184): type=1400 audit(0.0:47): avc: denied { getattr } for path="/system/vendor/lib" dev="mmcblk0p6" ino=30274 scontext=u:r:zygote:s0 tcontext=u:object_r:unlabeled:s0 tclass=dir
+E/cutils-trace(  184): Error opening trace file: No such file or directory (2)
+E/memtrack(  184): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug(  184): failed to load memtrack module: -2
+I/SamplingProfilerIntegration(  184): Profiling disabled.
+D/Zygote  (  184): begin preload
+I/Zygote  (  184): Preloading classes...
+I/art     (  184): Explicit concurrent mark sweep GC freed 800(36KB) AllocSpace objects, 0(0B) LOS objects, 91% free, 44KB/556KB, paused 199us total 12.986ms
+I/art     (  184): Counter: 1
+I/art     (  184): Explicit concurrent mark sweep GC freed 100(4KB) AllocSpace objects, 0(0B) LOS objects, 88% free, 64KB/576KB, paused 173us total 4.928ms
+I/art     (  184): Explicit concurrent mark sweep GC freed 457(29KB) AllocSpace objects, 0(0B) LOS objects, 88% free, 65KB/577KB, paused 172us total 3.005ms
+I/art     (  184): Explicit concurrent mark sweep GC freed 5(160B) AllocSpace objects, 0(0B) LOS objects, 88% free, 65KB/577KB, paused 167us total 2.750ms
+I/art     (  184): Explicit concurrent mark sweep GC freed 646(41KB) AllocSpace objects, 0(0B) LOS objects, 87% free, 72KB/584KB, paused 178us total 6.499ms
+I/art     (  184): Explicit concurrent mark sweep GC freed 5(160B) AllocSpace objects, 0(0B) LOS objects, 87% free, 72KB/584KB, paused 168us total 2.878ms
+I/art     (  184): Explicit concurrent mark sweep GC freed 403(23KB) AllocSpace objects, 0(0B) LOS objects, 81% free, 113KB/625KB, paused 177us total 4.616ms
+I/art     (  184): Explicit concurrent mark sweep GC freed 35(1504B) AllocSpace objects, 0(0B) LOS objects, 81% free, 112KB/624KB, paused 168us total 3.057ms
+E/Minikin (  184): addFont failed to create font /system/fonts/NanumGothic.ttf
+E/Minikin (  184): addFont failed to create font /system/fonts/DroidSansFallback.ttf
+I/art     (  184): Explicit concurrent mark sweep GC freed 1795(194KB) AllocSpace objects, 0(0B) LOS objects, 80% free, 124KB/636KB, paused 180us total 5.419ms
+I/art     (  184): Explicit concurrent mark sweep GC freed 29(1040B) AllocSpace objects, 0(0B) LOS objects, 80% free, 124KB/636KB, paused 170us total 3.131ms
+I/art     (  184): Explicit concurrent mark sweep GC freed 1910(91KB) AllocSpace objects, 0(0B) LOS objects, 75% free, 165KB/677KB, paused 178us total 7.359ms
+I/art     (  184): Explicit concurrent mark sweep GC freed 5(160B) AllocSpace objects, 0(0B) LOS objects, 75% free, 165KB/677KB, paused 170us total 3.361ms
+I/art     (  184): Explicit concurrent mark sweep GC freed 1975(87KB) AllocSpace objects, 0(0B) LOS objects, 71% free, 199KB/711KB, paused 178us total 6.857ms
+I/art     (  184): Explicit concurrent mark sweep GC freed 5(160B) AllocSpace objects, 0(0B) LOS objects, 71% free, 199KB/711KB, paused 169us total 3.616ms
+I/art     (  184): Explicit concurrent mark sweep GC freed 369(19KB) AllocSpace objects, 0(0B) LOS objects, 68% free, 232KB/744KB, paused 176us total 7.150ms
+I/art     (  184): Explicit concurrent mark sweep GC freed 5(160B) AllocSpace objects, 0(0B) LOS objects, 68% free, 232KB/744KB, paused 169us total 3.687ms
+W/Zygote  (  184): Class not found for preloading: android.hardware.camera2.legacy.PerfMeasurement
+I/art     (  184): Thread[1,tid=184,WaitingForJniOnLoad,Thread*=0xb4827800,peer=0x12c31100,"main"] recursive attempt to load library "/system/lib/libmedia_jni.so"
+D/MtpDeviceJNI(  184): register_android_mtp_MtpDevice
+I/art     (  184): Thread[1,tid=184,WaitingForJniOnLoad,Thread*=0xb4827800,peer=0x12c31100,"main"] recursive attempt to load library "/system/lib/libmedia_jni.so"
+I/art     (  184): Thread[1,tid=184,WaitingForJniOnLoad,Thread*=0xb4827800,peer=0x12c31100,"main"] recursive attempt to load library "/system/lib/libmedia_jni.so"
+I/art     (  184): Explicit concurrent mark sweep GC freed 649(37KB) AllocSpace objects, 0(0B) LOS objects, 67% free, 244KB/756KB, paused 178us total 7.886ms
+I/art     (  184): Explicit concurrent mark sweep GC freed 7(288B) AllocSpace objects, 0(0B) LOS objects, 67% free, 244KB/756KB, paused 175us total 3.826ms
+I/art     (  184): Explicit concurrent mark sweep GC freed 461(22KB) AllocSpace objects, 0(0B) LOS objects, 65% free, 271KB/783KB, paused 178us total 7.568ms
+I/art     (  184): Explicit concurrent mark sweep GC freed 5(160B) AllocSpace objects, 0(0B) LOS objects, 65% free, 271KB/783KB, paused 172us total 4.162ms
+W/Zygote  (  184): Class not found for preloading: android.opengl.GLES31
+W/Zygote  (  184): Class not found for preloading: android.opengl.GLES31Ext
+I/art     (  184): Explicit concurrent mark sweep GC freed 639(36KB) AllocSpace objects, 0(0B) LOS objects, 63% free, 300KB/812KB, paused 181us total 7.119ms
+I/art     (  184): Explicit concurrent mark sweep GC freed 5(160B) AllocSpace objects, 0(0B) LOS objects, 63% free, 300KB/812KB, paused 173us total 4.077ms
+I/art     (  184): Explicit concurrent mark sweep GC freed 363(18KB) AllocSpace objects, 0(0B) LOS objects, 60% free, 339KB/851KB, paused 184us total 6.173ms
+I/art     (  184): Explicit concurrent mark sweep GC freed 5(160B) AllocSpace objects, 0(0B) LOS objects, 60% free, 339KB/851KB, paused 175us total 4.267ms
+I/art     (  184): Explicit concurrent mark sweep GC freed 1601(95KB) AllocSpace objects, 0(0B) LOS objects, 51% free, 476KB/988KB, paused 181us total 5.467ms
+I/art     (  184): Explicit concurrent mark sweep GC freed 5(160B) AllocSpace objects, 0(0B) LOS objects, 51% free, 476KB/988KB, paused 174us total 4.854ms
+I/art     (  184): Explicit concurrent mark sweep GC freed 363(45KB) AllocSpace objects, 0(0B) LOS objects, 39% free, 774KB/1286KB, paused 188us total 10.490ms
+I/art     (  184): Explicit concurrent mark sweep GC freed 9(272B) AllocSpace objects, 0(0B) LOS objects, 39% free, 774KB/1286KB, paused 177us total 6.645ms
+I/art     (  184): Explicit concurrent mark sweep GC freed 432(30KB) AllocSpace objects, 0(0B) LOS objects, 39% free, 793KB/1305KB, paused 187us total 8.148ms
+I/art     (  184): Explicit concurrent mark sweep GC freed 5(160B) AllocSpace objects, 0(0B) LOS objects, 39% free, 793KB/1305KB, paused 179us total 6.633ms
+I/art     (  184): Explicit concurrent mark sweep GC freed 787(49KB) AllocSpace objects, 0(0B) LOS objects, 39% free, 794KB/1306KB, paused 186us total 7.845ms
+I/art     (  184): Explicit concurrent mark sweep GC freed 5(160B) AllocSpace objects, 0(0B) LOS objects, 39% free, 794KB/1306KB, paused 182us total 7.311ms
+I/art     (  184): Explicit concurrent mark sweep GC freed 957(105KB) AllocSpace objects, 0(0B) LOS objects, 37% free, 837KB/1349KB, paused 182us total 10.360ms
+I/art     (  184): Explicit concurrent mark sweep GC freed 37(1744B) AllocSpace objects, 0(0B) LOS objects, 37% free, 836KB/1348KB, paused 244us total 7.133ms
+I/art     (  184): Explicit concurrent mark sweep GC freed 563(40KB) AllocSpace objects, 0(0B) LOS objects, 37% free, 844KB/1356KB, paused 182us total 7.911ms
+I/art     (  184): Explicit concurrent mark sweep GC freed 5(160B) AllocSpace objects, 0(0B) LOS objects, 37% free, 844KB/1356KB, paused 177us total 7.091ms
+I/art     (  184): Explicit concurrent mark sweep GC freed 263(20KB) AllocSpace objects, 0(0B) LOS objects, 36% free, 872KB/1384KB, paused 183us total 7.575ms
+I/art     (  184): Explicit concurrent mark sweep GC freed 5(160B) AllocSpace objects, 0(0B) LOS objects, 36% free, 872KB/1384KB, paused 177us total 7.325ms
+I/art     (  184): Explicit concurrent mark sweep GC freed 622(37KB) AllocSpace objects, 0(0B) LOS objects, 29% free, 1251KB/1763KB, paused 177us total 9.162ms
+I/art     (  184): Explicit concurrent mark sweep GC freed 5(160B) AllocSpace objects, 0(0B) LOS objects, 29% free, 1251KB/1763KB, paused 187us total 8.621ms
+I/art     (  184): Explicit concurrent mark sweep GC freed 570(33KB) AllocSpace objects, 0(0B) LOS objects, 28% free, 1267KB/1779KB, paused 185us total 10.044ms
+I/art     (  184): Explicit concurrent mark sweep GC freed 5(160B) AllocSpace objects, 0(0B) LOS objects, 28% free, 1267KB/1779KB, paused 180us total 12.007ms
+I/art     (  184): Explicit concurrent mark sweep GC freed 739(45KB) AllocSpace objects, 0(0B) LOS objects, 28% free, 1271KB/1783KB, paused 186us total 9.584ms
+I/art     (  184): Explicit concurrent mark sweep GC freed 5(160B) AllocSpace objects, 0(0B) LOS objects, 28% free, 1271KB/1783KB, paused 181us total 8.755ms
+I/System  (  184): Loaded time zone names for "" in 64ms (60ms in ICU)
+I/System  (  184): Loaded time zone names for "en_US" in 41ms (36ms in ICU)
+I/System  (  184): Loaded time zone names for "hdp_US" in 40ms (35ms in ICU)
+I/art     (  184): Explicit concurrent mark sweep GC freed 2216(100KB) AllocSpace objects, 0(0B) LOS objects, 25% free, 1473KB/1985KB, paused 210us total 11.066ms
+I/art     (  184): Explicit concurrent mark sweep GC freed 5(160B) AllocSpace objects, 0(0B) LOS objects, 25% free, 1473KB/1985KB, paused 192us total 9.637ms
+I/art     (  184): Explicit concurrent mark sweep GC freed 180(46KB) AllocSpace objects, 0(0B) LOS objects, 24% free, 1542KB/2MB, paused 326us total 11.087ms
+I/art     (  184): Explicit concurrent mark sweep GC freed 12(432B) AllocSpace objects, 0(0B) LOS objects, 24% free, 1542KB/2MB, paused 191us total 10.049ms
+I/art     (  184): Explicit concurrent mark sweep GC freed 286(24KB) AllocSpace objects, 0(0B) LOS objects, 24% free, 1587KB/2MB, paused 194us total 11.516ms
+I/art     (  184): Explicit concurrent mark sweep GC freed 13(416B) AllocSpace objects, 0(0B) LOS objects, 24% free, 1587KB/2MB, paused 191us total 10.290ms
+I/art     (  184): Explicit concurrent mark sweep GC freed 667(47KB) AllocSpace objects, 0(0B) LOS objects, 24% free, 1589KB/2MB, paused 196us total 10.826ms
+I/art     (  184): Explicit concurrent mark sweep GC freed 25(800B) AllocSpace objects, 0(0B) LOS objects, 24% free, 1588KB/2MB, paused 199us total 10.222ms
+I/Zygote  (  184): ...preloaded 3002 classes in 1611ms.
+I/art     (  184): VMRuntime.preloadDexCaches starting
+I/art     (  184): VMRuntime.preloadDexCaches strings total=222442 before=41066 after=41066
+I/art     (  184): VMRuntime.preloadDexCaches types total=18782 before=6432 after=6469
+I/art     (  184): VMRuntime.preloadDexCaches fields total=88552 before=32583 after=32922
+I/art     (  184): VMRuntime.preloadDexCaches methods total=156051 before=67612 after=68528
+I/art     (  184): VMRuntime.preloadDexCaches finished
+I/art     (  184): Counter: 0
+I/art     (  184): Counter: 1
+I/art     (  184): Explicit concurrent mark sweep GC freed 41(15KB) AllocSpace objects, 0(0B) LOS objects, 24% free, 1575KB/2MB, paused 195us total 15.072ms
+D/idmap   (  194): error: no read access to /vendor/overlay: No such file or directory
+I/Zygote  (  184): Preloading resources...
+I/art     (  184): Explicit concurrent mark sweep GC freed 7118(263KB) AllocSpace objects, 0(0B) LOS objects, 24% free, 5MB/7MB, paused 363us total 18.887ms
+I/Zygote  (  184): ...preloaded 343 resources in 516ms.
+I/art     (  184): Explicit concurrent mark sweep GC freed 1717(95KB) AllocSpace objects, 0(0B) LOS objects, 25% free, 5MB/7MB, paused 302us total 14.832ms
+I/Zygote  (  184): ...preloaded 41 resources in 35ms.
+I/art     (  184): Counter: 0
+W/main    (  184): type=1400 audit(0.0:48): avc: denied { read } for name="egl" dev="mmcblk0p6" ino=30289 scontext=u:r:zygote:s0 tcontext=u:object_r:unlabeled:s0 tclass=dir
+W/main    (  184): type=1400 audit(0.0:49): avc: denied { open } for name="egl" dev="mmcblk0p6" ino=30289 scontext=u:r:zygote:s0 tcontext=u:object_r:unlabeled:s0 tclass=dir
+W/linker  (  184): libEGL_mtk.so: unused DT entry: type 0xf arg 0x5a4
+W/linker  (  184): libIMGegl.so: unused DT entry: type 0xf arg 0x8d2
+W/linker  (  184): libsrv_um.so: unused DT entry: type 0xf arg 0x17be
+D/libEGL  (  184): loaded /vendor/lib/egl/libEGL_mtk.so
+W/linker  (  184): libGLESv1_CM_mtk.so: unused DT entry: type 0xf arg 0xeec
+W/linker  (  184): libusc.so: unused DT entry: type 0xf arg 0x22d
+W/linker  (  184): libGLESv2_mtk.so: unused DT entry: type 0xf arg 0x103d
+W/linker  (  184): libGLESv1_CM_mtk.so: unused DT entry: type 0xf arg 0xeec
+W/linker  (  184): libusc.so: unused DT entry: type 0xf arg 0x22d
+D/libEGL  (  184): loaded /vendor/lib/egl/libGLESv1_CM_mtk.so
+W/linker  (  184): libGLESv2_mtk.so: unused DT entry: type 0xf arg 0x103d
+D/libEGL  (  184): loaded /vendor/lib/egl/libGLESv2_mtk.so
+W/linker  (  184): libpvrANDROID_WSEGL.so: unused DT entry: type 0xf arg 0x185
+I/Zygote  (  184): Preloading shared libraries...
+D/Zygote  (  184): end preload
+I/art     (  184): Explicit concurrent mark sweep GC freed 429(18KB) AllocSpace objects, 0(0B) LOS objects, 24% free, 5MB/7MB, paused 280us total 14.383ms
+I/art     (  184): Explicit concurrent mark sweep GC freed 41(1568B) AllocSpace objects, 0(0B) LOS objects, 25% free, 5MB/7MB, paused 277us total 14.092ms
+I/art     (  184): Explicit concurrent mark sweep GC freed 5(160B) AllocSpace objects, 0(0B) LOS objects, 25% free, 5MB/7MB, paused 275us total 14.132ms
+I/Zygote  (  184): System server process 195 has been created
+I/Zygote  (  184): Accepting command socket connections
+I/InstallerConnection(  195): connecting...
+I/InstallerConnection(  195): disconnecting...
+E/InstallerConnection(  195): connection failed
+I/InstallerConnection(  195): connecting...
+I/InstallerConnection(  195): disconnecting...
+E/InstallerConnection(  195): connection failed
+I/InstallerConnection(  195): connecting...
+I/InstallerConnection(  195): disconnecting...
+E/InstallerConnection(  195): connection failed
+I/InstallerConnection(  195): connecting...
+I/InstallerConnection(  195): disconnecting...
+E/InstallerConnection(  195): connection failed
+I/InstallerConnection(  195): connecting...
+I/InstallerConnection(  195): disconnecting...
+E/InstallerConnection(  195): connection failed
+I/InstallerConnection(  195): disconnecting...
+I/SurfaceFlinger(  213): SurfaceFlinger is starting
+I/SurfaceFlinger(  213): SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+W/linker  (  213): libEGL_mtk.so: unused DT entry: type 0xf arg 0x5a4
+W/linker  (  213): libIMGegl.so: unused DT entry: type 0xf arg 0x8d2
+W/linker  (  213): libsrv_um.so: unused DT entry: type 0xf arg 0x17be
+D/libEGL  (  213): loaded /vendor/lib/egl/libEGL_mtk.so
+W/linker  (  213): libGLESv1_CM_mtk.so: unused DT entry: type 0xf arg 0xeec
+W/linker  (  213): libusc.so: unused DT entry: type 0xf arg 0x22d
+W/linker  (  213): libGLESv2_mtk.so: unused DT entry: type 0xf arg 0x103d
+W/linker  (  213): libGLESv1_CM_mtk.so: unused DT entry: type 0xf arg 0xeec
+W/linker  (  213): libusc.so: unused DT entry: type 0xf arg 0x22d
+D/libEGL  (  213): loaded /vendor/lib/egl/libGLESv1_CM_mtk.so
+W/linker  (  213): libGLESv2_mtk.so: unused DT entry: type 0xf arg 0x103d
+D/libEGL  (  213): loaded /vendor/lib/egl/libGLESv2_mtk.so
+W/art     (  195): Verification of void com.android.server.SystemServer.startOtherServices() took 106.030ms
+I/SystemServer(  195): Entered the Android system server!
+W/linker  (  213): libpvrANDROID_WSEGL.so: unused DT entry: type 0xf arg 0x185
+W/system_server(  195): type=1400 audit(0.0:50): avc: denied { execute } for path="/system/lib/libsensorservice.so" dev="mmcblk0p6" ino=364 scontext=u:r:system_server:s0 tcontext=u:object_r:unlabeled:s0 tclass=file
+W/linker  (  213): gralloc.mt6589.so: unused DT entry: type 0xf arg 0x6b5
+W/linker  (  213): libpvr2d.so: unused DT entry: type 0xf arg 0x7bd
+I/hwcomposer(  213): [DPY] Display Information:
+I/hwcomposer(  213): [DPY] # fo devices : 1
+I/hwcomposer(  213): [DPY] -----------------------------
+I/hwcomposer(  213): [DPY] Device id   : 0
+I/hwcomposer(  213): [DPY] Width       : 1280
+I/hwcomposer(  213): [DPY] Height      : 800
+I/hwcomposer(  213): [DPY] xdpi        : 220.000000
+I/hwcomposer(  213): [DPY] ydpi        : 220.000000
+I/hwcomposer(  213): [DPY] vsync       : 1
+I/hwcomposer(  213): [DPY] refresh     : 17199862
+I/hwcomposer(  213): [DPY] connected   : 1
+I/hwcomposer(  213): [DPY] subtype     : 0
+W/hwcomposer(  213): [EVENT] HW VSync State(1)
+W/hwcomposer(  213): [EVENT] Start to listen uevent, addr.nl_pid(213)
+D/DISPSYS (  213): [DpBlitStream::DpBlitStream()]
+I/SurfaceFlinger(  213): Using composer version 1.2
+I/hwcomposer(  213): [HWC] getConfigs Display(0)
+I/hwcomposer(  213): [HWC] getAttributes Display(0)
+I/hwcomposer(  213): [HWC] getConfigs Display(1)
+I/hwcomposer(  213): [HWC] getAttributes Display(1)
+E/hwcomposer(  213): [HWC] Failed to get display attributes (dpy=1 is not connected)
+I/SurfaceFlinger(  213): EGL information:
+I/SurfaceFlinger(  213): vendor    : Android
+I/SurfaceFlinger(  213): version   : 1.4 Android META-EGL
+I/SurfaceFlinger(  213): extensions: EGL_KHR_get_all_proc_addresses EGL_ANDROID_presentation_time EGL_KHR_image EGL_KHR_image_base EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_gl_renderbuffer_image EGL_KHR_fence_sync EGL_KHR_create_context EGL_ANDROID_image_native_buffer EGL_KHR_wait_sync EGL_ANDROID_recordable
+I/SurfaceFlinger(  213): Client API: OpenGL_ES
+I/SurfaceFlinger(  213): EGLSurface: 8-8-8-8, config=0x18
+I/hwcomposer(  213): [WKR] Set priority to RR: 268435543
+I/hwcomposer(  213): [WKR] Set priority to RR: 268435543
+I/hwcomposer(  213): [WKR] Set priority to RR: 268435543
+I/hwcomposer(  213): [WKR] Set priority to RR: 268435543
+E/cutils-trace(  213): Error opening trace file: No such file or directory (2)
+I/SurfaceFlinger(  213): OpenGL ES informations:
+I/SurfaceFlinger(  213): vendor    : Imagination Technologies
+I/SurfaceFlinger(  213): renderer  : PowerVR SGX 544MP
+I/SurfaceFlinger(  213): version   : OpenGL ES 2.0 build 1.12@2824438
+I/SurfaceFlinger(  213): extensions: GL_EXT_debug_marker GL_OES_rgb8_rgba8 GL_OES_depth24 GL_OES_vertex_half_float GL_OES_texture_float GL_OES_texture_half_float GL_OES_element_index_uint GL_OES_mapbuffer GL_OES_fragment_precision_high GL_OES_compressed_ETC1_RGB8_texture GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_required_internalformat GL_OES_depth_texture GL_OES_get_program_binary GL_OES_packed_depth_stencil GL_OES_standard_derivatives GL_OES_vertex_array_object GL_OES_egl_sync GL_OES_texture_npot GL_OES_surfaceless_context GL_EXT_discard_framebuffer GL_EXT_blend_minmax GL_EXT_multi_draw_arrays GL_EXT_multisampled_render_to_texture GL_EXT_shader_texture_lod GL_EXT_texture_format_BGRA8888 GL_EXT_occlusion_query_boolean GL_EXT_texture_rg GL_EXT_draw_buffers GL_EXT_shader_framebuffer_fetch GL_IMG_shader_binary GL_IMG_texture_compression_pvrtc GL_IMG_texture_compression_pvrtc2 GL_IMG_texture_npot GL_IMG_texture_format_BGRA8888 GL_IMG_read_format GL_IMG_program_binary GL_IMG_uniform_buffer_object GL_IMG_multisampled_render_to_te
+I/SurfaceFlinger(  213): GL_MAX_TEXTURE_SIZE = 4096
+I/SurfaceFlinger(  213): GL_MAX_VIEWPORT_DIMS = 4096
+I/hwcomposer(  213): [WKR] Set priority to RR: 268435543
+D/SurfaceFlinger(  213): Set power mode=2, type=0 flinger=0xb6482000
+I/hwcomposer(  213): [HWC] Blank(0) Display(0)
+W/linker  (  213): libglslcompiler.so: unused DT entry: type 0xf arg 0x35c
+V/Fingerprint-JNI(  195): FingerprintManager JNI ready.
+D/SurfaceFlinger(  213): SF. shader cache generated - 26 shaders in 87.081001 ms
+I/        (  195): System server: starting sensor init.
+D/SensorService(  195): nuSensorService starting...
+W/hwcomposer(  213): [JOB] set bypass job: dpy(0) since job not created
+D/Sensors_Init(  195): open_sensors: name: poll! fwq debug
+I/SystemServiceManager(  195): Starting com.android.server.pm.Installer
+I/Installer(  195): Waiting for installd to be ready.
+I/InstallerConnection(  195): connecting...
+I/InstallerConnection(  195): disconnecting...
+E/InstallerConnection(  195): connection failed
+I/SystemServiceManager(  195): Starting com.android.server.am.ActivityManagerService$Lifecycle
+W/linker  (  231): libEGL_mtk.so: unused DT entry: type 0xf arg 0x5a4
+W/linker  (  231): libIMGegl.so: unused DT entry: type 0xf arg 0x8d2
+W/linker  (  231): libsrv_um.so: unused DT entry: type 0xf arg 0x17be
+D/libEGL  (  231): loaded /vendor/lib/egl/libEGL_mtk.so
+W/linker  (  231): libGLESv1_CM_mtk.so: unused DT entry: type 0xf arg 0xeec
+W/hwcomposer(  213): [COMP] (0:3) FBT might use ION (handle=0xb6473940)
+W/linker  (  231): libusc.so: unused DT entry: type 0xf arg 0x22d
+W/linker  (  231): libGLESv2_mtk.so: unused DT entry: type 0xf arg 0x103d
+W/linker  (  231): libGLESv1_CM_mtk.so: unused DT entry: type 0xf arg 0xeec
+W/linker  (  231): libusc.so: unused DT entry: type 0xf arg 0x22d
+D/libEGL  (  231): loaded /vendor/lib/egl/libGLESv1_CM_mtk.so
+W/linker  (  231): libGLESv2_mtk.so: unused DT entry: type 0xf arg 0x103d
+D/libEGL  (  231): loaded /vendor/lib/egl/libGLESv2_mtk.so
+W/linker  (  231): libpvrANDROID_WSEGL.so: unused DT entry: type 0xf arg 0x185
+W/linker  (  231): gralloc.mt6589.so: unused DT entry: type 0xf arg 0x6b5
+W/linker  (  231): libpvr2d.so: unused DT entry: type 0xf arg 0x7bd
+E/cutils-trace(  231): Error opening trace file: No such file or directory (2)
+E/BootAnimation(  231): couldn't find audio_conf.txt
+D/BootAnimation(  231): Use save memory method, maybe small fps in actual.
+I/XXXXXX  (  195): choosing minFree values for lowram
+I/XXXXXX  (  195): choosing minFree values for lowram
+I/XXXXXX  (  195): choosing minFree values for lowram
+I/XXXXXX  (  195): choosing minFree values for lowram
+I/XXXXXX  (  195): choosing minFree values for lowram
+I/XXXXXX  (  195): choosing minFree values for lowram
+D/Hwmsen_sensors(  195): Hwmsen mPendingEvents len(6)
+W/system_server(  234): type=1400 audit(0.0:51): avc: denied { read } for name="hwmsensor" dev="tmpfs" ino=3178 scontext=u:r:system_server:s0 tcontext=u:object_r:device:s0 tclass=chr_file
+W/system_server(  234): type=1400 audit(0.0:52): avc: denied { open } for name="hwmsensor" dev="tmpfs" ino=3178 scontext=u:r:system_server:s0 tcontext=u:object_r:device:s0 tclass=chr_file
+D/Hwmsen_sensors(  195): Hwmsen Construct ok
+I/ActivityManager(  195): Memory class: 80
+I/ServiceThread(  195): Enabled StrictMode logging for ActivityManager looper.
+I/ServiceThread(  195): Enabled StrictMode logging for android.ui looper.
+F/libc    (  213): Fatal signal 11 (SIGSEGV), code 1, fault addr 0xbe79cff8 in tid 213 (surfaceflinger)
+F/libc    (  213): Unable to open connection to debuggerd: Connection refused
+E/Surface (  231): queueBuffer: error queuing buffer to SurfaceTexture, -32
+W/SurfaceComposerClient(  231): ComposerService remote (surfaceflinger) died [0xb5c791c0]
+D/BootAnimation(  231): SurfaceFlinger died, exiting...
+E/IMGSRV  (  231): :0: QueueCancelBufferWrapper: Failed to queue buffer 0xb5464208
+I/ServiceManager(  122): service 'SurfaceFlinger' died
+W/mediaserver(  246): type=1400 audit(0.0:53): avc: denied { search } for name="vendor" dev="mmcblk0p6" ino=30273 scontext=u:r:mediaserver:s0 tcontext=u:object_r:unlabeled:s0 tclass=dir
+W/netd    (  247): type=1400 audit(0.0:54): avc: denied { search } for name="vendor" dev="mmcblk0p6" ino=30273 scontext=u:r:netd:s0 tcontext=u:object_r:unlabeled:s0 tclass=dir
+I/Netd    (  247): Netd 1.0 starting
+W/mediaserver(  246): type=1400 audit(0.0:55): avc: denied { search } for name="vendor" dev="mmcblk0p6" ino=30273 scontext=u:r:mediaserver:s0 tcontext=u:object_r:unlabeled:s0 tclass=dir
+E/Netd    (  247): Failed to open /proc/sys/net/ipv6/conf/default/accept_ra_rt_table: No such file or directory
+E/Netd    (  247): Failed to open /proc/sys/net/ipv6/conf/ifb0/accept_ra_rt_table: No such file or directory
+E/Netd    (  247): Failed to open /proc/sys/net/ipv6/conf/ifb1/accept_ra_rt_table: No such file or directory
+E/Netd    (  247): Failed to open /proc/sys/net/ipv6/conf/ip6tnl0/accept_ra_rt_table: No such file or directory
+E/Netd    (  247): Failed to open /proc/sys/net/ipv6/conf/lo/accept_ra_rt_table: No such file or directory
+E/Netd    (  247): Failed to open /proc/sys/net/ipv6/conf/sit0/accept_ra_rt_table: No such file or directory
+E/Netd    (  247): Failed to open /proc/sys/net/ipv6/conf/tunl0/accept_ra_rt_table: No such file or directory
+E/Netd    (  247): Failed to open /proc/sys/net/ipv6/conf/default/use_optimistic: No such file or directory
+E/Netd    (  247): Failed to open /proc/sys/net/ipv6/conf/ifb0/use_optimistic: No such file or directory
+E/Netd    (  247): Failed to open /proc/sys/net/ipv6/conf/ifb1/use_optimistic: No such file or directory
+E/Netd    (  247): Failed to open /proc/sys/net/ipv6/conf/ip6tnl0/use_optimistic: No such file or directory
+E/Netd    (  247): Failed to open /proc/sys/net/ipv6/conf/lo/use_optimistic: No such file or directory
+E/Netd    (  247): Failed to open /proc/sys/net/ipv6/conf/sit0/use_optimistic: No such file or directory
+E/Netd    (  247): Failed to open /proc/sys/net/ipv6/conf/tunl0/use_optimistic: No such file or directory
+W/mediaserver(  246): type=1400 audit(0.0:56): avc: denied { read } for name="libsync.so" dev="mmcblk0p6" ino=365 scontext=u:r:mediaserver:s0 tcontext=u:object_r:unlabeled:s0 tclass=file
+W/mediaserver(  246): type=1400 audit(0.0:57): avc: denied { open } for name="libsync.so" dev="mmcblk0p6" ino=365 scontext=u:r:mediaserver:s0 tcontext=u:object_r:unlabeled:s0 tclass=file
+W/mediaserver(  246): type=1400 audit(0.0:58): avc: denied { getattr } for path="/system/lib/libsync.so" dev="mmcblk0p6" ino=365 scontext=u:r:mediaserver:s0 tcontext=u:object_r:unlabeled:s0 tclass=file
+W/mediaserver(  246): type=1400 audit(0.0:59): avc: denied { execute } for path="/system/lib/libsync.so" dev="mmcblk0p6" ino=365 scontext=u:r:mediaserver:s0 tcontext=u:object_r:unlabeled:s0 tclass=file
+W/ip6tables(  271): type=1400 audit(0.0:60): avc: denied { search } for name="vendor" dev="mmcblk0p6" ino=30273 scontext=u:r:netd:s0 tcontext=u:object_r:unlabeled:s0 tclass=dir
+D/AndroidRuntime(  249): >>>>>> START com.android.internal.os.ZygoteInit uid 0 <<<<<<
+D/AndroidRuntime(  249): CheckJNI is OFF
+I/art     (  249): option[0]=-Xzygote
+I/art     (  249): option[1]=-Xstacktracefile:/data/anr/traces.txt
+I/art     (  249): option[2]=exit
+I/art     (  249): option[3]=vfprintf
+I/art     (  249): option[4]=sensitiveThread
+I/art     (  249): option[5]=-verbose:gc
+I/art     (  249): option[6]=-Xms8m
+I/art     (  249): option[7]=-Xmx384m
+I/art     (  249): option[8]=-XX:mainThreadStackSize=24K
+I/art     (  249): option[9]=-XX:HeapGrowthLimit=80m
+I/art     (  249): option[10]=-XX:HeapMinFree=512k
+I/art     (  249): option[11]=-XX:HeapMaxFree=8m
+I/art     (  249): option[12]=-XX:HeapTargetUtilization=0.75
+I/art     (  249): option[13]=-XX:LowMemoryMode
+I/art     (  249): option[14]=-Xgenregmap
+I/art     (  249): option[15]=-Xgc:precise
+I/art     (  249): option[16]=-agentlib:jdwp=transport=dt_android_adb,suspend=n,server=y
+I/art     (  249): option[17]=-Xlockprofthreshold:500
+I/art     (  249): option[18]=-Ximage-compiler-option
+I/art     (  249): option[19]=--runtime-arg
+I/art     (  249): option[20]=-Ximage-compiler-option
+I/art     (  249): option[21]=-Xms64m
+I/art     (  249): option[22]=-Ximage-compiler-option
+I/art     (  249): option[23]=--runtime-arg
+I/art     (  249): option[24]=-Ximage-compiler-option
+I/art     (  249): option[25]=-Xmx64m
+I/art     (  249): option[26]=-Ximage-compiler-option
+I/art     (  249): option[27]=--compiler-filter=speed
+I/art     (  249): option[28]=-Ximage-compiler-option
+I/art     (  249): option[29]=--image-classes=/system/etc/preloaded-classes
+I/art     (  249): option[30]=-Xcompiler-option
+I/art     (  249): option[31]=--runtime-arg
+I/art     (  249): option[32]=-Xcompiler-option
+I/art     (  249): option[33]=-Xms64m
+I/art     (  249): option[34]=-Xcompiler-option
+I/art     (  249): option[35]=--runtime-arg
+I/art     (  249): option[36]=-Xcompiler-option
+I/art     (  249): option[37]=-Xmx512m
+I/art     (  249): option[38]=-Xcompiler-option
+I/art     (  249): option[39]=--compiler-filter=balanced
+I/art     (  249): option[40]=-Xcompiler-option
+I/art     (  249): option[41]=--no-watch-dog
+I/art     (  249): option[42]=-Duser.language=hdp
+I/art     (  249): option[43]=-Duser.region=US
+V/MediaUtils(  246): physMem: 1040756736
+V/MediaUtils(  246): requested limit: 676491855
+V/MediaUtils(  246): actual limit: 676491855
+V/MediaUtils(  246): original limits: 4294967295/4294967295
+V/MediaUtils(  246): new limits: 676491855/4294967295
+I/mediaserver(  246): ServiceManager: 0xb58700c0
+I/AudioFlinger(  246): Using default 3000 mSec as standby time.
+I/ServiceManager(  246): Waiting for service batterystats...
+E/cutils-trace(  249): Error opening trace file: No such file or directory (2)
+E/memtrack(  249): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug(  249): failed to load memtrack module: -2
+I/SamplingProfilerIntegration(  249): Profiling disabled.
+D/Zygote  (  249): begin preload
+I/Zygote  (  249): Preloading classes...
+I/art     (  249): Explicit concurrent mark sweep GC freed 800(36KB) AllocSpace objects, 0(0B) LOS objects, 91% free, 44KB/556KB, paused 207us total 6.444ms
+I/art     (  249): Counter: 1
+I/art     (  249): Explicit concurrent mark sweep GC freed 100(4KB) AllocSpace objects, 0(0B) LOS objects, 88% free, 64KB/576KB, paused 186us total 5.098ms
+I/art     (  249): Explicit concurrent mark sweep GC freed 457(29KB) AllocSpace objects, 0(0B) LOS objects, 88% free, 65KB/577KB, paused 187us total 3.138ms
+I/art     (  249): Explicit concurrent mark sweep GC freed 5(160B) AllocSpace objects, 0(0B) LOS objects, 88% free, 65KB/577KB, paused 174us total 2.950ms
+I/art     (  249): Explicit concurrent mark sweep GC freed 646(41KB) AllocSpace objects, 0(0B) LOS objects, 87% free, 72KB/584KB, paused 186us total 6.694ms
+I/art     (  249): Explicit concurrent mark sweep GC freed 5(160B) AllocSpace objects, 0(0B) LOS objects, 87% free, 72KB/584KB, paused 183us total 3.053ms
+I/art     (  249): Explicit concurrent mark sweep GC freed 403(23KB) AllocSpace objects, 0(0B) LOS objects, 81% free, 113KB/625KB, paused 190us total 4.849ms
+I/art     (  249): Explicit concurrent mark sweep GC freed 35(1504B) AllocSpace objects, 0(0B) LOS objects, 81% free, 112KB/624KB, paused 178us total 3.247ms
+E/Minikin (  249): addFont failed to create font /system/fonts/NanumGothic.ttf
+E/Minikin (  249): addFont failed to create font /system/fonts/DroidSansFallback.ttf
+I/art     (  249): Explicit concurrent mark sweep GC freed 1795(194KB) AllocSpace objects, 0(0B) LOS objects, 80% free, 124KB/636KB, paused 183us total 5.577ms
+I/art     (  249): Explicit concurrent mark sweep GC freed 29(1040B) AllocSpace objects, 0(0B) LOS objects, 80% free, 124KB/636KB, paused 194us total 3.341ms
+I/art     (  249): Explicit concurrent mark sweep GC freed 1910(91KB) AllocSpace objects, 0(0B) LOS objects, 75% free, 165KB/677KB, paused 234us total 7.592ms
+I/art     (  249): Explicit concurrent mark sweep GC freed 5(160B) AllocSpace objects, 0(0B) LOS objects, 75% free, 165KB/677KB, paused 201us total 3.546ms
+I/art     (  249): Explicit concurrent mark sweep GC freed 1975(87KB) AllocSpace objects, 0(0B) LOS objects, 71% free, 199KB/711KB, paused 200us total 7.217ms
+I/art     (  249): Explicit concurrent mark sweep GC freed 5(160B) AllocSpace objects, 0(0B) LOS objects, 71% free, 199KB/711KB, paused 180us total 3.872ms
+I/art     (  249): Explicit concurrent mark sweep GC freed 369(19KB) AllocSpace objects, 0(0B) LOS objects, 68% free, 232KB/744KB, paused 182us total 7.387ms
+I/art     (  249): Explicit concurrent mark sweep GC freed 5(160B) AllocSpace objects, 0(0B) LOS objects, 68% free, 232KB/744KB, paused 192us total 3.982ms
+W/Zygote  (  249): Class not found for preloading: android.hardware.camera2.legacy.PerfMeasurement
+I/art     (  249): Thread[1,tid=249,WaitingForJniOnLoad,Thread*=0xb4827800,peer=0x12c31100,"main"] recursive attempt to load library "/system/lib/libmedia_jni.so"
+D/MtpDeviceJNI(  249): register_android_mtp_MtpDevice
+I/art     (  249): Thread[1,tid=249,WaitingForJniOnLoad,Thread*=0xb4827800,peer=0x12c31100,"main"] recursive attempt to load library "/system/lib/libmedia_jni.so"
+I/art     (  249): Thread[1,tid=249,WaitingForJniOnLoad,Thread*=0xb4827800,peer=0x12c31100,"main"] recursive attempt to load library "/system/lib/libmedia_jni.so"
+I/art     (  249): Explicit concurrent mark sweep GC freed 649(37KB) AllocSpace objects, 0(0B) LOS objects, 67% free, 244KB/756KB, paused 187us total 8.117ms
+I/art     (  249): Explicit concurrent mark sweep GC freed 7(288B) AllocSpace objects, 0(0B) LOS objects, 67% free, 244KB/756KB, paused 189us total 4.035ms
+I/art     (  249): Explicit concurrent mark sweep GC freed 461(22KB) AllocSpace objects, 0(0B) LOS objects, 65% free, 271KB/783KB, paused 196us total 7.858ms
+I/art     (  249): Explicit concurrent mark sweep GC freed 5(160B) AllocSpace objects, 0(0B) LOS objects, 65% free, 271KB/783KB, paused 179us total 4.229ms
+W/Zygote  (  249): Class not found for preloading: android.opengl.GLES31
+W/Zygote  (  249): Class not found for preloading: android.opengl.GLES31Ext
+I/art     (  249): Explicit concurrent mark sweep GC freed 639(36KB) AllocSpace objects, 0(0B) LOS objects, 63% free, 300KB/812KB, paused 187us total 7.366ms
+I/art     (  249): Explicit concurrent mark sweep GC freed 5(160B) AllocSpace objects, 0(0B) LOS objects, 63% free, 300KB/812KB, paused 188us total 4.380ms
+V/NatController(  247): runCmd(/system/bin/iptables -F natctrl_FORWARD) res=0
+I/art     (  249): Explicit concurrent mark sweep GC freed 363(18KB) AllocSpace objects, 0(0B) LOS objects, 60% free, 339KB/851KB, paused 197us total 6.399ms
+V/NatController(  247): runCmd(/system/bin/iptables -A natctrl_FORWARD -j DROP) res=0
+I/art     (  249): Explicit concurrent mark sweep GC freed 5(160B) AllocSpace objects, 0(0B) LOS objects, 60% free, 339KB/851KB, paused 187us total 4.564ms
+V/NatController(  247): runCmd(/system/bin/iptables -t nat -F natctrl_nat_POSTROUTING) res=0
+V/NatController(  247): runCmd(/system/bin/iptables -F natctrl_tether_counters) res=1
+V/NatController(  247): runCmd(/system/bin/iptables -X natctrl_tether_counters) res=1
+V/NatController(  247): runCmd(/system/bin/iptables -N natctrl_tether_counters) res=0
+W/iptables(  410): type=1400 audit(0.0:61): avc: denied { module_request } for kmod="ipt_TCPMSS" scontext=u:r:netd:s0 tcontext=u:r:kernel:s0 tclass=system
+V/NatController(  247): runCmd(/system/bin/iptables -t mangle -A natctrl_mangle_FORWARD -p tcp --tcp-flags SYN SYN -j TCPMSS --clamp-mss-to-pmtu) res=1
+I/art     (  249): Explicit concurrent mark sweep GC freed 1601(95KB) AllocSpace objects, 0(0B) LOS objects, 51% free, 476KB/988KB, paused 185us total 5.849ms
+I/art     (  249): Explicit concurrent mark sweep GC freed 5(160B) AllocSpace objects, 0(0B) LOS objects, 51% free, 476KB/988KB, paused 183us total 5.186ms
+I/art     (  249): Explicit concurrent mark sweep GC freed 363(45KB) AllocSpace objects, 0(0B) LOS objects, 39% free, 774KB/1286KB, paused 192us total 10.888ms
+I/art     (  249): Explicit concurrent mark sweep GC freed 9(272B) AllocSpace objects, 0(0B) LOS objects, 39% free, 774KB/1286KB, paused 190us total 7.138ms
+I/art     (  249): Explicit concurrent mark sweep GC freed 432(30KB) AllocSpace objects, 0(0B) LOS objects, 39% free, 793KB/1305KB, paused 202us total 8.520ms
+I/art     (  249): Explicit concurrent mark sweep GC freed 5(160B) AllocSpace objects, 0(0B) LOS objects, 39% free, 793KB/1305KB, paused 190us total 7.101ms
+I/art     (  249): Explicit concurrent mark sweep GC freed 787(49KB) AllocSpace objects, 0(0B) LOS objects, 39% free, 794KB/1306KB, paused 198us total 8.253ms
+I/art     (  249): Explicit concurrent mark sweep GC freed 5(160B) AllocSpace objects, 0(0B) LOS objects, 39% free, 794KB/1306KB, paused 193us total 7.031ms
+I/art     (  249): Explicit concurrent mark sweep GC freed 957(105KB) AllocSpace objects, 0(0B) LOS objects, 37% free, 837KB/1349KB, paused 200us total 10.622ms
+I/art     (  249): Explicit concurrent mark sweep GC freed 37(1744B) AllocSpace objects, 0(0B) LOS objects, 37% free, 836KB/1348KB, paused 188us total 7.380ms
+I/art     (  249): Explicit concurrent mark sweep GC freed 563(40KB) AllocSpace objects, 0(0B) LOS objects, 37% free, 844KB/1356KB, paused 232us total 8.287ms
+I/art     (  249): Explicit concurrent mark sweep GC freed 5(160B) AllocSpace objects, 0(0B) LOS objects, 37% free, 844KB/1356KB, paused 211us total 7.445ms
+I/art     (  249): Explicit concurrent mark sweep GC freed 263(20KB) AllocSpace objects, 0(0B) LOS objects, 36% free, 872KB/1384KB, paused 191us total 7.915ms
+I/art     (  249): Explicit concurrent mark sweep GC freed 5(160B) AllocSpace objects, 0(0B) LOS objects, 36% free, 872KB/1384KB, paused 187us total 7.887ms
+I/ServiceManager(  246): Waiting for service batterystats...
+I/art     (  249): Explicit concurrent mark sweep GC freed 602(32KB) AllocSpace objects, 0(0B) LOS objects, 29% free, 1251KB/1763KB, paused 194us total 9.567ms
+I/art     (  249): Explicit concurrent mark sweep GC freed 5(160B) AllocSpace objects, 0(0B) LOS objects, 29% free, 1251KB/1763KB, paused 203us total 8.999ms
+I/art     (  249): Explicit concurrent mark sweep GC freed 570(33KB) AllocSpace objects, 0(0B) LOS objects, 28% free, 1267KB/1779KB, paused 195us total 10.523ms
+I/art     (  249): Explicit concurrent mark sweep GC freed 5(160B) AllocSpace objects, 0(0B) LOS objects, 28% free, 1267KB/1779KB, paused 191us total 8.979ms
+E/Netd    (  247): netlink response contains error (Invalid argument)
+E/CommandListener(  247): failed to initialize RouteController (Invalid argument)
+D/MDnsDS  (  247): MDnsSdListener::Hander starting up
+D/MDnsDS  (  247): MDnsSdListener starting to monitor
+D/MDnsDS  (  247): Going to poll with pollCount 1
+I/art     (  249): Explicit concurrent mark sweep GC freed 739(45KB) AllocSpace objects, 0(0B) LOS objects, 28% free, 1271KB/1783KB, paused 188us total 9.548ms
+I/art     (  249): Explicit concurrent mark sweep GC freed 5(160B) AllocSpace objects, 0(0B) LOS objects, 28% free, 1271KB/1783KB, paused 184us total 8.648ms
+I/System  (  249): Loaded time zone names for "" in 59ms (55ms in ICU)
+I/System  (  249): Loaded time zone names for "en_US" in 40ms (34ms in ICU)
+I/System  (  249): Loaded time zone names for "hdp_US" in 40ms (35ms in ICU)
+I/art     (  249): Explicit concurrent mark sweep GC freed 2216(100KB) AllocSpace objects, 0(0B) LOS objects, 25% free, 1473KB/1985KB, paused 199us total 10.859ms
+I/art     (  249): Explicit concurrent mark sweep GC freed 5(160B) AllocSpace objects, 0(0B) LOS objects, 25% free, 1473KB/1985KB, paused 199us total 9.512ms
+I/art     (  249): Explicit concurrent mark sweep GC freed 180(46KB) AllocSpace objects, 0(0B) LOS objects, 24% free, 1542KB/2MB, paused 195us total 10.959ms
+I/art     (  249): Explicit concurrent mark sweep GC freed 12(432B) AllocSpace objects, 0(0B) LOS objects, 24% free, 1542KB/2MB, paused 195us total 9.938ms
+I/art     (  249): Explicit concurrent mark sweep GC freed 286(24KB) AllocSpace objects, 0(0B) LOS objects, 24% free, 1587KB/2MB, paused 196us total 11.354ms
+I/art     (  249): Explicit concurrent mark sweep GC freed 13(416B) AllocSpace objects, 0(0B) LOS objects, 24% free, 1587KB/2MB, paused 194us total 10.090ms
+I/art     (  249): Explicit concurrent mark sweep GC freed 667(47KB) AllocSpace objects, 0(0B) LOS objects, 24% free, 1589KB/2MB, paused 196us total 10.676ms
+I/art     (  249): Explicit concurrent mark sweep GC freed 25(800B) AllocSpace objects, 0(0B) LOS objects, 24% free, 1588KB/2MB, paused 204us total 10.315ms
+I/Zygote  (  249): ...preloaded 3002 classes in 1179ms.
+I/art     (  249): VMRuntime.preloadDexCaches starting
+I/art     (  249): VMRuntime.preloadDexCaches strings total=222442 before=41066 after=41066
+I/art     (  249): VMRuntime.preloadDexCaches types total=18782 before=6432 after=6469
+I/art     (  249): VMRuntime.preloadDexCaches fields total=88552 before=32583 after=32922
+I/art     (  249): VMRuntime.preloadDexCaches methods total=156051 before=67612 after=68528
+I/art     (  249): VMRuntime.preloadDexCaches finished
+I/art     (  249): Counter: 0
+I/art     (  249): Counter: 1
+I/art     (  249): Explicit concurrent mark sweep GC freed 41(15KB) AllocSpace objects, 0(0B) LOS objects, 24% free, 1575KB/2MB, paused 196us total 15.132ms
+D/idmap   (  479): error: no read access to /vendor/overlay: No such file or directory
+I/Zygote  (  249): Preloading resources...
+I/art     (  249): Explicit concurrent mark sweep GC freed 1462(72KB) AllocSpace objects, 0(0B) LOS objects, 24% free, 5MB/7MB, paused 278us total 17.055ms
+I/Zygote  (  249): ...preloaded 343 resources in 447ms.
+I/art     (  249): Explicit concurrent mark sweep GC freed 666(44KB) AllocSpace objects, 0(0B) LOS objects, 25% free, 5MB/7MB, paused 289us total 14.522ms
+I/Zygote  (  249): ...preloaded 41 resources in 26ms.
+I/art     (  249): Counter: 0
+W/linker  (  249): libEGL_mtk.so: unused DT entry: type 0xf arg 0x5a4
+W/linker  (  249): libIMGegl.so: unused DT entry: type 0xf arg 0x8d2
+W/linker  (  249): libsrv_um.so: unused DT entry: type 0xf arg 0x17be
+D/libEGL  (  249): loaded /vendor/lib/egl/libEGL_mtk.so
+W/linker  (  249): libGLESv1_CM_mtk.so: unused DT entry: type 0xf arg 0xeec
+W/linker  (  249): libusc.so: unused DT entry: type 0xf arg 0x22d
+W/linker  (  249): libGLESv2_mtk.so: unused DT entry: type 0xf arg 0x103d
+W/linker  (  249): libGLESv1_CM_mtk.so: unused DT entry: type 0xf arg 0xeec
+W/linker  (  249): libusc.so: unused DT entry: type 0xf arg 0x22d
+D/libEGL  (  249): loaded /vendor/lib/egl/libGLESv1_CM_mtk.so
+W/linker  (  249): libGLESv2_mtk.so: unused DT entry: type 0xf arg 0x103d
+D/libEGL  (  249): loaded /vendor/lib/egl/libGLESv2_mtk.so
+I/ServiceManager(  246): Waiting for service batterystats...
+W/linker  (  249): libpvrANDROID_WSEGL.so: unused DT entry: type 0xf arg 0x185
+I/Zygote  (  249): Preloading shared libraries...
+D/Zygote  (  249): end preload
+I/art     (  249): Explicit concurrent mark sweep GC freed 429(18KB) AllocSpace objects, 0(0B) LOS objects, 24% free, 5MB/7MB, paused 286us total 14.233ms
+I/art     (  249): Explicit concurrent mark sweep GC freed 41(1568B) AllocSpace objects, 0(0B) LOS objects, 25% free, 5MB/7MB, paused 290us total 13.909ms
+I/art     (  249): Explicit concurrent mark sweep GC freed 5(160B) AllocSpace objects, 0(0B) LOS objects, 25% free, 5MB/7MB, paused 276us total 13.888ms
+I/Zygote  (  249): System server process 480 has been created
+I/Zygote  (  249): Accepting command socket connections
+I/InstallerConnection(  480): connecting...
+I/InstallerConnection(  480): disconnecting...
+E/InstallerConnection(  480): connection failed
+I/InstallerConnection(  480): connecting...
+I/InstallerConnection(  480): disconnecting...
+E/InstallerConnection(  480): connection failed
+I/InstallerConnection(  480): connecting...
+I/InstallerConnection(  480): disconnecting...
+E/InstallerConnection(  480): connection failed
+I/InstallerConnection(  480): connecting...
+I/InstallerConnection(  480): disconnecting...
+E/InstallerConnection(  480): connection failed
+I/InstallerConnection(  480): connecting...
+I/InstallerConnection(  480): disconnecting...
+E/InstallerConnection(  480): connection failed
+I/InstallerConnection(  480): disconnecting...
+I/SystemServer(  480): Entered the Android system server!
+W/system_server(  480): type=1400 audit(0.0:62): avc: denied { execute } for path="/system/lib/libsensorservice.so" dev="mmcblk0p6" ino=364 scontext=u:r:system_server:s0 tcontext=u:object_r:unlabeled:s0 tclass=file
+V/Fingerprint-JNI(  480): FingerprintManager JNI ready.
+I/        (  480): System server: starting sensor init.
+D/SensorService(  480): nuSensorService starting...
+D/Sensors_Init(  480): open_sensors: name: poll! fwq debug
+I/SystemServiceManager(  480): Starting com.android.server.pm.Installer
+I/Installer(  480): Waiting for installd to be ready.
+I/InstallerConnection(  480): connecting...
+I/InstallerConnection(  480): disconnecting...
+E/InstallerConnection(  480): connection failed
+I/SystemServiceManager(  480): Starting com.android.server.am.ActivityManagerService$Lifecycle
+I/ServiceManager(  246): Waiting for service batterystats...
+I/XXXXXX  (  480): choosing minFree values for lowram
+I/XXXXXX  (  480): choosing minFree values for lowram
+I/XXXXXX  (  480): choosing minFree values for lowram
+I/XXXXXX  (  480): choosing minFree values for lowram
+I/XXXXXX  (  480): choosing minFree values for lowram
+I/XXXXXX  (  480): choosing minFree values for lowram
+I/ActivityManager(  480): Memory class: 80
+I/ServiceThread(  480): Enabled StrictMode logging for ActivityManager looper.
+I/ServiceThread(  480): Enabled StrictMode logging for android.ui looper.
+D/Hwmsen_sensors(  480): Hwmsen mPendingEvents len(6)
+D/Hwmsen_sensors(  480): Hwmsen Construct ok
+I/AppOps  (  480): No existing app ops /data/system/appops.xml; starting empty
+I/IntentFirewall(  480): Read new rules (A:0 B:0 S:0)
+I/ServiceThread(  480): Enabled StrictMode logging for android.display looper.
+D/AppOps  (  480): AppOpsService published
+I/SystemServiceManager(  480): Starting com.android.server.power.PowerManagerService
+I/ServiceThread(  480): Enabled StrictMode logging for PowerManagerService looper.
+I/ServiceManager(  480): Waiting for service sensorservice...
+W/surfaceflinger(  508): type=1400 audit(0.0:63): avc: denied { search } for name="vendor" dev="mmcblk0p6" ino=30273 scontext=u:r:surfaceflinger:s0 tcontext=u:object_r:unlabeled:s0 tclass=dir
+W/surfaceflinger(  508): type=1400 audit(0.0:64): avc: denied { read } for name="libEGL.so" dev="mmcblk0p6" ino=859 scontext=u:r:surfaceflinger:s0 tcontext=u:object_r:unlabeled:s0 tclass=file
+W/surfaceflinger(  508): type=1400 audit(0.0:65): avc: denied { open } for name="libEGL.so" dev="mmcblk0p6" ino=859 scontext=u:r:surfaceflinger:s0 tcontext=u:object_r:unlabeled:s0 tclass=file
+W/surfaceflinger(  508): type=1400 audit(0.0:66): avc: denied { getattr } for path="/system/lib/libEGL.so" dev="mmcblk0p6" ino=859 scontext=u:r:surfaceflinger:s0 tcontext=u:object_r:unlabeled:s0 tclass=file
+W/surfaceflinger(  508): type=1400 audit(0.0:67): avc: denied { execute } for path="/system/lib/libEGL.so" dev="mmcblk0p6" ino=859 scontext=u:r:surfaceflinger:s0 tcontext=u:object_r:unlabeled:s0 tclass=file
+I/SurfaceFlinger(  508): SurfaceFlinger is starting
+I/SurfaceFlinger(  508): SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+W/surfaceflinger(  508): type=1400 audit(0.0:68): avc: denied { read } for name="egl" dev="mmcblk0p6" ino=30289 scontext=u:r:surfaceflinger:s0 tcontext=u:object_r:unlabeled:s0 tclass=dir
+W/surfaceflinger(  508): type=1400 audit(0.0:69): avc: denied { open } for name="egl" dev="mmcblk0p6" ino=30289 scontext=u:r:surfaceflinger:s0 tcontext=u:object_r:unlabeled:s0 tclass=dir
+W/linker  (  508): libEGL_mtk.so: unused DT entry: type 0xf arg 0x5a4
+W/linker  (  508): libIMGegl.so: unused DT entry: type 0xf arg 0x8d2
+W/linker  (  508): libsrv_um.so: unused DT entry: type 0xf arg 0x17be
+D/libEGL  (  508): loaded /vendor/lib/egl/libEGL_mtk.so
+W/linker  (  508): libGLESv1_CM_mtk.so: unused DT entry: type 0xf arg 0xeec
+W/linker  (  508): libusc.so: unused DT entry: type 0xf arg 0x22d
+W/linker  (  508): libGLESv2_mtk.so: unused DT entry: type 0xf arg 0x103d
+W/linker  (  508): libGLESv1_CM_mtk.so: unused DT entry: type 0xf arg 0xeec
+W/linker  (  508): libusc.so: unused DT entry: type 0xf arg 0x22d
+D/libEGL  (  508): loaded /vendor/lib/egl/libGLESv1_CM_mtk.so
+W/linker  (  508): libGLESv2_mtk.so: unused DT entry: type 0xf arg 0x103d
+D/libEGL  (  508): loaded /vendor/lib/egl/libGLESv2_mtk.so
+W/linker  (  508): libpvrANDROID_WSEGL.so: unused DT entry: type 0xf arg 0x185
+W/linker  (  508): gralloc.mt6589.so: unused DT entry: type 0xf arg 0x6b5
+W/linker  (  508): libpvr2d.so: unused DT entry: type 0xf arg 0x7bd
+W/surfaceflinger(  508): type=1400 audit(0.0:70): avc: denied { read write } for name="pvr_sync" dev="tmpfs" ino=3156 scontext=u:r:surfaceflinger:s0 tcontext=u:object_r:device:s0 tclass=chr_file
+W/surfaceflinger(  508): type=1400 audit(0.0:71): avc: denied { open } for name="pvr_sync" dev="tmpfs" ino=3156 scontext=u:r:surfaceflinger:s0 tcontext=u:object_r:device:s0 tclass=chr_file
+I/hwcomposer(  508): [DPY] Display Information:
+I/hwcomposer(  508): [DPY] # fo devices : 1
+I/hwcomposer(  508): [DPY] -----------------------------
+I/hwcomposer(  508): [DPY] Device id   : 0
+I/hwcomposer(  508): [DPY] Width       : 1280
+I/hwcomposer(  508): [DPY] Height      : 800
+I/hwcomposer(  508): [DPY] xdpi        : 220.000000
+I/hwcomposer(  508): [DPY] ydpi        : 220.000000
+I/hwcomposer(  508): [DPY] vsync       : 1
+I/hwcomposer(  508): [DPY] refresh     : 17199862
+I/hwcomposer(  508): [DPY] connected   : 1
+I/hwcomposer(  508): [DPY] subtype     : 0
+W/hwcomposer(  508): [EVENT] HW VSync State(1)
+W/hwcomposer(  508): [EVENT] Start to listen uevent, addr.nl_pid(508)
+I/hwcomposer(  508): [WKR] Set priority to RR: 268435543
+W/surfaceflinger(  508): type=1400 audit(0.0:72): avc: denied { net_admin } for capability=12 scontext=u:r:surfaceflinger:s0 tcontext=u:r:surfaceflinger:s0 tclass=capability
+D/DISPSYS (  508): [DpBlitStream::DpBlitStream()]
+I/hwcomposer(  508): [WKR] Set priority to RR: 268435543
+W/VSyncThreadHWC(  516): type=1400 audit(0.0:73): avc: denied { sys_nice } for capability=23 scontext=u:r:surfaceflinger:s0 tcontext=u:r:surfaceflinger:s0 tclass=capability
+I/hwcomposer(  508): [WKR] Set priority to RR: 268435543
+I/hwcomposer(  508): [WKR] Set priority to RR: 268435543
+I/hwcomposer(  508): [WKR] Set priority to RR: 268435543
+I/SurfaceFlinger(  508): Using composer version 1.2
+I/hwcomposer(  508): [HWC] getConfigs Display(0)
+I/hwcomposer(  508): [HWC] getAttributes Display(0)
+I/hwcomposer(  508): [HWC] getConfigs Display(1)
+I/hwcomposer(  508): [HWC] getAttributes Display(1)
+E/hwcomposer(  508): [HWC] Failed to get display attributes (dpy=1 is not connected)
+I/SurfaceFlinger(  508): EGL information:
+I/SurfaceFlinger(  508): vendor    : Android
+I/SurfaceFlinger(  508): version   : 1.4 Android META-EGL
+I/SurfaceFlinger(  508): extensions: EGL_KHR_get_all_proc_addresses EGL_ANDROID_presentation_time EGL_KHR_image EGL_KHR_image_base EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_gl_renderbuffer_image EGL_KHR_fence_sync EGL_KHR_create_context EGL_ANDROID_image_native_buffer EGL_KHR_wait_sync EGL_ANDROID_recordable
+I/SurfaceFlinger(  508): Client API: OpenGL_ES
+I/SurfaceFlinger(  508): EGLSurface: 8-8-8-8, config=0x18
+E/cutils-trace(  508): Error opening trace file: No such file or directory (2)
+I/SurfaceFlinger(  508): OpenGL ES informations:
+I/SurfaceFlinger(  508): vendor    : Imagination Technologies
+I/SurfaceFlinger(  508): renderer  : PowerVR SGX 544MP
+I/SurfaceFlinger(  508): version   : OpenGL ES 2.0 build 1.12@2824438
+I/SurfaceFlinger(  508): extensions: GL_EXT_debug_marker GL_OES_rgb8_rgba8 GL_OES_depth24 GL_OES_vertex_half_float GL_OES_texture_float GL_OES_texture_half_float GL_OES_element_index_uint GL_OES_mapbuffer GL_OES_fragment_precision_high GL_OES_compressed_ETC1_RGB8_texture GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_required_internalformat GL_OES_depth_texture GL_OES_get_program_binary GL_OES_packed_depth_stencil GL_OES_standard_derivatives GL_OES_vertex_array_object GL_OES_egl_sync GL_OES_texture_npot GL_OES_surfaceless_context GL_EXT_discard_framebuffer GL_EXT_blend_minmax GL_EXT_multi_draw_arrays GL_EXT_multisampled_render_to_texture GL_EXT_shader_texture_lod GL_EXT_texture_format_BGRA8888 GL_EXT_occlusion_query_boolean GL_EXT_texture_rg GL_EXT_draw_buffers GL_EXT_shader_framebuffer_fetch GL_IMG_shader_binary GL_IMG_texture_compression_pvrtc GL_IMG_texture_compression_pvrtc2 GL_IMG_texture_npot GL_IMG_texture_format_BGRA8888 GL_IMG_read_format GL_IMG_program_binary GL_IMG_uniform_buffer_object GL_IMG_multisampled_render_to_te
+I/SurfaceFlinger(  508): GL_MAX_TEXTURE_SIZE = 4096
+I/SurfaceFlinger(  508): GL_MAX_VIEWPORT_DIMS = 4096
+D/SurfaceFlinger(  508): Set power mode=2, type=0 flinger=0xb6482000
+I/hwcomposer(  508): [HWC] Blank(0) Display(0)
+W/VSyncThreadHWC(  516): type=1400 audit(0.0:74): avc: denied { ioctl } for path="/dev/mtkfb_vsync" dev="tmpfs" ino=46 scontext=u:r:surfaceflinger:s0 tcontext=u:object_r:device:s0 tclass=chr_file
+W/bootanimation(  526): type=1400 audit(0.0:75): avc: denied { search } for name="vendor" dev="mmcblk0p6" ino=30273 scontext=u:r:bootanim:s0 tcontext=u:object_r:unlabeled:s0 tclass=dir
+W/bootanimation(  526): type=1400 audit(0.0:76): avc: denied { read } for name="libEGL.so" dev="mmcblk0p6" ino=859 scontext=u:r:bootanim:s0 tcontext=u:object_r:unlabeled:s0 tclass=file
+W/bootanimation(  526): type=1400 audit(0.0:77): avc: denied { open } for name="libEGL.so" dev="mmcblk0p6" ino=859 scontext=u:r:bootanim:s0 tcontext=u:object_r:unlabeled:s0 tclass=file
+W/bootanimation(  526): type=1400 audit(0.0:78): avc: denied { getattr } for path="/system/lib/libEGL.so" dev="mmcblk0p6" ino=859 scontext=u:r:bootanim:s0 tcontext=u:object_r:unlabeled:s0 tclass=file
+W/bootanimation(  526): type=1400 audit(0.0:79): avc: denied { execute } for path="/system/lib/libEGL.so" dev="mmcblk0p6" ino=859 scontext=u:r:bootanim:s0 tcontext=u:object_r:unlabeled:s0 tclass=file
+W/linker  (  508): libglslcompiler.so: unused DT entry: type 0xf arg 0x35c
+E/SensorBase(  480): couldn't find 'm_acc_input' input device
+D/Accel   (  480): acc misc path =/sys/class/misc/m_acc_misc/
+D/Accel   (  480): read div buf(/sys/class/misc/m_acc_misc/accactive)
+D/Accel   (  480): mdiv 1
+D/Accel   (  480): read div err buf()
+E/MediaPlayerFactory(  246): calling dlopen on FACTORY_LIB
+E/MediaPlayerFactory(  246): Failed to open FACTORY_LIB Error : dlopen failed: library "libdashplayer.so" not found
+I/CameraService(  246): CameraService started (pid=246)
+W/mediaserver(  246): type=1400 audit(0.0:80): avc: denied { read } for name="camera.default.so" dev="mmcblk0p6" ino=15142 scontext=u:r:mediaserver:s0 tcontext=u:object_r:unlabeled:s0 tclass=file
+W/mediaserver(  246): type=1400 audit(0.0:81): avc: denied { open } for name="camera.default.so" dev="mmcblk0p6" ino=15142 scontext=u:r:mediaserver:s0 tcontext=u:object_r:unlabeled:s0 tclass=file
+W/mediaserver(  246): type=1400 audit(0.0:82): avc: denied { getattr } for path="/system/lib/hw/camera.default.so" dev="mmcblk0p6" ino=15142 scontext=u:r:mediaserver:s0 tcontext=u:object_r:unlabeled:s0 tclass=file
+W/mediaserver(  246): type=1400 audit(0.0:83): avc: denied { execute } for path="/system/lib/hw/camera.default.so" dev="mmcblk0p6" ino=15142 scontext=u:r:mediaserver:s0 tcontext=u:object_r:unlabeled:s0 tclass=file
+E/HAL     (  246): load: module=/system/lib/hw/camera.default.so
+E/HAL     (  246): dlopen failed: library "libcam_utils.so" not found
+E/CameraService(  246): Could not load camera HAL module
+I/AudioPolicyService(  246): AudioPolicyService CSTOR in new mode
+I/AudioPolicyManager(  246): loadAudioPolicyConfig() loaded /system/etc/audio_policy.conf
+E/HAL     (  246): load: id=audio != hmi->id=libaudio
+E/AudioFlinger(  246): int android::load_audio_interface(const char*, audio_hw_device_t**) couldn't load audio hw module audio.primary (Invalid argument)
+I/AudioFlinger(  246): loadHwModule() error -22 loading module primary
+W/AudioPolicyManager(  246): could not open HW module primary
+E/AudioFlinger(  246): int android::load_audio_interface(const char*, audio_hw_device_t**) couldn't load audio hw module audio.a2dp (No such file or directory)
+I/AudioFlinger(  246): loadHwModule() error -2 loading module a2dp
+W/AudioPolicyManager(  246): could not open HW module a2dp
+E/AudioFlinger(  246): int android::load_audio_interface(const char*, audio_hw_device_t**) couldn't load audio hw module audio.usb (No such file or directory)
+I/AudioFlinger(  246): loadHwModule() error -2 loading module usb
+W/AudioPolicyManager(  246): could not open HW module usb
+E/AudioFlinger(  246): int android::load_audio_interface(const char*, audio_hw_device_t**) couldn't load audio hw module audio.r_submix (No such file or directory)
+W/ApmOutput(  534): type=1400 audit(0.0:84): avc: denied { read write } for name="wake_lock" dev="sysfs" ino=45 scontext=u:r:mediaserver:s0 tcontext=u:object_r:sysfs_wake_lock:s0 tclass=file
+I/AudioFlinger(  246): loadHwModule() error -2 loading module r_submix
+W/AudioPolicyManager(  246): could not open HW module r_submix
+W/AudioPolicyManager(  246): Input device 00000002 unreachable
+W/AudioPolicyManager(  246): Input device 00000001 unreachable
+W/AudioPolicyManager(  246): Input device 80000004 unreachable
+W/AudioPolicyManager(  246): Input device 80000100 unreachable
+E/AudioPolicyManager(  246): Default device 00000002 is unreachable
+E/AudioPolicyManager(  246): Failed to open primary output
+E/AudioPolicyManager(  246): getDeviceForStrategy() speaker device not found for STRATEGY_SONIFICATION
+E/AudioPolicyManager(  246): getDeviceForStrategy() speaker device not found for STRATEGY_SONIFICATION
+E/AudioPolicyManager(  246): getDeviceForStrategy() no device found for STRATEGY_TRANSMITTED_THROUGH_SPEAKER
+W/ApmOutput(  534): type=1400 audit(0.0:85): avc: denied { open } for name="wake_lock" dev="sysfs" ino=45 scontext=u:r:mediaserver:s0 tcontext=u:object_r:sysfs_wake_lock:s0 tclass=file
+E/SoundTriggerHwService(  246): couldn't load sound trigger module sound_trigger.primary (No such file or directory)
+D/SurfaceFlinger(  508): SF. shader cache generated - 26 shaders in 94.119850 ms
+W/hwcomposer(  508): [JOB] set bypass job: dpy(0) since job not created
+W/BootAnimation(  536): type=1400 audit(0.0:86): avc: denied { read } for name="egl" dev="mmcblk0p6" ino=30289 scontext=u:r:bootanim:s0 tcontext=u:object_r:unlabeled:s0 tclass=dir
+W/BootAnimation(  536): type=1400 audit(0.0:87): avc: denied { open } for name="egl" dev="mmcblk0p6" ino=30289 scontext=u:r:bootanim:s0 tcontext=u:object_r:unlabeled:s0 tclass=dir
+W/linker  (  526): libEGL_mtk.so: unused DT entry: type 0xf arg 0x5a4
+W/linker  (  526): libIMGegl.so: unused DT entry: type 0xf arg 0x8d2
+W/linker  (  526): libsrv_um.so: unused DT entry: type 0xf arg 0x17be
+D/libEGL  (  526): loaded /vendor/lib/egl/libEGL_mtk.so
+W/linker  (  526): libGLESv1_CM_mtk.so: unused DT entry: type 0xf arg 0xeec
+W/linker  (  526): libusc.so: unused DT entry: type 0xf arg 0x22d
+W/hwcomposer(  508): [COMP] (0:3) FBT might use ION (handle=0xb65211c0)
+W/linker  (  526): libGLESv2_mtk.so: unused DT entry: type 0xf arg 0x103d
+W/linker  (  526): libGLESv1_CM_mtk.so: unused DT entry: type 0xf arg 0xeec
+W/linker  (  526): libusc.so: unused DT entry: type 0xf arg 0x22d
+D/libEGL  (  526): loaded /vendor/lib/egl/libGLESv1_CM_mtk.so
+W/linker  (  526): libGLESv2_mtk.so: unused DT entry: type 0xf arg 0x103d
+D/libEGL  (  526): loaded /vendor/lib/egl/libGLESv2_mtk.so
+W/linker  (  526): libpvrANDROID_WSEGL.so: unused DT entry: type 0xf arg 0x185
+W/linker  (  526): gralloc.mt6589.so: unused DT entry: type 0xf arg 0x6b5
+W/linker  (  526): libpvr2d.so: unused DT entry: type 0xf arg 0x7bd
+W/BootAnimation(  536): type=1400 audit(0.0:88): avc: denied { read write } for name="pvr_sync" dev="tmpfs" ino=3156 scontext=u:r:bootanim:s0 tcontext=u:object_r:device:s0 tclass=chr_file
+W/BootAnimation(  536): type=1400 audit(0.0:89): avc: denied { open } for name="pvr_sync" dev="tmpfs" ino=3156 scontext=u:r:bootanim:s0 tcontext=u:object_r:device:s0 tclass=chr_file
+E/cutils-trace(  526): Error opening trace file: No such file or directory (2)
+E/BootAnimation(  526): couldn't find audio_conf.txt
+W/BootAnimation(  536): type=1400 audit(0.0:90): avc: denied { ioctl } for path="/dev/pvr_sync" dev="tmpfs" ino=3156 scontext=u:r:bootanim:s0 tcontext=u:object_r:device:s0 tclass=chr_file
+D/BootAnimation(  526): Use save memory method, maybe small fps in actual.
+F/libc    (  508): Fatal signal 11 (SIGSEGV), code 1, fault addr 0xbe3e8ff8 in tid 508 (surfaceflinger)
+F/libc    (  508): Unable to open connection to debuggerd: Connection refused
+E/Surface (  526): queueBuffer: error queuing buffer to SurfaceTexture, -32
+E/IMGSRV  (  526): :0: QueueCancelBufferWrapper: Failed to queue buffer 0xb5c6d708
+W/SurfaceComposerClient(  526): ComposerService remote (surfaceflinger) died [0xb5c791c0]
+D/BootAnimation(  526): SurfaceFlinger died, exiting...
+I/ServiceManager(  122): service 'SurfaceFlinger' died
+I/ServiceManager(  122): service 'media.audio_flinger' died
+I/ServiceManager(  122): service 'media.player' died
+I/ServiceManager(  122): service 'media.audio_policy' died
+I/ServiceManager(  122): service 'media.camera' died
+I/ServiceManager(  122): service 'media.sound_trigger_hw' died
+W/app_process(  539): type=1400 audit(0.0:91): avc: denied { search } for name="vendor" dev="mmcblk0p6" ino=30273 scontext=u:r:zygote:s0 tcontext=u:object_r:unlabeled:s0 tclass=dir
+I/Netd    (  540): Netd 1.0 starting
+E/Netd    (  540): Failed to open /proc/sys/net/ipv6/conf/default/accept_ra_rt_table: No such file or directory
+E/Netd    (  540): Failed to open /proc/sys/net/ipv6/conf/ifb0/accept_ra_rt_table: No such file or directory
+E/Netd    (  540): Failed to open /proc/sys/net/ipv6/conf/ifb1/accept_ra_rt_table: No such file or directory
+E/Netd    (  540): Failed to open /proc/sys/net/ipv6/conf/ip6tnl0/accept_ra_rt_table: No such file or directory
+E/Netd    (  540): Failed to open /proc/sys/net/ipv6/conf/lo/accept_ra_rt_table: No such file or directory
+E/Netd    (  540): Failed to open /proc/sys/net/ipv6/conf/sit0/accept_ra_rt_table: No such file or directory
+E/Netd    (  540): Failed to open /proc/sys/net/ipv6/conf/tunl0/accept_ra_rt_table: No such file or directory
+E/Netd    (  540): Failed to open /proc/sys/net/ipv6/conf/default/use_optimistic: No such file or directory
+E/Netd    (  540): Failed to open /proc/sys/net/ipv6/conf/ifb0/use_optimistic: No such file or directory
+E/Netd    (  540): Failed to open /proc/sys/net/ipv6/conf/ifb1/use_optimistic: No such file or directory
+E/Netd    (  540): Failed to open /proc/sys/net/ipv6/conf/ip6tnl0/use_optimistic: No such file or directory
+E/Netd    (  540): Failed to open /proc/sys/net/ipv6/conf/lo/use_optimistic: No such file or directory
+E/Netd    (  540): Failed to open /proc/sys/net/ipv6/conf/sit0/use_optimistic: No such file or directory
+E/Netd    (  540): Failed to open /proc/sys/net/ipv6/conf/tunl0/use_optimistic: No such file or directory
+I/ServiceManager(  122): service 'batterystats' died
+I/ServiceManager(  122): service 'appops' died
+D/AndroidRuntime(  539): >>>>>> START com.android.internal.os.ZygoteInit uid 0 <<<<<<
+D/AndroidRuntime(  539): CheckJNI is OFF
+I/art     (  539): option[0]=-Xzygote
+I/art     (  539): option[1]=-Xstacktracefile:/data/anr/traces.txt
+I/art     (  539): option[2]=exit
+I/art     (  539): option[3]=vfprintf
+I/art     (  539): option[4]=sensitiveThread
+I/art     (  539): option[5]=-verbose:gc
+I/art     (  539): option[6]=-Xms8m
+I/art     (  539): option[7]=-Xmx384m
+I/art     (  539): option[8]=-XX:mainThreadStackSize=24K
+I/art     (  539): option[9]=-XX:HeapGrowthLimit=80m
+I/art     (  539): option[10]=-XX:HeapMinFree=512k
+I/art     (  539): option[11]=-XX:HeapMaxFree=8m
+I/art     (  539): option[12]=-XX:HeapTargetUtilization=0.75
+I/art     (  539): option[13]=-XX:LowMemoryMode
+I/art     (  539): option[14]=-Xgenregmap
+I/art     (  539): option[15]=-Xgc:precise
+I/art     (  539): option[16]=-agentlib:jdwp=transport=dt_android_adb,suspend=n,server=y
+I/art     (  539): option[17]=-Xlockprofthreshold:500
+I/art     (  539): option[18]=-Ximage-compiler-option
+I/art     (  539): option[19]=--runtime-arg
+I/art     (  539): option[20]=-Ximage-compiler-option
+I/art     (  539): option[21]=-Xms64m
+I/art     (  539): option[22]=-Ximage-compiler-option
+I/art     (  539): option[23]=--runtime-arg
+I/art     (  539): option[24]=-Ximage-compiler-option
+I/art     (  539): option[25]=-Xmx64m
+I/art     (  539): option[26]=-Ximage-compiler-option
+I/art     (  539): option[27]=--compiler-filter=speed
+I/art     (  539): option[28]=-Ximage-compiler-option
+I/art     (  539): option[29]=--image-classes=/system/etc/preloaded-classes
+I/art     (  539): option[30]=-Xcompiler-option
+I/art     (  539): option[31]=--runtime-arg
+I/art     (  539): option[32]=-Xcompiler-option
+I/art     (  539): option[33]=-Xms64m
+I/art     (  539): option[34]=-Xcompiler-option
+I/art     (  539): option[35]=--runtime-arg
+I/art     (  539): option[36]=-Xcompiler-option
+I/art     (  539): option[37]=-Xmx512m
+I/art     (  539): option[38]=-Xcompiler-option
+I/art     (  539): option[39]=--compiler-filter=balanced
+I/art     (  539): option[40]=-Xcompiler-option
+I/art     (  539): option[41]=--no-watch-dog
+I/art     (  539): option[42]=-Duser.language=hdp
+I/art     (  539): option[43]=-Duser.region=US
+V/MediaUtils(  541): physMem: 1040756736
+V/MediaUtils(  541): requested limit: 676491855
+V/MediaUtils(  541): actual limit: 676491855
+V/MediaUtils(  541): original limits: 4294967295/4294967295
+V/MediaUtils(  541): new limits: 676491855/4294967295
+I/mediaserver(  541): ServiceManager: 0xb58700c0
+I/AudioFlinger(  541): Using default 3000 mSec as standby time.
+I/ServiceManager(  541): Waiting for service batterystats...
+E/cutils-trace(  539): Error opening trace file: No such file or directory (2)
+E/memtrack(  539): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug(  539): failed to load memtrack module: -2
+I/SamplingProfilerIntegration(  539): Profiling disabled.
+D/Zygote  (  539): begin preload
+I/Zygote  (  539): Preloading classes...
+I/art     (  539): Explicit concurrent mark sweep GC freed 800(36KB) AllocSpace objects, 0(0B) LOS objects, 91% free, 44KB/556KB, paused 204us total 6.555ms
+I/art     (  539): Counter: 1
+I/art     (  539): Explicit concurrent mark sweep GC freed 100(4KB) AllocSpace objects, 0(0B) LOS objects, 88% free, 64KB/576KB, paused 187us total 5.068ms
+I/art     (  539): Explicit concurrent mark sweep GC freed 457(29KB) AllocSpace objects, 0(0B) LOS objects, 88% free, 65KB/577KB, paused 184us total 3.149ms
+I/art     (  539): Explicit concurrent mark sweep GC freed 5(160B) AllocSpace objects, 0(0B) LOS objects, 88% free, 65KB/577KB, paused 179us total 2.968ms
+I/art     (  539): Explicit concurrent mark sweep GC freed 646(41KB) AllocSpace objects, 0(0B) LOS objects, 87% free, 72KB/584KB, paused 198us total 6.680ms
+I/art     (  539): Explicit concurrent mark sweep GC freed 5(160B) AllocSpace objects, 0(0B) LOS objects, 87% free, 72KB/584KB, paused 175us total 3.005ms
+I/art     (  539): Explicit concurrent mark sweep GC freed 403(23KB) AllocSpace objects, 0(0B) LOS objects, 81% free, 113KB/625KB, paused 186us total 4.818ms
+I/art     (  539): Explicit concurrent mark sweep GC freed 35(1504B) AllocSpace objects, 0(0B) LOS objects, 81% free, 112KB/624KB, paused 179us total 3.271ms
+E/Minikin (  539): addFont failed to create font /system/fonts/NanumGothic.ttf
+E/Minikin (  539): addFont failed to create font /system/fonts/DroidSansFallback.ttf
+I/art     (  539): Explicit concurrent mark sweep GC freed 1795(194KB) AllocSpace objects, 0(0B) LOS objects, 80% free, 124KB/636KB, paused 192us total 5.599ms
+I/art     (  539): Explicit concurrent mark sweep GC freed 29(1040B) AllocSpace objects, 0(0B) LOS objects, 80% free, 124KB/636KB, paused 181us total 3.496ms
+I/art     (  539): Explicit concurrent mark sweep GC freed 1910(91KB) AllocSpace objects, 0(0B) LOS objects, 75% free, 165KB/677KB, paused 180us total 7.626ms
+I/art     (  539): Explicit concurrent mark sweep GC freed 5(160B) AllocSpace objects, 0(0B) LOS objects, 75% free, 165KB/677KB, paused 192us total 3.687ms
+I/art     (  539): Explicit concurrent mark sweep GC freed 1975(87KB) AllocSpace objects, 0(0B) LOS objects, 71% free, 199KB/711KB, paused 205us total 7.262ms
+I/art     (  539): Explicit concurrent mark sweep GC freed 5(160B) AllocSpace objects, 0(0B) LOS objects, 71% free, 199KB/711KB, paused 176us total 3.906ms
+I/art     (  539): Explicit concurrent mark sweep GC freed 369(19KB) AllocSpace objects, 0(0B) LOS objects, 68% free, 232KB/744KB, paused 192us total 7.439ms
+I/art     (  539): Explicit concurrent mark sweep GC freed 5(160B) AllocSpace objects, 0(0B) LOS objects, 68% free, 232KB/744KB, paused 183us total 3.932ms
+W/Zygote  (  539): Class not found for preloading: android.hardware.camera2.legacy.PerfMeasurement
+I/art     (  539): Thread[1,tid=539,WaitingForJniOnLoad,Thread*=0xb4827800,peer=0x12c31100,"main"] recursive attempt to load library "/system/lib/libmedia_jni.so"
+D/MtpDeviceJNI(  539): register_android_mtp_MtpDevice
+I/art     (  539): Thread[1,tid=539,WaitingForJniOnLoad,Thread*=0xb4827800,peer=0x12c31100,"main"] recursive attempt to load library "/system/lib/libmedia_jni.so"
+I/art     (  539): Thread[1,tid=539,WaitingForJniOnLoad,Thread*=0xb4827800,peer=0x12c31100,"main"] recursive attempt to load library "/system/lib/libmedia_jni.so"
+I/art     (  539): Explicit concurrent mark sweep GC freed 649(37KB) AllocSpace objects, 0(0B) LOS objects, 67% free, 244KB/756KB, paused 188us total 8.067ms
+I/art     (  539): Explicit concurrent mark sweep GC freed 7(288B) AllocSpace objects, 0(0B) LOS objects, 67% free, 244KB/756KB, paused 192us total 4.176ms
+I/art     (  539): Explicit concurrent mark sweep GC freed 461(22KB) AllocSpace objects, 0(0B) LOS objects, 65% free, 271KB/783KB, paused 193us total 7.999ms
+I/art     (  539): Explicit concurrent mark sweep GC freed 5(160B) AllocSpace objects, 0(0B) LOS objects, 65% free, 271KB/783KB, paused 178us total 4.316ms
+W/Zygote  (  539): Class not found for preloading: android.opengl.GLES31
+W/Zygote  (  539): Class not found for preloading: android.opengl.GLES31Ext
+I/art     (  539): Explicit concurrent mark sweep GC freed 639(36KB) AllocSpace objects, 0(0B) LOS objects, 63% free, 300KB/812KB, paused 184us total 7.421ms
+I/art     (  539): Explicit concurrent mark sweep GC freed 5(160B) AllocSpace objects, 0(0B) LOS objects, 63% free, 300KB/812KB, paused 184us total 4.427ms
+I/art     (  539): Explicit concurrent mark sweep GC freed 363(18KB) AllocSpace objects, 0(0B) LOS objects, 60% free, 339KB/851KB, paused 202us total 6.395ms
+I/art     (  539): Explicit concurrent mark sweep GC freed 5(160B) AllocSpace objects, 0(0B) LOS objects, 60% free, 339KB/851KB, paused 194us total 4.692ms
+V/NatController(  540): runCmd(/system/bin/iptables -F natctrl_FORWARD) res=0
+V/NatController(  540): runCmd(/system/bin/iptables -A natctrl_FORWARD -j DROP) res=0
+I/art     (  539): Explicit concurrent mark sweep GC freed 1601(95KB) AllocSpace objects, 0(0B) LOS objects, 51% free, 476KB/988KB, paused 184us total 5.894ms
+V/NatController(  540): runCmd(/system/bin/iptables -t nat -F natctrl_nat_POSTROUTING) res=0
+I/art     (  539): Explicit concurrent mark sweep GC freed 5(160B) AllocSpace objects, 0(0B) LOS objects, 51% free, 476KB/988KB, paused 216us total 5.259ms
+V/NatController(  540): runCmd(/system/bin/iptables -F natctrl_tether_counters) res=0
+V/NatController(  540): runCmd(/system/bin/iptables -X natctrl_tether_counters) res=0
+V/NatController(  540): runCmd(/system/bin/iptables -N natctrl_tether_counters) res=0
+V/NatController(  540): runCmd(/system/bin/iptables -t mangle -A natctrl_mangle_FORWARD -p tcp --tcp-flags SYN SYN -j TCPMSS --clamp-mss-to-pmtu) res=1
+I/art     (  539): Explicit concurrent mark sweep GC freed 363(45KB) AllocSpace objects, 0(0B) LOS objects, 39% free, 774KB/1286KB, paused 202us total 10.916ms
+I/art     (  539): Explicit concurrent mark sweep GC freed 9(272B) AllocSpace objects, 0(0B) LOS objects, 39% free, 774KB/1286KB, paused 205us total 7.206ms
+I/art     (  539): Explicit concurrent mark sweep GC freed 432(30KB) AllocSpace objects, 0(0B) LOS objects, 39% free, 793KB/1305KB, paused 217us total 8.471ms
+I/art     (  539): Explicit concurrent mark sweep GC freed 5(160B) AllocSpace objects, 0(0B) LOS objects, 39% free, 793KB/1305KB, paused 195us total 7.071ms
+I/art     (  539): Explicit concurrent mark sweep GC freed 787(49KB) AllocSpace objects, 0(0B) LOS objects, 39% free, 794KB/1306KB, paused 197us total 8.201ms
+I/art     (  539): Explicit concurrent mark sweep GC freed 5(160B) AllocSpace objects, 0(0B) LOS objects, 39% free, 794KB/1306KB, paused 190us total 7.173ms
+I/art     (  539): Explicit concurrent mark sweep GC freed 957(105KB) AllocSpace objects, 0(0B) LOS objects, 37% free, 837KB/1349KB, paused 191us total 10.596ms
+I/art     (  539): Explicit concurrent mark sweep GC freed 37(1744B) AllocSpace objects, 0(0B) LOS objects, 37% free, 836KB/1348KB, paused 201us total 7.622ms
+I/art     (  539): Explicit concurrent mark sweep GC freed 563(40KB) AllocSpace objects, 0(0B) LOS objects, 37% free, 844KB/1356KB, paused 191us total 8.343ms
+I/art     (  539): Explicit concurrent mark sweep GC freed 5(160B) AllocSpace objects, 0(0B) LOS objects, 37% free, 844KB/1356KB, paused 183us total 7.516ms
+I/art     (  539): Explicit concurrent mark sweep GC freed 263(20KB) AllocSpace objects, 0(0B) LOS objects, 36% free, 872KB/1384KB, paused 192us total 7.909ms
+I/art     (  539): Explicit concurrent mark sweep GC freed 5(160B) AllocSpace objects, 0(0B) LOS objects, 36% free, 872KB/1384KB, paused 181us total 7.688ms
+I/ServiceManager(  541): Waiting for service batterystats...
+I/art     (  539): Explicit concurrent mark sweep GC freed 605(32KB) AllocSpace objects, 0(0B) LOS objects, 29% free, 1251KB/1763KB, paused 192us total 9.598ms
+I/art     (  539): Explicit concurrent mark sweep GC freed 5(160B) AllocSpace objects, 0(0B) LOS objects, 29% free, 1251KB/1763KB, paused 201us total 9.116ms
+I/art     (  539): Explicit concurrent mark sweep GC freed 570(33KB) AllocSpace objects, 0(0B) LOS objects, 28% free, 1267KB/1779KB, paused 196us total 10.481ms
+I/art     (  539): Explicit concurrent mark sweep GC freed 5(160B) AllocSpace objects, 0(0B) LOS objects, 28% free, 1267KB/1779KB, paused 199us total 9.116ms
+I/art     (  539): Explicit concurrent mark sweep GC freed 739(45KB) AllocSpace objects, 0(0B) LOS objects, 28% free, 1271KB/1783KB, paused 200us total 9.790ms
+I/art     (  539): Explicit concurrent mark sweep GC freed 5(160B) AllocSpace objects, 0(0B) LOS objects, 28% free, 1271KB/1783KB, paused 190us total 9.258ms
+E/Netd    (  540): netlink response contains error (Invalid argument)
+E/CommandListener(  540): failed to initialize RouteController (Invalid argument)
+D/MDnsDS  (  540): MDnsSdListener::Hander starting up
+D/MDnsDS  (  540): MDnsSdListener starting to monitor
+D/MDnsDS  (  540): Going to poll with pollCount 1
+I/System  (  539): Loaded time zone names for "" in 62ms (58ms in ICU)
+I/System  (  539): Loaded time zone names for "en_US" in 39ms (35ms in ICU)
+I/System  (  539): Loaded time zone names for "hdp_US" in 41ms (35ms in ICU)
+I/art     (  539): Explicit concurrent mark sweep GC freed 2216(100KB) AllocSpace objects, 0(0B) LOS objects, 25% free, 1473KB/1985KB, paused 196us total 11.017ms
+I/art     (  539): Explicit concurrent mark sweep GC freed 5(160B) AllocSpace objects, 0(0B) LOS objects, 25% free, 1473KB/1985KB, paused 193us total 9.497ms
+I/art     (  539): Explicit concurrent mark sweep GC freed 180(46KB) AllocSpace objects, 0(0B) LOS objects, 24% free, 1542KB/2MB, paused 197us total 10.992ms
+I/art     (  539): Explicit concurrent mark sweep GC freed 12(432B) AllocSpace objects, 0(0B) LOS objects, 24% free, 1542KB/2MB, paused 193us total 9.844ms
+I/art     (  539): Explicit concurrent mark sweep GC freed 286(24KB) AllocSpace objects, 0(0B) LOS objects, 24% free, 1587KB/2MB, paused 195us total 11.346ms
+I/art     (  539): Explicit concurrent mark sweep GC freed 13(416B) AllocSpace objects, 0(0B) LOS objects, 24% free, 1587KB/2MB, paused 191us total 10.279ms
+I/art     (  539): Explicit concurrent mark sweep GC freed 667(47KB) AllocSpace objects, 0(0B) LOS objects, 24% free, 1589KB/2MB, paused 194us total 10.702ms
+I/art     (  539): Explicit concurrent mark sweep GC freed 25(800B) AllocSpace objects, 0(0B) LOS objects, 24% free, 1588KB/2MB, paused 200us total 10.130ms
+I/Zygote  (  539): ...preloaded 3002 classes in 1196ms.
+I/art     (  539): VMRuntime.preloadDexCaches starting
+I/art     (  539): VMRuntime.preloadDexCaches strings total=222442 before=41066 after=41066
+I/art     (  539): VMRuntime.preloadDexCaches types total=18782 before=6432 after=6469
+I/art     (  539): VMRuntime.preloadDexCaches fields total=88552 before=32583 after=32922
+I/art     (  539): VMRuntime.preloadDexCaches methods total=156051 before=67612 after=68528
+I/art     (  539): VMRuntime.preloadDexCaches finished
+I/art     (  539): Counter: 0
+I/art     (  539): Counter: 1
+I/art     (  539): Explicit concurrent mark sweep GC freed 41(15KB) AllocSpace objects, 0(0B) LOS objects, 24% free, 1574KB/2MB, paused 195us total 14.863ms
+D/idmap   (  771): error: no read access to /vendor/overlay: No such file or directory
+I/Zygote  (  539): Preloading resources...
+I/art     (  539): Explicit concurrent mark sweep GC freed 1345(66KB) AllocSpace objects, 0(0B) LOS objects, 24% free, 5MB/7MB, paused 287us total 14.713ms
+I/Zygote  (  539): ...preloaded 343 resources in 445ms.
+I/art     (  539): Explicit concurrent mark sweep GC freed 575(40KB) AllocSpace objects, 0(0B) LOS objects, 25% free, 5MB/7MB, paused 290us total 14.483ms
+I/Zygote  (  539): ...preloaded 41 resources in 26ms.
+I/art     (  539): Counter: 0
+W/main    (  539): type=1400 audit(0.0:97): avc: denied { read } for name="egl" dev="mmcblk0p6" ino=30289 scontext=u:r:zygote:s0 tcontext=u:object_r:unlabeled:s0 tclass=dir
+W/main    (  539): type=1400 audit(0.0:98): avc: denied { open } for name="egl" dev="mmcblk0p6" ino=30289 scontext=u:r:zygote:s0 tcontext=u:object_r:unlabeled:s0 tclass=dir
+W/linker  (  539): libEGL_mtk.so: unused DT entry: type 0xf arg 0x5a4
+W/linker  (  539): libIMGegl.so: unused DT entry: type 0xf arg 0x8d2
+W/linker  (  539): libsrv_um.so: unused DT entry: type 0xf arg 0x17be
+D/libEGL  (  539): loaded /vendor/lib/egl/libEGL_mtk.so
+W/linker  (  539): libGLESv1_CM_mtk.so: unused DT entry: type 0xf arg 0xeec
+W/linker  (  539): libusc.so: unused DT entry: type 0xf arg 0x22d
+W/linker  (  539): libGLESv2_mtk.so: unused DT entry: type 0xf arg 0x103d
+W/linker  (  539): libGLESv1_CM_mtk.so: unused DT entry: type 0xf arg 0xeec
+W/linker  (  539): libusc.so: unused DT entry: type 0xf arg 0x22d
+D/libEGL  (  539): loaded /vendor/lib/egl/libGLESv1_CM_mtk.so
+W/linker  (  539): libGLESv2_mtk.so: unused DT entry: type 0xf arg 0x103d
+D/libEGL  (  539): loaded /vendor/lib/egl/libGLESv2_mtk.so
+I/ServiceManager(  541): Waiting for service batterystats...
+W/linker  (  539): libpvrANDROID_WSEGL.so: unused DT entry: type 0xf arg 0x185
+I/Zygote  (  539): Preloading shared libraries...
+D/Zygote  (  539): end preload
+I/art     (  539): Explicit concurrent mark sweep GC freed 429(18KB) AllocSpace objects, 0(0B) LOS objects, 24% free, 5MB/7MB, paused 286us total 14.187ms
+I/art     (  539): Explicit concurrent mark sweep GC freed 41(1568B) AllocSpace objects, 0(0B) LOS objects, 25% free, 5MB/7MB, paused 274us total 13.882ms
+I/art     (  539): Explicit concurrent mark sweep GC freed 5(160B) AllocSpace objects, 0(0B) LOS objects, 25% free, 5MB/7MB, paused 274us total 14.061ms
+I/Zygote  (  539): System server process 772 has been created
+I/Zygote  (  539): Accepting command socket connections
+I/InstallerConnection(  772): connecting...
+I/InstallerConnection(  772): disconnecting...
+E/InstallerConnection(  772): connection failed
+I/InstallerConnection(  772): connecting...
+I/InstallerConnection(  772): disconnecting...
+E/InstallerConnection(  772): connection failed
+I/InstallerConnection(  772): connecting...
+I/InstallerConnection(  772): disconnecting...
+E/InstallerConnection(  772): connection failed
+I/InstallerConnection(  772): connecting...
+I/InstallerConnection(  772): disconnecting...
+E/InstallerConnection(  772): connection failed
+I/InstallerConnection(  772): connecting...
+I/InstallerConnection(  772): disconnecting...
+E/InstallerConnection(  772): connection failed
+I/InstallerConnection(  772): disconnecting...
+I/SystemServer(  772): Entered the Android system server!
+V/Fingerprint-JNI(  772): FingerprintManager JNI ready.
+I/        (  772): System server: starting sensor init.
+D/SensorService(  772): nuSensorService starting...
+D/Sensors_Init(  772): open_sensors: name: poll! fwq debug
+I/SystemServiceManager(  772): Starting com.android.server.pm.Installer
+I/Installer(  772): Waiting for installd to be ready.
+I/InstallerConnection(  772): connecting...
+I/InstallerConnection(  772): disconnecting...
+E/InstallerConnection(  772): connection failed
+I/SystemServiceManager(  772): Starting com.android.server.am.ActivityManagerService$Lifecycle
+I/ServiceManager(  541): Waiting for service batterystats...
+I/XXXXXX  (  772): choosing minFree values for lowram
+I/XXXXXX  (  772): choosing minFree values for lowram
+I/XXXXXX  (  772): choosing minFree values for lowram
+I/XXXXXX  (  772): choosing minFree values for lowram
+I/XXXXXX  (  772): choosing minFree values for lowram
+I/XXXXXX  (  772): choosing minFree values for lowram
+I/ActivityManager(  772): Memory class: 80
+I/ServiceThread(  772): Enabled StrictMode logging for ActivityManager looper.
+I/ServiceThread(  772): Enabled StrictMode logging for android.ui looper.
+D/Hwmsen_sensors(  772): Hwmsen mPendingEvents len(6)
+D/Hwmsen_sensors(  772): Hwmsen Construct ok
+I/AppOps  (  772): No existing app ops /data/system/appops.xml; starting empty
+I/IntentFirewall(  772): Read new rules (A:0 B:0 S:0)
+^C
