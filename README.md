@@ -4,3 +4,7 @@ old: https://gist.github.com/akku1139/2632cbacec623957a00b060eceab602d
 ## ROM
 
 Lenovo b8000 + Asus me173x ROM (CM12) + b8000 kernel (Android 4.4)
+
+## 進捗
+
+`2025.02.09-01` が一番進んでると思います
