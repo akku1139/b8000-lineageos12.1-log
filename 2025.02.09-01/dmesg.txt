@@ -1,0 +1,1364 @@
+root@me173x:/ # dmesg
+  1 users, 2 roles, 384 types, 0 bools, 1 sens, 1024 cats
+<7>[    1.642773] (1)[1:init]SELinux:  86 classes, 4694 rules
+<7>[    1.644050] (1)[1:init]SELinux:  Completing initialization.
+<7>[    1.644064] (1)[1:init]SELinux:  Setting up existing superblocks.
+<7>[    1.644093] (1)[1:init]SELinux: initialized (dev sysfs, type sysfs), uses genfs_contexts
+<7>[    1.644119] (1)[1:init]SELinux: initialized (dev rootfs, type rootfs), uses genfs_contexts
+<7>[    1.644197] (1)[1:init]SELinux: initialized (dev bdev, type bdev), not configured for labeling
+<7>[    1.644220] (1)[1:init]SELinux: initialized (dev proc, type proc), uses genfs_contexts
+<7>[    1.644252] (1)[1:init]SELinux: initialized (dev tmpfs, type tmpfs), uses transition SIDs
+<7>[    1.644283] (1)[1:init]SELinux: initialized (dev sockfs, type sockfs), uses task SIDs
+<7>[    1.644305] (1)[1:init]SELinux: initialized (dev debugfs, type debugfs), uses genfs_contexts
+<7>[    1.644428] (1)[1:init]SELinux: initialized (dev pipefs, type pipefs), uses task SIDs
+<7>[    1.644446] (1)[1:init]SELinux: initialized (dev anon_inodefs, type anon_inodefs), not configured for labeling
+<7>[    1.644467] (1)[1:init]SELinux: initialized (dev devpts, type devpts), uses transition SIDs
+<7>[    1.644493] (1)[1:init]SELinux: initialized (dev selinuxfs, type selinuxfs), uses genfs_contexts
+<7>[    1.644581] (1)[1:init]SELinux: initialized (dev usbfs, type usbfs), uses genfs_contexts
+<7>[    1.644601] (1)[1:init]SELinux: initialized (dev tmpfs, type tmpfs), uses transition SIDs
+<7>[    1.644640] (1)[1:init]SELinux: initialized (dev sysfs, type sysfs), uses genfs_contexts
+<7>[    1.715368] (1)[23:kworker/1:1]enable(1), count(1) res=0
+<7>[    1.715383] (1)[23:kworker/1:1][MUSB]musb_readb 121: [MUSB]:access musb_readb function when usb clock is off 0x60
+<7>[    1.715400] (1)[23:kworker/1:1]enable(0), count(0) res=0
+<7>[    1.715413] (1)[23:kworker/1:1][MUSB]musb_hub_control 365: port status 00000100,devctl=0x81
+<5>[    1.831719] (0)[1:init]type=1403 audit(1266721632.700:2): policy loaded auid=4294967295 ses=4294967295
+<3>[    1.867402] (0)[1:init]init: /init.rc: 519: invalid option 'enabled'
+<3>[    1.868191] (0)[1:init]init: /init.mt6589.rc: 73: invalid option 'mkdir'
+<3>[    1.868219] (0)[1:init]init: /init.mt6589.rc: 76: invalid option 'chmod'
+<3>[    1.868243] (0)[1:init]init: /init.mt6589.rc: 79: invalid option 'chmod'
+<3>[    1.868267] (0)[1:init]init: /init.mt6589.rc: 82: invalid option 'chown'
+<3>[    1.868291] (0)[1:init]init: /init.mt6589.rc: 83: invalid option 'chmod'
+<7>[    1.871497] (0)[1:init][1:1:init] fork [87:87:init] flag=0x1200011
+<7>[    1.872510] (2)[87:ueventd][exec] /sbin/ueventd(3)
+<7>[    1.985432] (3)[2:kthreadd][2:2:kthreadd] fork [88:88:kthreadd] flag=0x800711
+<4>[    2.020731] (1)[74:mtk charger_hv_][BATTERY:bq24196] Disable check battery exist for SMT
+<4>[    2.025823] (1)[73:bat_thread_kthr][bq24196_dump_register] Reg[0x0]=0x52
+<4>[    2.026291] (1)[73:bat_thread_kthr][bq24196_dump_register] Reg[0x1]=0x1F
+<4>[    2.026756] (1)[73:bat_thread_kthr][bq24196_dump_register] Reg[0x2]=0x0
+<4>[    2.027220] (1)[73:bat_thread_kthr][bq24196_dump_register] Reg[0x3]=0x31
+<4>[    2.027685] (1)[73:bat_thread_kthr][bq24196_dump_register] Reg[0x4]=0xD6
+<4>[    2.028149] (1)[73:bat_thread_kthr][bq24196_dump_register] Reg[0x5]=0x12
+<4>[    2.028613] (1)[73:bat_thread_kthr][bq24196_dump_register] Reg[0x6]=0x3
+<4>[    2.029078] (1)[73:bat_thread_kthr][bq24196_dump_register] Reg[0x7]=0x48
+<4>[    2.029542] (1)[73:bat_thread_kthr][bq24196_dump_register] Reg[0x8]=0x6C
+<4>[    2.030007] (1)[73:bat_thread_kthr][bq24196_dump_register] Reg[0x9]=0x0
+<4>[    2.030471] (1)[73:bat_thread_kthr][bq24196_dump_register] Reg[0xA]=0x2B
+<5>[    2.030492] (1)[73:bat_thread_kthr][Power/Battery] [BATTERY:bq24196] Boot up during charging!
+<4>[    2.030505] (1)[73:bat_thread_kthr]--------------------------------------------------
+<3>[    2.054074] (0)[1:init]init: /dev/hw_random not found
+<3>[    2.054137] (0)[1:init]init: could not open /dev/keychord
+<4>[    2.054296] (0)[1:init]SLEEP_EN = 0x1
+<5>[    2.054323] (0)[1:init]Linux default SW Flow Control
+<7>[    2.055441] (0)[80:kworker/0:1]release_one_tty: grab tty(ttyMT0/df0f3800)'s work df0f38c8 before free it
+<7>[    2.145656] (1)[1:init]SELinux: initialized (dev cgroup, type cgroup), uses genfs_contexts
+<7>[    2.146075] (1)[1:init]SELinux: initialized (dev tmpfs, type tmpfs), uses transition SIDs
+<6>[    2.146357] (1)[1:init][MNT_TAG] mount_fs, mount error -2
+<6>[    2.146371] (1)[1:init][MNT_TAG] do_kern_mount, vfs_kern_mount, mount_fs error
+<6>[    2.146391] (1)[1:init][MNT_TAG] do_new_mount, do_kern_mount error
+<6>[    2.146403] (1)[1:init][MNT_TAG] do_mount, do_new_mount: -2
+<7>[    2.148311] (1)[1:init]SELinux: initialized (dev tmpfs, type tmpfs), uses transition SIDs
+<7>[    2.148535] (1)[1:init]SELinux: initialized (dev tmpfs, type tmpfs), uses transition SIDs
+<6>[    2.149045] (1)[1:init][MNT_TAG] mount_fs, mount error -2
+<6>[    2.149059] (1)[1:init][MNT_TAG] do_kern_mount, vfs_kern_mount, mount_fs error
+<6>[    2.149076] (1)[1:init][MNT_TAG] do_new_mount, do_kern_mount error
+<6>[    2.149088] (1)[1:init][MNT_TAG] do_mount, do_new_mount: -2
+<7>[    2.205456] (2)[1:init]SELinux: initialized (dev cgroup, type cgroup), uses genfs_contexts
+<6>[    2.206636] (2)[1:init][MNT_TAG] do_mount, kern_path ret err
+<7>[    2.207746] (2)[1:init]SELinux: initialized (dev tmpfs, type tmpfs), uses transition SIDs
+<6>[    2.208505] (2)[1:init][MNT_TAG] mount_fs, mount error -2
+<6>[    2.208519] (2)[1:init][MNT_TAG] do_kern_mount, vfs_kern_mount, mount_fs error
+<6>[    2.208537] (2)[1:init][MNT_TAG] do_new_mount, do_kern_mount error
+<6>[    2.208549] (2)[1:init][MNT_TAG] do_mount, do_new_mount: -2
+<3>[    2.208978] (2)[1:init]init: /dev/hw_random not found
+<7>[    2.209736] (2)[1:init][1:1:init] fork [89:89:init] flag=0x1200011
+<6>[    2.210718] (0)[64:mmcqd/0][BLOCK_TAG] mmcqd:64 Workload < 1%, duty 0, period 1499334384, req_cnt=0
+<6>[    2.210737] (0)[64:mmcqd/0][BLOCK_TAG] vmstat (FP:1568)(FD:0)(ND:0)(WB:0)(NW:0)
+<6>[    2.211694] (2)[89:init]EXT4-fs (mmcblk0p6): INFO: recovery required on readonly filesystem
+<6>[    2.211710] (2)[89:init]EXT4-fs (mmcblk0p6): write access will be enabled during recovery
+<7>[    2.222977] (3)[2:kthreadd][2:2:kthreadd] fork [90:90:kthreadd] flag=0x800711
+<7>[    2.223154] (0)[2:kthreadd][2:2:kthreadd] fork [91:91:kthreadd] flag=0x800711
+<6>[    2.223314] (2)[89:init]EXT4-fs (mmcblk0p6): recovery complete
+<6>[    2.225301] (2)[89:init]EXT4-fs (mmcblk0p6): mounted filesystem with ordered data mode. Opts: commit=1,noauto_da_alloc
+<7>[    2.225349] (2)[89:init]SELinux: initialized (dev mmcblk0p6, type ext4), uses xattr
+<6>[    2.225447] (2)[89:init]fs_mgr: __mount(source=/emmc@android,target=/system,type=ext4)=0
+<7>[    2.232494] (3)[2:kthreadd][2:2:kthreadd] fork [92:92:kthreadd] flag=0x800711
+<7>[    2.232627] (0)[2:kthreadd][2:2:kthreadd] fork [93:93:kthreadd] flag=0x800711
+<6>[    2.234048] (2)[89:init]EXT4-fs (mmcblk0p8): recovery complete
+<6>[    2.234069] (2)[89:init]EXT4-fs (mmcblk0p8): mounted filesystem with ordered data mode. Opts: nomblk_io_submit,errors=remount-ro
+<7>[    2.234095] (2)[89:init]SELinux: initialized (dev mmcblk0p8, type ext4), uses xattr
+<6>[    2.234154] (2)[89:init]fs_mgr: check_fs(): mount(/emmc@usrdata,/data,ext4)=0
+<7>[    2.234284] (0)[2:kthreadd][2:2:kthreadd] fork [94:94:kthreadd] flag=0x800711
+<7>[    2.234455] (3)[93:ext4-dio-unwrit][93:ext4-dio-unwrit] exit
+<7>[    2.234508] (1)[92:jbd2/mmcblk0p8-][92:jbd2/mmcblk0p8-] exit
+<4>[    2.245345] (3)[73:bat_thread_kthr]--------------------------------------------------
+<4>[    2.246150] (3)[73:bat_thread_kthr]--------------------------------------------------
+<4>[    2.246937] (3)[73:bat_thread_kthr]--------------------------------------------------
+<5>[    2.249968] (3)[73:bat_thread_kthr][Power/Battery] [BATTERY:bq24196] Powerpath init battery voltage > 3600, battery voltage during system discharging = 4195
+<5>[    2.250004] (3)[73:bat_thread_kthr][Power/Battery] [Chip_Trim] Reg[0x1c4]=0x8, Reg[0x1c6]=0xa3c4, chip_diff_trim_value_4_0=0
+<4>[    2.250018] (3)[73:bat_thread_kthr]chip_diff_trim_value = 1000;
+<5>[    2.250031] (3)[73:bat_thread_kthr][Power/Battery] [Chip_Trim] 0,1000
+<5>[    2.250067] (3)[73:bat_thread_kthr][Power/Battery] ******** [fgauge_initialization] reset HW FG!
+<4>[    2.265343] (3)[75:kworker/3:1]--------------------------------------------------
+<4>[    2.265812] (3)[75:kworker/3:1][bq24196_read_interface] Reg[9]=0x0
+<4>[    2.265823] (3)[75:kworker/3:1][bq24196_read_interface] Val=0x0
+<5>[    2.296476] (1)[73:bat_thread_kthr][Power/Battery] <Rbat,VBAT> at 14 = <155,4190>
+<5>[    2.296493] (1)[73:bat_thread_kthr][Power/Battery] <Rbat,VBAT> at 14 = <80,4170>
+<5>[    2.296508] (1)[73:bat_thread_kthr][Power/Battery] <Rbat,VBAT> at 14 = <82,4155>
+<5>[    2.296522] (1)[73:bat_thread_kthr][Power/Battery] <Rbat,VBAT> at 14 = <83,4141>
+<5>[    2.296536] (1)[73:bat_thread_kthr][Power/Battery] <Rbat,VBAT> at 14 = <87,4127>
+<5>[    2.296550] (1)[73:bat_thread_kthr][Power/Battery] <Rbat,VBAT> at 14 = <85,4113>
+<5>[    2.296564] (1)[73:bat_thread_kthr][Power/Battery] <Rbat,VBAT> at 14 = <83,4100>
+<5>[    2.296578] (1)[73:bat_thread_kthr][Power/Battery] <Rbat,VBAT> at 14 = <85,4088>
+<5>[    2.296592] (1)[73:bat_thread_kthr][Power/Battery] <Rbat,VBAT> at 14 = <83,4075>
+<5>[    2.296606] (1)[73:bat_thread_kthr][Power/Battery] <Rbat,VBAT> at 14 = <82,4061>
+<5>[    2.296621] (1)[73:bat_thread_kthr][Power/Battery] <Rbat,VBAT> at 14 = <85,4049>
+<5>[    2.296635] (1)[73:bat_thread_kthr][Power/Battery] <Rbat,VBAT> at 14 = <83,4037>
+<5>[    2.296649] (1)[73:bat_thread_kthr][Power/Battery] <Rbat,VBAT> at 14 = <88,4026>
+<5>[    2.296663] (1)[73:bat_thread_kthr][Power/Battery] <Rbat,VBAT> at 14 = <90,4015>
+<5>[    2.296677] (1)[73:bat_thread_kthr][Power/Battery] <Rbat,VBAT> at 14 = <87,4003>
+<5>[    2.296691] (1)[73:bat_thread_kthr][Power/Battery] <Rbat,VBAT> at 14 = <90,3992>
+<5>[    2.296705] (1)[73:bat_thread_kthr][Power/Battery] <Rbat,VBAT> at 14 = <90,3982>
+<5>[    2.296719] (1)[73:bat_thread_kthr][Power/Battery] <Rbat,VBAT> at 14 = <88,3971>
+<5>[    2.296733] (1)[73:bat_thread_kthr][Power/Battery] <Rbat,VBAT> at 14 = <90,3961>
+<5>[    2.296747] (1)[73:bat_thread_kthr][Power/Battery] <Rbat,VBAT> at 14 = <92,3952>
+<5>[    2.296761] (1)[73:bat_thread_kthr][Power/Battery] <Rbat,VBAT> at 14 = <93,3944>
+<5>[    2.296775] (1)[73:bat_thread_kthr][Power/Battery] <Rbat,VBAT> at 14 = <93,3933>
+<5>[    2.296789] (1)[73:bat_thread_kthr][Power/Battery] <Rbat,VBAT> at 14 = <93,3925>
+<5>[    2.296804] (1)[73:bat_thread_kthr][Power/Battery] <Rbat,VBAT> at 14 = <92,3916>
+<5>[    2.296818] (1)[73:bat_thread_kthr][Power/Battery] <Rbat,VBAT> at 14 = <95,3907>
+<5>[    2.296832] (1)[73:bat_thread_kthr][Power/Battery] <Rbat,VBAT> at 14 = <93,3898>
+<5>[    2.296846] (1)[73:bat_thread_kthr][Power/Battery] <Rbat,VBAT> at 14 = <100,3892>
+<5>[    2.296861] (1)[73:bat_thread_kthr][Power/Battery] <Rbat,VBAT> at 14 = <100,3884>
+<5>[    2.296875] (1)[73:bat_thread_kthr][Power/Battery] <Rbat,VBAT> at 14 = <98,3874>
+<5>[    2.296889] (1)[73:bat_thread_kthr][Power/Battery] <Rbat,VBAT> at 14 = <102,3867>
+<5>[    2.296904] (1)[73:bat_thread_kthr][Power/Battery] <Rbat,VBAT> at 14 = <100,3857>
+<5>[    2.296918] (1)[73:bat_thread_kthr][Power/Battery] <Rbat,VBAT> at 14 = <95,3845>
+<5>[    2.296932] (1)[73:bat_thread_kthr][Power/Battery] <Rbat,VBAT> at 14 = <88,3833>
+<5>[    2.296946] (1)[73:bat_thread_kthr][Power/Battery] <Rbat,VBAT> at 14 = <88,3822>
+<5>[    2.296960] (1)[73:bat_thread_kthr][Power/Battery] <Rbat,VBAT> at 14 = <85,3813>
+<5>[    2.296974] (1)[73:bat_thread_kthr][Power/Battery] <Rbat,VBAT> at 14 = <83,3806>
+<5>[    2.296988] (1)[73:bat_thread_kthr][Power/Battery] <Rbat,VBAT> at 14 = <80,3799>
+<5>[    2.297002] (1)[73:bat_thread_kthr][Power/Battery] <Rbat,VBAT> at 14 = <82,3794>
+<5>[    2.297016] (1)[73:bat_thread_kthr][Power/Battery] <Rbat,VBAT> at 14 = <83,3791>
+<5>[    2.297031] (1)[73:bat_thread_kthr][Power/Battery] <Rbat,VBAT> at 14 = <83,3788>
+<5>[    2.297044] (1)[73:bat_thread_kthr][Power/Battery] <Rbat,VBAT> at 14 = <82,3783>
+<5>[    2.297058] (1)[73:bat_thread_kthr][Power/Battery] <Rbat,VBAT> at 14 = <82,3781>
+<5>[    2.297073] (1)[73:bat_thread_kthr][Power/Battery] <Rbat,VBAT> at 14 = <85,3781>
+<5>[    2.297087] (1)[73:bat_thread_kthr][Power/Battery] <Rbat,VBAT> at 14 = <87,3779>
+<5>[    2.297101] (1)[73:bat_thread_kthr][Power/Battery] <Rbat,VBAT> at 14 = <87,3777>
+<5>[    2.297115] (1)[73:bat_thread_kthr][Power/Battery] <Rbat,VBAT> at 14 = <85,3775>
+<5>[    2.297129] (1)[73:bat_thread_kthr][Power/Battery] <Rbat,VBAT> at 14 = <87,3775>
+<5>[    2.297143] (1)[73:bat_thread_kthr][Power/Battery] <Rbat,VBAT> at 14 = <90,3774>
+<5>[    2.297157] (1)[73:bat_thread_kthr][Power/Battery] <Rbat,VBAT> at 14 = <88,3773>
+<5>[    2.297171] (1)[73:bat_thread_kthr][Power/Battery] <Rbat,VBAT> at 14 = <90,3771>
+<5>[    2.297185] (1)[73:bat_thread_kthr][Power/Battery] <Rbat,VBAT> at 14 = <93,3770>
+<5>[    2.297199] (1)[73:bat_thread_kthr][Power/Battery] <Rbat,VBAT> at 14 = <95,3768>
+<5>[    2.297213] (1)[73:bat_thread_kthr][Power/Battery] <Rbat,VBAT> at 14 = <93,3766>
+<5>[    2.297227] (1)[73:bat_thread_kthr][Power/Battery] <Rbat,VBAT> at 14 = <95,3762>
+<5>[    2.297242] (1)[73:bat_thread_kthr][Power/Battery] <Rbat,VBAT> at 14 = <95,3757>
+<5>[    2.297256] (1)[73:bat_thread_kthr][Power/Battery] <Rbat,VBAT> at 14 = <95,3751>
+<5>[    2.297270] (1)[73:bat_thread_kthr][Power/Battery] <Rbat,VBAT> at 14 = <100,3745>
+<5>[    2.297284] (1)[73:bat_thread_kthr][Power/Battery] <Rbat,VBAT> at 14 = <102,3737>
+<5>[    2.297299] (1)[73:bat_thread_kthr][Power/Battery] <Rbat,VBAT> at 14 = <102,3728>
+<5>[    2.297313] (1)[73:bat_thread_kthr][Power/Battery] <Rbat,VBAT> at 14 = <100,3716>
+<5>[    2.297327] (1)[73:bat_thread_kthr][Power/Battery] <Rbat,VBAT> at 14 = <102,3702>
+<5>[    2.297342] (1)[73:bat_thread_kthr][Power/Battery] <Rbat,VBAT> at 14 = <100,3687>
+<5>[    2.297356] (1)[73:bat_thread_kthr][Power/Battery] <Rbat,VBAT> at 14 = <100,3671>
+<5>[    2.297371] (1)[73:bat_thread_kthr][Power/Battery] <Rbat,VBAT> at 14 = <100,3654>
+<5>[    2.297386] (1)[73:bat_thread_kthr][Power/Battery] <Rbat,VBAT> at 14 = <98,3638>
+<5>[    2.297400] (1)[73:bat_thread_kthr][Power/Battery] <Rbat,VBAT> at 14 = <97,3623>
+<5>[    2.297414] (1)[73:bat_thread_kthr][Power/Battery] <Rbat,VBAT> at 14 = <100,3610>
+<5>[    2.297428] (1)[73:bat_thread_kthr][Power/Battery] <Rbat,VBAT> at 14 = <98,3595>
+<5>[    2.297443] (1)[73:bat_thread_kthr][Power/Battery] <Rbat,VBAT> at 14 = <98,3580>
+<5>[    2.297457] (1)[73:bat_thread_kthr][Power/Battery] <Rbat,VBAT> at 14 = <97,3568>
+<5>[    2.297471] (1)[73:bat_thread_kthr][Power/Battery] <Rbat,VBAT> at 14 = <100,3556>
+<5>[    2.297485] (1)[73:bat_thread_kthr][Power/Battery] <Rbat,VBAT> at 14 = <103,3542>
+<5>[    2.297500] (1)[73:bat_thread_kthr][Power/Battery] <Rbat,VBAT> at 14 = <98,3528>
+<5>[    2.297514] (1)[73:bat_thread_kthr][Power/Battery] <Rbat,VBAT> at 14 = <102,3518>
+<5>[    2.297528] (1)[73:bat_thread_kthr][Power/Battery] <Rbat,VBAT> at 14 = <105,3510>
+<5>[    2.297543] (1)[73:bat_thread_kthr][Power/Battery] <Rbat,VBAT> at 14 = <110,3500>
+<5>[    2.297557] (1)[73:bat_thread_kthr][Power/Battery] <Rbat,VBAT> at 14 = <117,3484>
+<5>[    2.297571] (1)[73:bat_thread_kthr][Power/Battery] <Rbat,VBAT> at 14 = <118,3453>
+<5>[    2.297586] (1)[73:bat_thread_kthr][Power/Battery] <Rbat,VBAT> at 14 = <128,3398>
+<6>[    2.297602] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ret_volt=4190
+<6>[    2.297616] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] (profile_p+i)->percentag=0
+<6>[    2.297631] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->percentage)=1
+<6>[    2.297646] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i)->voltage)=4190
+<6>[    2.297660] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->voltage) =4170
+<6>[    2.297675] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ret_volt=4170
+<6>[    2.297689] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] (profile_p+i)->percentag=0
+<6>[    2.297703] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->percentage)=1
+<6>[    2.297718] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i)->voltage)=4190
+<6>[    2.297733] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->voltage) =4170
+<6>[    2.297748] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ret_volt=4155
+<6>[    2.297761] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] (profile_p+i)->percentag=1
+<6>[    2.297776] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->percentage)=3
+<6>[    2.297791] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i)->voltage)=4170
+<6>[    2.297805] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->voltage) =4155
+<6>[    2.297820] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ret_volt=4141
+<6>[    2.297834] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] (profile_p+i)->percentag=3
+<6>[    2.297848] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->percentage)=4
+<6>[    2.297863] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i)->voltage)=4155
+<6>[    2.297878] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->voltage) =4141
+<6>[    2.297893] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ret_volt=4127
+<6>[    2.297907] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] (profile_p+i)->percentag=4
+<6>[    2.297921] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->percentage)=5
+<6>[    2.297936] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i)->voltage)=4141
+<6>[    2.297951] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->voltage) =4127
+<6>[    2.297966] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ret_volt=4113
+<6>[    2.297979] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] (profile_p+i)->percentag=5
+<6>[    2.297994] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->percentage)=6
+<6>[    2.298009] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i)->voltage)=4127
+<6>[    2.298023] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->voltage) =4113
+<6>[    2.298038] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ret_volt=4100
+<6>[    2.298052] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] (profile_p+i)->percentag=6
+<6>[    2.298067] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->percentage)=8
+<6>[    2.298081] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i)->voltage)=4113
+<6>[    2.298096] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->voltage) =4100
+<6>[    2.298111] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ret_volt=4088
+<6>[    2.298125] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] (profile_p+i)->percentag=8
+<6>[    2.298139] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->percentage)=9
+<6>[    2.298154] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i)->voltage)=4100
+<6>[    2.298169] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->voltage) =4088
+<6>[    2.298184] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ret_volt=4075
+<6>[    2.298198] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] (profile_p+i)->percentag=9
+<6>[    2.298212] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->percentage)=10
+<6>[    2.298227] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i)->voltage)=4088
+<6>[    2.298242] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->voltage) =4075
+<6>[    2.298257] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ret_volt=4061
+<6>[    2.298270] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] (profile_p+i)->percentag=10
+<6>[    2.298285] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->percentage)=12
+<6>[    2.298300] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i)->voltage)=4075
+<6>[    2.298315] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->voltage) =4061
+<6>[    2.298329] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ret_volt=4049
+<6>[    2.298343] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] (profile_p+i)->percentag=12
+<6>[    2.298358] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->percentage)=13
+<6>[    2.298373] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i)->voltage)=4061
+<6>[    2.298388] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->voltage) =4049
+<6>[    2.298402] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ret_volt=4037
+<6>[    2.298416] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] (profile_p+i)->percentag=13
+<6>[    2.298431] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->percentage)=14
+<6>[    2.298446] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i)->voltage)=4049
+<6>[    2.298461] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->voltage) =4037
+<6>[    2.298475] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ret_volt=4026
+<6>[    2.298489] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] (profile_p+i)->percentag=14
+<6>[    2.298504] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->percentage)=15
+<6>[    2.298519] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i)->voltage)=4037
+<6>[    2.298533] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->voltage) =4026
+<6>[    2.298548] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ret_volt=4015
+<6>[    2.298562] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] (profile_p+i)->percentag=15
+<6>[    2.298577] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->percentage)=17
+<6>[    2.298592] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i)->voltage)=4026
+<6>[    2.298606] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->voltage) =4015
+<6>[    2.298621] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ret_volt=4003
+<6>[    2.298635] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] (profile_p+i)->percentag=17
+<6>[    2.298649] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->percentage)=18
+<6>[    2.298664] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i)->voltage)=4015
+<6>[    2.298679] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->voltage) =4003
+<6>[    2.298694] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ret_volt=3992
+<6>[    2.298708] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] (profile_p+i)->percentag=18
+<6>[    2.298722] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->percentage)=19
+<6>[    2.298737] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i)->voltage)=4003
+<6>[    2.298752] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->voltage) =3992
+<6>[    2.298767] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ret_volt=3982
+<6>[    2.298781] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] (profile_p+i)->percentag=19
+<6>[    2.298796] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->percentage)=21
+<6>[    2.298810] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i)->voltage)=3992
+<6>[    2.298825] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->voltage) =3982
+<6>[    2.298840] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ret_volt=3971
+<6>[    2.298854] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] (profile_p+i)->percentag=21
+<6>[    2.298868] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->percentage)=22
+<6>[    2.298883] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i)->voltage)=3982
+<6>[    2.298898] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->voltage) =3971
+<6>[    2.298913] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ret_volt=3961
+<6>[    2.298927] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] (profile_p+i)->percentag=22
+<6>[    2.298941] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->percentage)=23
+<6>[    2.298956] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i)->voltage)=3971
+<6>[    2.298971] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->voltage) =3961
+<6>[    2.298986] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ret_volt=3952
+<6>[    2.298999] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] (profile_p+i)->percentag=23
+<6>[    2.299014] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->percentage)=24
+<6>[    2.299029] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i)->voltage)=3961
+<6>[    2.299044] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->voltage) =3952
+<6>[    2.299058] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ret_volt=3944
+<6>[    2.299072] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] (profile_p+i)->percentag=24
+<6>[    2.299087] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->percentage)=26
+<6>[    2.299102] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i)->voltage)=3952
+<6>[    2.299117] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->voltage) =3944
+<6>[    2.299131] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ret_volt=3933
+<6>[    2.299145] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] (profile_p+i)->percentag=26
+<6>[    2.299160] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->percentage)=27
+<6>[    2.299175] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i)->voltage)=3944
+<6>[    2.299189] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->voltage) =3933
+<6>[    2.299204] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ret_volt=3925
+<6>[    2.299218] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] (profile_p+i)->percentag=27
+<6>[    2.299233] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->percentage)=28
+<6>[    2.299248] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i)->voltage)=3933
+<6>[    2.299262] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->voltage) =3925
+<6>[    2.299277] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ret_volt=3916
+<6>[    2.299291] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] (profile_p+i)->percentag=28
+<6>[    2.299306] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->percentage)=29
+<6>[    2.299321] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i)->voltage)=3925
+<6>[    2.299335] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->voltage) =3916
+<6>[    2.299350] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ret_volt=3907
+<6>[    2.299364] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] (profile_p+i)->percentag=29
+<6>[    2.299379] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->percentage)=31
+<6>[    2.299394] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i)->voltage)=3916
+<6>[    2.299409] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->voltage) =3907
+<6>[    2.299423] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ret_volt=3898
+<6>[    2.299437] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] (profile_p+i)->percentag=31
+<6>[    2.299452] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->percentage)=32
+<6>[    2.299467] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i)->voltage)=3907
+<6>[    2.299482] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->voltage) =3898
+<6>[    2.299496] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ret_volt=3892
+<6>[    2.299510] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] (profile_p+i)->percentag=32
+<6>[    2.299525] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->percentage)=33
+<6>[    2.299540] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i)->voltage)=3898
+<6>[    2.299555] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->voltage) =3892
+<6>[    2.299569] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ret_volt=3884
+<6>[    2.299583] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] (profile_p+i)->percentag=33
+<6>[    2.299598] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->percentage)=35
+<6>[    2.299613] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i)->voltage)=3892
+<6>[    2.299628] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->voltage) =3884
+<6>[    2.299643] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ret_volt=3874
+<6>[    2.299656] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] (profile_p+i)->percentag=35
+<6>[    2.299671] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->percentage)=36
+<6>[    2.299686] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i)->voltage)=3884
+<6>[    2.299701] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->voltage) =3874
+<6>[    2.299716] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ret_volt=3867
+<6>[    2.299729] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] (profile_p+i)->percentag=36
+<6>[    2.299744] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->percentage)=37
+<6>[    2.299759] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i)->voltage)=3874
+<6>[    2.299774] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->voltage) =3867
+<6>[    2.299789] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ret_volt=3857
+<6>[    2.299803] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] (profile_p+i)->percentag=37
+<6>[    2.299817] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->percentage)=38
+<6>[    2.299832] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i)->voltage)=3867
+<6>[    2.299847] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->voltage) =3857
+<6>[    2.299862] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ret_volt=3845
+<6>[    2.299876] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] (profile_p+i)->percentag=38
+<6>[    2.299890] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->percentage)=40
+<6>[    2.299905] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i)->voltage)=3857
+<6>[    2.299920] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->voltage) =3845
+<6>[    2.299935] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ret_volt=3833
+<6>[    2.299949] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] (profile_p+i)->percentag=40
+<6>[    2.299964] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->percentage)=41
+<6>[    2.299979] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i)->voltage)=3845
+<6>[    2.299993] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->voltage) =3833
+<6>[    2.300008] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ret_volt=3822
+<6>[    2.300022] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] (profile_p+i)->percentag=41
+<6>[    2.300037] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->percentage)=42
+<6>[    2.300052] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i)->voltage)=3833
+<6>[    2.300066] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->voltage) =3822
+<6>[    2.300081] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ret_volt=3813
+<6>[    2.300095] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] (profile_p+i)->percentag=42
+<6>[    2.300110] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->percentage)=44
+<6>[    2.300125] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i)->voltage)=3822
+<6>[    2.300139] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->voltage) =3813
+<6>[    2.300154] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ret_volt=3806
+<6>[    2.300168] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] (profile_p+i)->percentag=44
+<6>[    2.300183] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->percentage)=45
+<6>[    2.300198] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i)->voltage)=3813
+<6>[    2.300212] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->voltage) =3806
+<6>[    2.300227] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ret_volt=3799
+<6>[    2.300241] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] (profile_p+i)->percentag=45
+<6>[    2.300256] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->percentage)=46
+<6>[    2.300271] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i)->voltage)=3806
+<6>[    2.300285] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->voltage) =3799
+<6>[    2.300300] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ret_volt=3794
+<6>[    2.300314] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] (profile_p+i)->percentag=46
+<6>[    2.300329] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->percentage)=47
+<6>[    2.300344] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i)->voltage)=3799
+<6>[    2.300359] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->voltage) =3794
+<6>[    2.300373] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ret_volt=3791
+<6>[    2.300387] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] (profile_p+i)->percentag=47
+<6>[    2.300402] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->percentage)=49
+<6>[    2.300417] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i)->voltage)=3794
+<6>[    2.300432] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->voltage) =3791
+<6>[    2.300447] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ret_volt=3788
+<6>[    2.300460] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] (profile_p+i)->percentag=49
+<6>[    2.300475] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->percentage)=50
+<6>[    2.300490] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i)->voltage)=3791
+<6>[    2.300505] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->voltage) =3788
+<6>[    2.300520] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ret_volt=3783
+<6>[    2.300534] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] (profile_p+i)->percentag=50
+<6>[    2.300548] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->percentage)=51
+<6>[    2.300563] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i)->voltage)=3788
+<6>[    2.300578] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->voltage) =3783
+<6>[    2.300593] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ret_volt=3781
+<6>[    2.300607] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] (profile_p+i)->percentag=51
+<6>[    2.300622] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->percentage)=53
+<6>[    2.300637] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i)->voltage)=3783
+<6>[    2.300651] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->voltage) =3781
+<6>[    2.300666] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ret_volt=3781
+<6>[    2.300680] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] (profile_p+i)->percentag=53
+<6>[    2.300695] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->percentage)=54
+<6>[    2.300710] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i)->voltage)=3781
+<6>[    2.300725] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->voltage) =3781
+<6>[    2.300740] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ret_volt=3779
+<6>[    2.300753] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] (profile_p+i)->percentag=54
+<6>[    2.300768] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->percentage)=55
+<6>[    2.300783] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i)->voltage)=3781
+<6>[    2.300798] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->voltage) =3779
+<6>[    2.300813] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ret_volt=3777
+<6>[    2.300827] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] (profile_p+i)->percentag=55
+<6>[    2.300841] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->percentage)=56
+<6>[    2.300856] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i)->voltage)=3779
+<6>[    2.300871] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->voltage) =3777
+<6>[    2.300886] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ret_volt=3775
+<6>[    2.300900] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] (profile_p+i)->percentag=56
+<6>[    2.300914] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->percentage)=58
+<6>[    2.300929] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i)->voltage)=3777
+<6>[    2.300944] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->voltage) =3775
+<6>[    2.300959] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ret_volt=3775
+<6>[    2.300973] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] (profile_p+i)->percentag=58
+<6>[    2.300987] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->percentage)=59
+<6>[    2.301002] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i)->voltage)=3775
+<6>[    2.301017] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->voltage) =3775
+<6>[    2.301032] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ret_volt=3774
+<6>[    2.301046] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] (profile_p+i)->percentag=59
+<6>[    2.301061] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->percentage)=60
+<6>[    2.301076] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i)->voltage)=3775
+<6>[    2.301090] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->voltage) =3774
+<6>[    2.301106] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ret_volt=3773
+<6>[    2.301119] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] (profile_p+i)->percentag=60
+<6>[    2.301134] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->percentage)=62
+<6>[    2.301149] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i)->voltage)=3774
+<6>[    2.301164] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->voltage) =3773
+<6>[    2.301179] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ret_volt=3771
+<6>[    2.301193] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] (profile_p+i)->percentag=62
+<6>[    2.301207] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->percentage)=63
+<6>[    2.301222] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i)->voltage)=3773
+<6>[    2.301237] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->voltage) =3771
+<6>[    2.301252] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ret_volt=3770
+<6>[    2.301266] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] (profile_p+i)->percentag=63
+<6>[    2.301280] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->percentage)=64
+<6>[    2.301295] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i)->voltage)=3771
+<6>[    2.301310] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->voltage) =3770
+<6>[    2.301325] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ret_volt=3768
+<6>[    2.301339] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] (profile_p+i)->percentag=64
+<6>[    2.301353] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->percentage)=65
+<6>[    2.301368] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i)->voltage)=3770
+<6>[    2.301383] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->voltage) =3768
+<6>[    2.301398] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ret_volt=3766
+<6>[    2.301412] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] (profile_p+i)->percentag=65
+<6>[    2.301427] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->percentage)=67
+<6>[    2.301441] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i)->voltage)=3768
+<6>[    2.301456] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->voltage) =3766
+<6>[    2.301471] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ret_volt=3762
+<6>[    2.301485] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] (profile_p+i)->percentag=67
+<6>[    2.301500] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->percentage)=68
+<6>[    2.301515] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i)->voltage)=3766
+<6>[    2.301529] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->voltage) =3762
+<6>[    2.301544] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ret_volt=3757
+<6>[    2.301558] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] (profile_p+i)->percentag=68
+<6>[    2.301573] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->percentage)=69
+<6>[    2.301588] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i)->voltage)=3762
+<6>[    2.301602] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->voltage) =3757
+<6>[    2.301618] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ret_volt=3751
+<6>[    2.301632] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] (profile_p+i)->percentag=69
+<6>[    2.301646] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->percentage)=71
+<6>[    2.301661] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i)->voltage)=3757
+<6>[    2.301676] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->voltage) =3751
+<6>[    2.301691] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ret_volt=3745
+<6>[    2.301705] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] (profile_p+i)->percentag=71
+<6>[    2.301720] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->percentage)=72
+<6>[    2.301734] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i)->voltage)=3751
+<6>[    2.301749] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->voltage) =3745
+<6>[    2.301764] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ret_volt=3737
+<6>[    2.301778] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] (profile_p+i)->percentag=72
+<6>[    2.301793] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->percentage)=73
+<6>[    2.301808] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i)->voltage)=3745
+<6>[    2.301822] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->voltage) =3737
+<6>[    2.301838] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ret_volt=3728
+<6>[    2.301851] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] (profile_p+i)->percentag=73
+<6>[    2.301866] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->percentage)=74
+<6>[    2.301881] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i)->voltage)=3737
+<6>[    2.301896] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->voltage) =3728
+<6>[    2.301911] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ret_volt=3716
+<6>[    2.301925] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] (profile_p+i)->percentag=74
+<6>[    2.301939] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->percentage)=76
+<6>[    2.301954] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i)->voltage)=3728
+<6>[    2.301969] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->voltage) =3716
+<6>[    2.301984] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ret_volt=3702
+<6>[    2.301998] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] (profile_p+i)->percentag=76
+<6>[    2.302013] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->percentage)=77
+<6>[    2.302028] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i)->voltage)=3716
+<6>[    2.302042] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->voltage) =3702
+<6>[    2.302058] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ret_volt=3687
+<6>[    2.302071] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] (profile_p+i)->percentag=77
+<6>[    2.302086] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->percentage)=78
+<6>[    2.302101] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i)->voltage)=3702
+<6>[    2.302116] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->voltage) =3687
+<6>[    2.302131] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ret_volt=3671
+<6>[    2.302145] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] (profile_p+i)->percentag=78
+<6>[    2.302159] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->percentage)=80
+<6>[    2.302174] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i)->voltage)=3687
+<6>[    2.302189] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->voltage) =3671
+<6>[    2.302204] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ret_volt=3654
+<6>[    2.302218] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] (profile_p+i)->percentag=80
+<6>[    2.302233] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->percentage)=81
+<6>[    2.302248] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i)->voltage)=3671
+<6>[    2.302262] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->voltage) =3654
+<6>[    2.302278] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ret_volt=3638
+<6>[    2.302292] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] (profile_p+i)->percentag=81
+<6>[    2.302306] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->percentage)=82
+<6>[    2.302321] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i)->voltage)=3654
+<6>[    2.302336] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->voltage) =3638
+<6>[    2.302351] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ret_volt=3623
+<6>[    2.302365] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] (profile_p+i)->percentag=82
+<6>[    2.302379] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->percentage)=83
+<6>[    2.302394] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i)->voltage)=3638
+<6>[    2.302409] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->voltage) =3623
+<6>[    2.302424] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ret_volt=3610
+<6>[    2.302438] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] (profile_p+i)->percentag=83
+<6>[    2.302453] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->percentage)=85
+<6>[    2.302468] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i)->voltage)=3623
+<6>[    2.302482] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->voltage) =3610
+<6>[    2.302498] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ret_volt=3595
+<6>[    2.302511] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] (profile_p+i)->percentag=85
+<6>[    2.302526] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->percentage)=86
+<6>[    2.302541] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i)->voltage)=3610
+<6>[    2.302556] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->voltage) =3595
+<6>[    2.302571] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ret_volt=3580
+<6>[    2.302585] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] (profile_p+i)->percentag=86
+<6>[    2.302599] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->percentage)=87
+<6>[    2.302614] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i)->voltage)=3595
+<6>[    2.302629] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->voltage) =3580
+<6>[    2.302644] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ret_volt=3568
+<6>[    2.302658] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] (profile_p+i)->percentag=87
+<6>[    2.302673] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->percentage)=88
+<6>[    2.302688] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i)->voltage)=3580
+<6>[    2.302702] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->voltage) =3568
+<6>[    2.302717] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ret_volt=3556
+<6>[    2.302731] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] (profile_p+i)->percentag=88
+<6>[    2.302746] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->percentage)=90
+<6>[    2.302761] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i)->voltage)=3568
+<6>[    2.302776] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->voltage) =3556
+<6>[    2.302791] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ret_volt=3542
+<6>[    2.302805] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] (profile_p+i)->percentag=90
+<6>[    2.302819] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->percentage)=91
+<6>[    2.302834] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i)->voltage)=3556
+<6>[    2.302849] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->voltage) =3542
+<6>[    2.302864] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ret_volt=3528
+<6>[    2.302878] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] (profile_p+i)->percentag=91
+<6>[    2.302893] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->percentage)=92
+<6>[    2.302908] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i)->voltage)=3542
+<6>[    2.302922] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->voltage) =3528
+<6>[    2.302938] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ret_volt=3518
+<6>[    2.302951] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] (profile_p+i)->percentag=92
+<6>[    2.302966] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->percentage)=94
+<6>[    2.302981] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i)->voltage)=3528
+<6>[    2.302996] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->voltage) =3518
+<6>[    2.303011] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ret_volt=3510
+<6>[    2.303025] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] (profile_p+i)->percentag=94
+<6>[    2.303040] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->percentage)=95
+<6>[    2.303054] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i)->voltage)=3518
+<6>[    2.303069] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->voltage) =3510
+<6>[    2.303084] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ret_volt=3500
+<6>[    2.303098] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] (profile_p+i)->percentag=95
+<6>[    2.303113] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->percentage)=96
+<6>[    2.303128] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i)->voltage)=3510
+<6>[    2.303142] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->voltage) =3500
+<6>[    2.303158] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ret_volt=3484
+<6>[    2.303171] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] (profile_p+i)->percentag=96
+<6>[    2.303186] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->percentage)=97
+<6>[    2.303201] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i)->voltage)=3500
+<6>[    2.303216] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->voltage) =3484
+<6>[    2.303231] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ret_volt=3453
+<6>[    2.303245] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] (profile_p+i)->percentag=97
+<6>[    2.303260] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->percentage)=99
+<6>[    2.303274] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i)->voltage)=3484
+<6>[    2.303289] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->voltage) =3453
+<6>[    2.303304] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ret_volt=3398
+<6>[    2.303318] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] (profile_p+i)->percentag=99
+<6>[    2.303333] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->percentage)=100
+<6>[    2.303348] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i)->voltage)=3453
+<6>[    2.303363] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->voltage) =3398
+<5>[    2.303378] (1)[73:bat_thread_kthr][Power/Battery] <DOD,Voltage> at 14 = <0,4190>
+<5>[    2.303393] (1)[73:bat_thread_kthr][Power/Battery] <DOD,Voltage> at 14 = <1,4170>
+<5>[    2.303407] (1)[73:bat_thread_kthr][Power/Battery] <DOD,Voltage> at 14 = <3,4155>
+<5>[    2.303421] (1)[73:bat_thread_kthr][Power/Battery] <DOD,Voltage> at 14 = <4,4141>
+<5>[    2.303436] (1)[73:bat_thread_kthr][Power/Battery] <DOD,Voltage> at 14 = <5,4127>
+<5>[    2.303450] (1)[73:bat_thread_kthr][Power/Battery] <DOD,Voltage> at 14 = <6,4113>
+<5>[    2.303464] (1)[73:bat_thread_kthr][Power/Battery] <DOD,Voltage> at 14 = <8,4100>
+<5>[    2.303479] (1)[73:bat_thread_kthr][Power/Battery] <DOD,Voltage> at 14 = <9,4088>
+<5>[    2.303493] (1)[73:bat_thread_kthr][Power/Battery] <DOD,Voltage> at 14 = <10,4075>
+<5>[    2.303508] (1)[73:bat_thread_kthr][Power/Battery] <DOD,Voltage> at 14 = <12,4061>
+<5>[    2.303522] (1)[73:bat_thread_kthr][Power/Battery] <DOD,Voltage> at 14 = <13,4049>
+<5>[    2.303536] (1)[73:bat_thread_kthr][Power/Battery] <DOD,Voltage> at 14 = <14,4037>
+<5>[    2.303551] (1)[73:bat_thread_kthr][Power/Battery] <DOD,Voltage> at 14 = <15,4026>
+<5>[    2.303565] (1)[73:bat_thread_kthr][Power/Battery] <DOD,Voltage> at 14 = <17,4015>
+<5>[    2.303580] (1)[73:bat_thread_kthr][Power/Battery] <DOD,Voltage> at 14 = <18,4003>
+<5>[    2.303594] (1)[73:bat_thread_kthr][Power/Battery] <DOD,Voltage> at 14 = <19,3992>
+<5>[    2.303609] (1)[73:bat_thread_kthr][Power/Battery] <DOD,Voltage> at 14 = <21,3982>
+<5>[    2.303623] (1)[73:bat_thread_kthr][Power/Battery] <DOD,Voltage> at 14 = <22,3971>
+<5>[    2.303637] (1)[73:bat_thread_kthr][Power/Battery] <DOD,Voltage> at 14 = <23,3961>
+<5>[    2.303652] (1)[73:bat_thread_kthr][Power/Battery] <DOD,Voltage> at 14 = <24,3952>
+<5>[    2.303666] (1)[73:bat_thread_kthr][Power/Battery] <DOD,Voltage> at 14 = <26,3944>
+<5>[    2.303681] (1)[73:bat_thread_kthr][Power/Battery] <DOD,Voltage> at 14 = <27,3933>
+<5>[    2.303695] (1)[73:bat_thread_kthr][Power/Battery] <DOD,Voltage> at 14 = <28,3925>
+<5>[    2.303710] (1)[73:bat_thread_kthr][Power/Battery] <DOD,Voltage> at 14 = <29,3916>
+<5>[    2.303724] (1)[73:bat_thread_kthr][Power/Battery] <DOD,Voltage> at 14 = <31,3907>
+<5>[    2.303738] (1)[73:bat_thread_kthr][Power/Battery] <DOD,Voltage> at 14 = <32,3898>
+<5>[    2.303752] (1)[73:bat_thread_kthr][Power/Battery] <DOD,Voltage> at 14 = <33,3892>
+<5>[    2.303767] (1)[73:bat_thread_kthr][Power/Battery] <DOD,Voltage> at 14 = <35,3884>
+<5>[    2.303781] (1)[73:bat_thread_kthr][Power/Battery] <DOD,Voltage> at 14 = <36,3874>
+<5>[    2.303796] (1)[73:bat_thread_kthr][Power/Battery] <DOD,Voltage> at 14 = <37,3867>
+<5>[    2.303810] (1)[73:bat_thread_kthr][Power/Battery] <DOD,Voltage> at 14 = <38,3857>
+<5>[    2.303824] (1)[73:bat_thread_kthr][Power/Battery] <DOD,Voltage> at 14 = <40,3845>
+<5>[    2.303839] (1)[73:bat_thread_kthr][Power/Battery] <DOD,Voltage> at 14 = <41,3833>
+<5>[    2.303853] (1)[73:bat_thread_kthr][Power/Battery] <DOD,Voltage> at 14 = <42,3822>
+<5>[    2.303867] (1)[73:bat_thread_kthr][Power/Battery] <DOD,Voltage> at 14 = <44,3813>
+<5>[    2.303882] (1)[73:bat_thread_kthr][Power/Battery] <DOD,Voltage> at 14 = <45,3806>
+<5>[    2.303896] (1)[73:bat_thread_kthr][Power/Battery] <DOD,Voltage> at 14 = <46,3799>
+<5>[    2.303911] (1)[73:bat_thread_kthr][Power/Battery] <DOD,Voltage> at 14 = <47,3794>
+<5>[    2.303925] (1)[73:bat_thread_kthr][Power/Battery] <DOD,Voltage> at 14 = <49,3791>
+<5>[    2.303939] (1)[73:bat_thread_kthr][Power/Battery] <DOD,Voltage> at 14 = <50,3788>
+<5>[    2.303954] (1)[73:bat_thread_kthr][Power/Battery] <DOD,Voltage> at 14 = <51,3783>
+<5>[    2.303968] (1)[73:bat_thread_kthr][Power/Battery] <DOD,Voltage> at 14 = <53,3781>
+<5>[    2.303982] (1)[73:bat_thread_kthr][Power/Battery] <DOD,Voltage> at 14 = <54,3781>
+<5>[    2.303997] (1)[73:bat_thread_kthr][Power/Battery] <DOD,Voltage> at 14 = <55,3779>
+<5>[    2.304011] (1)[73:bat_thread_kthr][Power/Battery] <DOD,Voltage> at 14 = <56,3777>
+<5>[    2.304025] (1)[73:bat_thread_kthr][Power/Battery] <DOD,Voltage> at 14 = <58,3775>
+<5>[    2.304040] (1)[73:bat_thread_kthr][Power/Battery] <DOD,Voltage> at 14 = <59,3775>
+<5>[    2.304054] (1)[73:bat_thread_kthr][Power/Battery] <DOD,Voltage> at 14 = <60,3774>
+<5>[    2.304069] (1)[73:bat_thread_kthr][Power/Battery] <DOD,Voltage> at 14 = <62,3773>
+<5>[    2.304083] (1)[73:bat_thread_kthr][Power/Battery] <DOD,Voltage> at 14 = <63,3771>
+<5>[    2.304097] (1)[73:bat_thread_kthr][Power/Battery] <DOD,Voltage> at 14 = <64,3770>
+<5>[    2.304112] (1)[73:bat_thread_kthr][Power/Battery] <DOD,Voltage> at 14 = <65,3768>
+<5>[    2.304126] (1)[73:bat_thread_kthr][Power/Battery] <DOD,Voltage> at 14 = <67,3766>
+<5>[    2.304141] (1)[73:bat_thread_kthr][Power/Battery] <DOD,Voltage> at 14 = <68,3762>
+<5>[    2.304155] (1)[73:bat_thread_kthr][Power/Battery] <DOD,Voltage> at 14 = <69,3757>
+<5>[    2.304169] (1)[73:bat_thread_kthr][Power/Battery] <DOD,Voltage> at 14 = <71,3751>
+<5>[    2.304184] (1)[73:bat_thread_kthr][Power/Battery] <DOD,Voltage> at 14 = <72,3745>
+<5>[    2.304198] (1)[73:bat_thread_kthr][Power/Battery] <DOD,Voltage> at 14 = <73,3737>
+<5>[    2.304212] (1)[73:bat_thread_kthr][Power/Battery] <DOD,Voltage> at 14 = <74,3728>
+<5>[    2.304227] (1)[73:bat_thread_kthr][Power/Battery] <DOD,Voltage> at 14 = <76,3716>
+<5>[    2.304241] (1)[73:bat_thread_kthr][Power/Battery] <DOD,Voltage> at 14 = <77,3702>
+<5>[    2.304256] (1)[73:bat_thread_kthr][Power/Battery] <DOD,Voltage> at 14 = <78,3687>
+<5>[    2.304270] (1)[73:bat_thread_kthr][Power/Battery] <DOD,Voltage> at 14 = <80,3671>
+<5>[    2.304284] (1)[73:bat_thread_kthr][Power/Battery] <DOD,Voltage> at 14 = <81,3654>
+<5>[    2.304299] (1)[73:bat_thread_kthr][Power/Battery] <DOD,Voltage> at 14 = <82,3638>
+<5>[    2.304313] (1)[73:bat_thread_kthr][Power/Battery] <DOD,Voltage> at 14 = <83,3623>
+<5>[    2.304327] (1)[73:bat_thread_kthr][Power/Battery] <DOD,Voltage> at 14 = <85,3610>
+<5>[    2.304342] (1)[73:bat_thread_kthr][Power/Battery] <DOD,Voltage> at 14 = <86,3595>
+<5>[    2.304356] (1)[73:bat_thread_kthr][Power/Battery] <DOD,Voltage> at 14 = <87,3580>
+<5>[    2.304371] (1)[73:bat_thread_kthr][Power/Battery] <DOD,Voltage> at 14 = <88,3568>
+<5>[    2.304385] (1)[73:bat_thread_kthr][Power/Battery] <DOD,Voltage> at 14 = <90,3556>
+<5>[    2.304399] (1)[73:bat_thread_kthr][Power/Battery] <DOD,Voltage> at 14 = <91,3542>
+<5>[    2.304414] (1)[73:bat_thread_kthr][Power/Battery] <DOD,Voltage> at 14 = <92,3528>
+<5>[    2.304428] (1)[73:bat_thread_kthr][Power/Battery] <DOD,Voltage> at 14 = <94,3518>
+<5>[    2.304442] (1)[73:bat_thread_kthr][Power/Battery] <DOD,Voltage> at 14 = <95,3510>
+<5>[    2.304457] (1)[73:bat_thread_kthr][Power/Battery] <DOD,Voltage> at 14 = <96,3500>
+<5>[    2.304471] (1)[73:bat_thread_kthr][Power/Battery] <DOD,Voltage> at 14 = <97,3484>
+<5>[    2.304486] (1)[73:bat_thread_kthr][Power/Battery] <DOD,Voltage> at 14 = <99,3453>
+<5>[    2.304500] (1)[73:bat_thread_kthr][Power/Battery] <DOD,Voltage> at 14 = <100,3398>
+<6>[    2.305895] (3)[89:init]fs_mgr: Running /system/bin/e2fsck on /emmc@usrdata
+<7>[    2.306334] (3)[89:init][89:89:init] fork [95:95:init] flag=0x1200011
+<6>[    2.306723] (1)[73:bat_thread_kthr][Power/Battery] [FGADC] compensate_battery_voltage, voltage=4190
+<7>[    2.310512] (2)[95:e2fsck][exec] /system/bin/e2fsck(3)
+<5>[    2.326473] (2)[73:bat_thread_kthr][Power/Battery] g_ocv_loopup_done is 0, do fgauge_read_capacity(0)
+<6>[    2.326490] (2)[73:bat_thread_kthr][Power/Battery] ******** [fgauge_initialization] Done!
+<5>[    2.332663] (2)[73:bat_thread_kthr][Power/Battery] [fgauge_read_avg_I_V] AVG voltage[4173], current[0]
+<7>[    2.345076] (2)[95:e2fsck][95:e2fsck] exit
+<7>[    2.345407] (2)[95:e2fsck][95:e2fsck] sig 17 to [89:init]
+<6>[    2.345524] (3)[89:init]e2fsck: e2fsck 1.42.9 (28-Dec-2013)
+<6>[    2.345578] (3)[89:init]e2fsck: /emmc@usrdata: clean, 80/65536 files, 93307/261888 blocks
+<7>[    2.345930] (3)[75:kworker/3:1]release_one_tty: grab tty(pts0/dfb7a800)'s work dfb7a8c8 before free it
+<7>[    2.345952] (3)[75:kworker/3:1]release_one_tty: grab tty(ptm0/dfb7a000)'s work dfb7a0c8 before free it
+<6>[    2.346491] (0)[73:bat_thread_kthr][Power/Battery] [fgauge_update_dod] gFG_BATT_CAPACITY=6234, gFG_BATT_CAPACITY_aging=6234, gFG_BATT_CAPACITY_init_high_current=6112
+<7>[    2.347331] (3)[2:kthreadd][2:2:kthreadd] fork [96:96:kthreadd] flag=0x800711
+<7>[    2.347479] (0)[2:kthreadd][2:2:kthreadd] fork [97:97:kthreadd] flag=0x800711
+<6>[    2.348439] (2)[89:init]EXT4-fs (mmcblk0p8): mounted filesystem with ordered data mode. Opts: noauto_da_alloc,discard
+<7>[    2.348471] (2)[89:init]SELinux: initialized (dev mmcblk0p8, type ext4), uses xattr
+<6>[    2.348542] (2)[89:init]fs_mgr: __mount(source=/emmc@usrdata,target=/data,type=ext4)=0
+<7>[    2.361303] (3)[2:kthreadd][2:2:kthreadd] fork [98:98:kthreadd] flag=0x800711
+<7>[    2.361430] (0)[2:kthreadd][2:2:kthreadd] fork [99:99:kthreadd] flag=0x800711
+<6>[    2.362371] (2)[89:init]EXT4-fs (mmcblk0p7): recovery complete
+<6>[    2.363112] (2)[89:init]EXT4-fs (mmcblk0p7): mounted filesystem with ordered data mode. Opts: nomblk_io_submit,errors=remount-ro
+<7>[    2.363140] (2)[89:init]SELinux: initialized (dev mmcblk0p7, type ext4), uses xattr
+<6>[    2.363204] (2)[89:init]fs_mgr: check_fs(): mount(/emmc@cache,/cache,ext4)=0
+<7>[    2.363384] (3)[99:ext4-dio-unwrit][99:ext4-dio-unwrit] exit
+<7>[    2.363434] (1)[98:jbd2/mmcblk0p7-][98:jbd2/mmcblk0p7-] exit
+<5>[    2.366483] (1)[73:bat_thread_kthr][Power/Battery] [FGADC] 0,0,0,0,4173,100,100,100,6234,6234,0,0,0,1000,4195,1000,0,0,0,98,100
+<5>[    2.374496] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_avg_I_V] AVG voltage[4183], current[0]
+<5>[    2.406463] (3)[73:bat_thread_kthr][Power/Battery] [FGADC] 0,0,0,0,4183,100,100,100,6234,6234,0,0,0,1000,4173,1000,0,0,0,98,100
+<5>[    2.406480] (3)[73:bat_thread_kthr][Power/Battery] gFG_current_auto_detect_R_fg_total=0, need double check
+<6>[    2.455383] (2)[89:init]fs_mgr: Running /system/bin/e2fsck on /emmc@cache
+<7>[    2.455756] (2)[89:init][89:89:init] fork [100:100:init] flag=0x1200011
+<7>[    2.456356] (0)[100:e2fsck][exec] /system/bin/e2fsck(3)
+<7>[    2.464532] (2)[100:e2fsck][100:e2fsck] exit
+<7>[    2.464883] (2)[100:e2fsck][100:e2fsck] sig 17 to [89:init]
+<6>[    2.464975] (3)[89:init]e2fsck: e2fsck 1.42.9 (28-Dec-2013)
+<6>[    2.465016] (3)[89:init]e2fsck: /emmc@cache: clean, 19/8064 files, 1781/32256 blocks (check in 5 mounts)
+<7>[    2.465146] (3)[75:kworker/3:1]release_one_tty: grab tty(pts0/df347000)'s work df3470c8 before free it
+<7>[    2.465181] (3)[75:kworker/3:1]release_one_tty: grab tty(ptm0/df347800)'s work df3478c8 before free it
+<7>[    2.466793] (3)[2:kthreadd][2:2:kthreadd] fork [101:101:kthreadd] flag=0x800711
+<7>[    2.466922] (0)[2:kthreadd][2:2:kthreadd] fork [102:102:kthreadd] flag=0x800711
+<6>[    2.467874] (2)[89:init]EXT4-fs (mmcblk0p7): mounted filesystem with ordered data mode. Opts: noauto_da_alloc,discard
+<7>[    2.467905] (2)[89:init]SELinux: initialized (dev mmcblk0p7, type ext4), uses xattr
+<6>[    2.467970] (2)[89:init]fs_mgr: __mount(source=/emmc@cache,target=/cache,type=ext4)=0
+<3>[    2.473367] (2)[89:init]EXT4-fs (mmcblk0p2): VFS: Can't find ext4 filesystem
+<6>[    2.473387] (2)[89:init][MNT_TAG] mount_bdev, fill_super error:-22
+<4>[    2.520807] (2)[74:mtk charger_hv_][BATTERY:bq24196] Disable check battery exist for SMT
+<6>[    2.555366] (3)[89:init][MNT_TAG] mount_fs, mount error -22
+<6>[    2.555380] (3)[89:init][MNT_TAG] do_kern_mount, vfs_kern_mount, mount_fs error
+<6>[    2.555399] (3)[89:init][MNT_TAG] do_new_mount, do_kern_mount error
+<6>[    2.555411] (3)[89:init][MNT_TAG] do_mount, do_new_mount: -22
+<6>[    2.555442] (3)[89:init]fs_mgr: __mount(source=/emmc@protect_f,target=/protect_f,type=ext4)=-1
+<3>[    2.556114] (2)[89:init]fs_mgr: Failed to mount an un-encryptable or wiped partition on/emmc@protect_f at /protect_f options: noauto_da_alloc,discard error: Invalid argument
+<3>[    2.561318] (2)[89:init]EXT4-fs (mmcblk0p3): VFS: Can't find ext4 filesystem
+<6>[    2.561336] (2)[89:init][MNT_TAG] mount_bdev, fill_super error:-22
+<6>[    2.615366] (3)[89:init][MNT_TAG] mount_fs, mount error -22
+<6>[    2.615380] (3)[89:init][MNT_TAG] do_kern_mount, vfs_kern_mount, mount_fs error
+<6>[    2.615398] (3)[89:init][MNT_TAG] do_new_mount, do_kern_mount error
+<6>[    2.615410] (3)[89:init][MNT_TAG] do_mount, do_new_mount: -22
+<6>[    2.615437] (3)[89:init]fs_mgr: __mount(source=/emmc@protect_s,target=/protect_s,type=ext4)=-1
+<3>[    2.616089] (2)[89:init]fs_mgr: Failed to mount an un-encryptable or wiped partition on/emmc@protect_s at /protect_s options: noauto_da_alloc,discard error: Invalid argument
+<3>[    2.616141] (2)[89:init]init: fs_mgr_mount_all returned an error
+<7>[    2.616156] (2)[89:init][89:init] exit
+<7>[    2.616324] (2)[89:init][89:init] sig 17 to [1:init]
+<3>[    2.616414] (3)[1:init]init: fs_mgr_mount_all returned unexpected error 255
+<3>[    2.617270] (2)[1:init]init: skipping insecure file '/system/lib/modules/pvrsrvkm.ko'
+<3>[    2.617346] (2)[1:init]init: skipping insecure file '/system/lib/modules/mtklfb.ko'
+<3>[    2.617407] (2)[1:init]init: skipping insecure file '/system/lib/modules/devinfo.ko'
+<7>[    2.617595] (2)[1:init][1:1:init] fork [103:103:init] flag=0x1200011
+<7>[    2.622660] (2)[103:mknod][exec] /system/xbin/mknod(3)
+<7>[    2.631802] (2)[103:mknod][103:mknod] exit
+<7>[    2.632003] (2)[103:mknod][103:mknod] sig 17 to [1:init]
+<3>[    2.634130] (3)[1:init]init: Warning!  Service pvrsrvctl needs a SELinux domain defined; please fix!
+<7>[    2.634371] (3)[1:init][1:1:init] fork [104:104:init] flag=0x1200011
+<4>[    2.635001] (3)[1:init]BOOTPROF:      2634.993230:INIT:PROTECT:Mount_START
+<7>[    2.635186] (3)[1:init][1:1:init] fork [105:105:init] flag=0x1200011
+<7>[    2.635488] (3)[105:init][exec] /sbin/e2fsck(3)
+<7>[    2.635574] (2)[104:pvrsrvctl][exec] /system/vendor/bin/pvrsrvctl(3)
+<7>[    2.635614] (3)[105:init][105:init] exit
+<7>[    2.635726] (3)[105:init][105:init] sig 17 to [1:init]
+<7>[    2.635988] (0)[1:init][1:1:init] fork [106:106:init] flag=0x1200011
+<7>[    2.636233] (1)[106:init][exec] /sbin/tune2fs(3)
+<7>[    2.636343] (1)[106:init][106:init] exit
+<7>[    2.636457] (1)[106:init][106:init] sig 17 to [1:init]
+<3>[    2.637200] (2)[1:init]EXT4-fs (mmcblk0p2): VFS: Can't find ext4 filesystem
+<6>[    2.637220] (2)[1:init][MNT_TAG] mount_bdev, fill_super error:-22
+<5>[    2.637725] (2)[104:pvrsrvctl]type=1400 audit(1266721633.500:3): avc:  denied  { execute } for  pid=104 comm="pvrsrvctl" path="/system/vendor/lib/libsrv_init.so" dev="mmcblk0p6" ino=30282 scontext=u:r:init:s0 tcontext=u:object_r:unlabeled:s0 tclass=file
+<3>[    2.707820] (2)[104:pvrsrvctl]PVR_K: UM DDK-(2824438) and KM DDK-(2824438) match. [ OK ]
+<5>[    2.707885] (2)[104:pvrsrvctl]type=1400 audit(1266721633.570:4): avc:  denied  { sys_module } for  pid=104 comm="pvrsrvctl" capability=16  scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=capability
+<4>[    2.712384] (2)[104:pvrsrvctl] freq= 286000
+<5>[    2.712407] (2)[104:pvrsrvctl][Power/GPU_DVFS] mt_gpufreq_set_initial, freq_new = 238333, volt_new = 0, g_cur_freq = 286000
+<5>[    2.712425] (2)[104:pvrsrvctl][Power/GPU_DVFS] mt_gpufreq_check_freq_and_set_pll, g_cur_freq = 286000
+<5>[    2.712443] (2)[104:pvrsrvctl][Power/GPU_DVFS] mt_gpufreq_set_initial, g_cur_freq = 238333, g_cur_volt = 0
+<5>[    2.712460] (2)[104:pvrsrvctl][Power/GPU_DVFS] mt_gpufreq_keep_frequency_non_OD_init, freq_limit = 65535, volt_limit = 65534
+<5>[    2.712481] (2)[104:pvrsrvctl][Power/GPU_DVFS] mt_gpufreqs_default_power[0].gpufreq_khz = 238333
+<5>[    2.712495] (2)[104:pvrsrvctl][Power/GPU_DVFS] mt_gpufreqs_default_power[0].gpufreq_power = 414
+<4>[    2.712507] (2)[104:pvrsrvctl][Power/CPU_Thermal] setup gpu power table
+<4>[    2.712521] (2)[104:pvrsrvctl][Power/CPU_Thermal] freqs[0].cpufreq_khz=238333, .cpufreq_power=414
+<5>[    2.712538] (2)[104:pvrsrvctl][Power/GPU_DVFS] disable GPU DVFS: g_gpufreq_dvfs_disable_count = 1
+<5>[    2.712552] (2)[104:pvrsrvctl][Power/GPU_DVFS] mt_gpufreq_non_register() done
+<5>[    2.712574] (2)[104:pvrsrvctl][Power/GPU_DVFS] mt_gpufreq_keep_frequency_non_OD_get, mt_gpufreq_keep_specific_frequency = 0
+<7>[    2.712716] (3)[2:kthreadd][2:2:kthreadd] fork [107:107:kthreadd] flag=0x800711
+<5>[    2.712839] (1)[104:pvrsrvctl][Power/GPU_DVFS] mt_gpufreq_keep_frequency_non_OD_get, mt_gpufreq_keep_specific_frequency = 0
+<7>[    2.713689] (1)[104:pvrsrvctl][104:pvrsrvctl] exit
+<7>[    2.714334] (1)[104:pvrsrvctl][104:pvrsrvctl] sig 17 to [1:init]
+<6>[    2.735379] (0)[1:init][MNT_TAG] mount_fs, mount error -22
+<6>[    2.735395] (0)[1:init][MNT_TAG] do_kern_mount, vfs_kern_mount, mount_fs error
+<6>[    2.735415] (0)[1:init][MNT_TAG] do_new_mount, do_kern_mount error
+<6>[    2.735427] (0)[1:init][MNT_TAG] do_mount, do_new_mount: -22
+<7>[    2.735841] (0)[1:init][1:1:init] fork [108:108:init] flag=0x1200011
+<7>[    2.736102] (1)[108:init][exec] /sbin/e2fsck(3)
+<7>[    2.736225] (1)[108:init][108:init] exit
+<7>[    2.736332] (1)[108:init][108:init] sig 17 to [1:init]
+<7>[    2.736556] (2)[1:init][1:1:init] fork [109:109:init] flag=0x1200011
+<7>[    2.736780] (3)[109:init][exec] /sbin/tune2fs(3)
+<7>[    2.736888] (3)[109:init][109:init] exit
+<7>[    2.736989] (3)[109:init][109:init] sig 17 to [1:init]
+<6>[    2.737351] (1)[64:mmcqd/0][BLOCK_TAG] mmcqd:64 Workload < 1%, duty 0, period 526636077, req_cnt=0
+<6>[    2.737370] (1)[64:mmcqd/0][BLOCK_TAG] vmstat (FP:6272)(FD:0)(ND:112)(WB:0)(NW:0)
+<3>[    2.737798] (2)[1:init]EXT4-fs (mmcblk0p3): VFS: Can't find ext4 filesystem
+<6>[    2.737817] (2)[1:init][MNT_TAG] mount_bdev, fill_super error:-22
+<6>[    2.845361] (2)[1:init][MNT_TAG] mount_fs, mount error -22
+<6>[    2.845376] (2)[1:init][MNT_TAG] do_kern_mount, vfs_kern_mount, mount_fs error
+<6>[    2.845394] (2)[1:init][MNT_TAG] do_new_mount, do_kern_mount error
+<6>[    2.845406] (2)[1:init][MNT_TAG] do_mount, do_new_mount: -22
+<4>[    2.845501] (2)[1:init]BOOTPROF:      2845.494153:INIT:PROTECT:Mount_END
+<6>[    2.849524] (2)[1:init][MNT_TAG] do_mount, do_change_type: -22
+<4>[    2.897311] (2)[1:init][WDK] mode=0 interval=20 timeout=30 enable =-550670784
+<4>[    2.897330] (2)[1:init]fwq2 before set wdt_sys_val =0
+<4>[    2.907448] (2)[1:init]after set wdt_sys_val =0,wdt_sys_val=88000000
+<4>[    2.907458] (2)[1:init][WDK] use reboot mod
+<3>[    2.908323] (2)[1:init]init: skipping insecure file '/system/lib/modules/vcodec_kernel_driver.ko'
+<7>[    2.908523] (2)[1:init][1:1:init] fork [110:110:init] flag=0x1200011
+<7>[    2.909218] (0)[110:mknod][exec] /system/xbin/mknod(3)
+<7>[    2.912689] (0)[110:mknod][110:mknod] exit
+<7>[    2.912902] (0)[110:mknod][110:mknod] sig 17 to [1:init]
+<3>[    2.914928] (1)[1:init]init: skipping insecure file '/system/lib/modules/sec.ko'
+<7>[    2.915117] (1)[1:init][1:1:init] fork [111:111:init] flag=0x1200011
+<7>[    2.915787] (3)[111:mknod][exec] /system/xbin/mknod(3)
+<7>[    2.919005] (3)[111:mknod][111:mknod] exit
+<7>[    2.919199] (3)[111:mknod][111:mknod] sig 17 to [1:init]
+<3>[    2.919423] (0)[1:init]init: skipping insecure file '/system/lib/modules/devapc.ko'
+<3>[    2.919550] (0)[1:init]init: skipping insecure file '/system/lib/modules/mtk_hif_sdio.ko'
+<3>[    2.919613] (0)[1:init]init: skipping insecure file '/system/lib/modules/mtk_stp_wmt.ko'
+<3>[    2.919673] (0)[1:init]init: skipping insecure file '/system/lib/modules/mtk_stp_uart.ko'
+<3>[    2.919730] (0)[1:init]init: skipping insecure file '/system/lib/modules/mtk_stp_gps.ko'
+<3>[    2.919797] (0)[1:init]init: skipping insecure file '/system/lib/modules/mtk_stp_bt.ko'
+<3>[    2.919855] (0)[1:init]init: skipping insecure file '/system/lib/modules/mtk_wmt_wifi.ko'
+<7>[    2.920029] (0)[1:init][1:1:init] fork [112:112:init] flag=0x1200011
+<7>[    2.920635] (2)[112:mknod][exec] /system/xbin/mknod(3)
+<7>[    2.923782] (2)[112:mknod][112:mknod] exit
+<7>[    2.923974] (2)[112:mknod][112:mknod] sig 17 to [1:init]
+<7>[    2.924242] (3)[1:init][1:1:init] fork [113:113:init] flag=0x1200011
+<7>[    2.924843] (1)[113:mknod][exec] /system/xbin/mknod(3)
+<7>[    2.927987] (1)[113:mknod][113:mknod] exit
+<7>[    2.928177] (1)[113:mknod][113:mknod] sig 17 to [1:init]
+<7>[    2.928435] (2)[1:init][1:1:init] fork [114:114:init] flag=0x1200011
+<7>[    2.929034] (0)[114:mknod][exec] /system/xbin/mknod(3)
+<7>[    2.932162] (0)[114:mknod][114:mknod] exit
+<7>[    2.932350] (0)[114:mknod][114:mknod] sig 17 to [1:init]
+<7>[    2.932650] (1)[1:init][1:1:init] fork [115:115:init] flag=0x1200011
+<7>[    2.933244] (3)[115:mknod][exec] /system/xbin/mknod(3)
+<7>[    2.936387] (3)[115:mknod][115:mknod] exit
+<7>[    2.936572] (3)[115:mknod][115:mknod] sig 17 to [1:init]
+<7>[    2.945163] (0)[1:init][1:1:init] fork [116:116:init] flag=0x1200011
+<7>[    2.948380] (3)[116:sysinit][exec] /system/bin/sysinit(3)
+<5>[    2.948879] (3)[116:sysinit]type=1400 audit(1266721633.810:5): avc:  denied  { search } for  pid=116 comm="sysinit" name="vendor" dev="mmcblk0p6" ino=30273 scontext=u:r:sysinit:s0 tcontext=u:object_r:unlabeled:s0 tclass=dir
+<6>[    2.950153] (2)[1:init][mtk_net][sched]dev_activate dev = lo
+<7>[    2.952753] (3)[116:sysinit][116:116:sysinit] fork [117:117:sysinit] flag=0x1200011
+<7>[    2.953631] (1)[117:run-parts][exec] /system/xbin/run-parts(3)
+<7>[    2.954435] (2)[1:init][1:1:init] fork [118:118:init] flag=0x1200011
+<7>[    2.955020] (2)[1:init][1:1:init] fork [119:119:init] flag=0x1200011
+<7>[    2.955683] (2)[1:init][1:1:init] fork [120:120:init] flag=0x1200011
+<7>[    2.956091] (0)[119:healthd][exec] /sbin/healthd(3)
+<7>[    2.956518] (2)[1:init][1:1:init] fork [121:121:init] flag=0x1200011
+<7>[    2.957420] (2)[1:init][1:1:init] fork [122:122:init] flag=0x1200011
+<6>[    2.957739] (0)[119:healthd]binder: 119:119 binder_context_mgr_node is NULL
+<6>[    2.957759] (0)[119:healthd]binder: 119:119 transaction failed 29189, size 0-0
+<7>[    2.958325] (2)[1:init][1:1:init] fork [123:123:init] flag=0x1200011
+<7>[    2.959148] (2)[1:init][1:1:init] fork [124:124:init] flag=0x1200011
+<7>[    2.959161] (0)[118:logd][exec] /system/bin/logd(3)
+<3>[    2.959789] (2)[1:init]init: Warning!  Service 662x_launcher needs a SELinux domain defined; please fix!
+<7>[    2.960016] (2)[1:init][1:1:init] fork [125:125:init] flag=0x1200011
+<7>[    2.960086] (1)[117:run-parts][117:117:run-parts] fork [126:126:run-parts] flag=0x1200011
+<7>[    2.960205] (0)[120:adbd][exec] /sbin/adbd(3)
+<3>[    2.960450] (2)[1:init]init: using deprecated syntax for specifying property 'ro.product.manufacturer', use ${name} instead
+<7>[    2.960522] (3)[121:lmkd][exec] /system/bin/lmkd(3)
+<3>[    2.960599] (2)[1:init]init: using deprecated syntax for specifying property 'ro.product.model', use ${name} instead
+<3>[    2.960715] (2)[1:init]init: using deprecated syntax for specifying property 'ro.product.manufacturer', use ${name} instead
+<5>[    2.960771] (1)[118:logd]type=1400 audit(1266721633.820:6): avc:  denied  { search } for  pid=118 comm="logd" name="vendor" dev="mmcblk0p6" ino=30273 scontext=u:r:logd:s0 tcontext=u:object_r:unlabeled:s0 tclass=dir
+<5>[    2.960982] (3)[121:lmkd]type=1400 audit(1266721633.820:7): avc:  denied  { search } for  pid=121 comm="lmkd" name="vendor" dev="mmcblk0p6" ino=30273 scontext=u:r:lmkd:s0 tcontext=u:object_r:unlabeled:s0 tclass=dir
+<7>[    2.961986] (3)[122:servicemanager][exec] /system/bin/servicemanager(3)
+<7>[    2.962399] (0)[120:adbd][120:120:adbd] fork [120:127:adbd] flag=0x3d0f00
+<5>[    2.962441] (3)[122:servicemanager]type=1400 audit(1266721633.820:8): avc:  denied  { search } for  pid=122 comm="servicemanager" name="vendor" dev="mmcblk0p6" ino=30273 scontext=u:r:servicemanager:s0 tcontext=u:object_r:unlabeled:s0 tclass=dir
+<6>[    2.962633] (0)[127:adbd][adb]adb_open start, adb_open: c02eac70 check adb_release c02eabc0, open_release_pair: 0
+<6>[    2.962647] (0)[127:adbd][adb]adb_open end, open_release_pair: 1
+<7>[    2.962982] (2)[124:surfaceflinger][exec] /system/bin/surfaceflinger(3)
+<7>[    2.963014] (0)[120:adbd][120:120:adbd] fork [120:128:adbd] flag=0x3d0f00
+<7>[    2.963082] (0)[120:adbd][120:120:adbd] fork [120:129:adbd] flag=0x3d0f00
+<5>[    2.963435] (2)[124:surfaceflinger]type=1400 audit(1266721633.820:9): avc:  denied  { search } for  pid=124 comm="surfaceflinger" name="vendor" dev="mmcblk0p6" ino=30273 scontext=u:r:surfaceflinger:s0 tcontext=u:object_r:unlabeled:s0 tclass=dir
+<7>[    2.964001] (0)[123:vold][exec] /system/bin/vold(3)
+<7>[    2.965076] (1)[1:init][1:1:init] fork [130:130:init] flag=0x1200011
+<4>[    2.965574] (2)[130:init]SLEEP_EN = 0x1
+<5>[    2.965604] (2)[130:init]Linux default SW Flow Control
+<7>[    2.965850] (0)[125:6620_launcher][exec] /system/bin/6620_launcher(3)
+<7>[    2.965959] (1)[1:init][1:1:init] fork [131:131:init] flag=0x1200011
+<6>[    2.966337] (1)[1:init][USB] enable_store: device_attr->attr.name: enable
+<3>[    2.966358] (1)[1:init]android_usb: already disabled
+<7>[    2.966377] (1)[1:init][MUSB]usb_cable_connected 291: iddig_state = 1
+<5>[    2.966406] (1)[1:init][Power/PMIC] [mt_charger_type_detection] Got data !!, 1, 1
+<6>[    2.966636] (1)[1:init][USB] functions_store:
+<5>[    2.966658] (1)[1:init][USB] functions_store: name = mtp
+<6>[    2.966680] (1)[1:init][USB] android_enable_function: name = mtp, f->name=ffs
+<6>[    2.966697] (1)[1:init][USB] android_enable_function: name = mtp, f->name=adb
+<7>[    2.966715] (1)[1:init][exec a/system/bin/sh(3)
+<7>[    2.966723] (2)[130:sh][exec] /system/bin/sh(3)
+<6>[    2.966740] (1)[1:init][USB] android_enable_function: name = mtp, f->name=mtp
+<5>[    2.966760] (1)[1:init][USB] functions_store: name = adb
+<6>[    2.966778] (1)[1:init][USB] android_enable_function: name = adb, f->name=ffs
+<6>[    2.966792] (1)[1:init][USB] android_enable_function: name = adb, f->name=adb
+<6>[    2.966873] (1)[1:init][USB] enable_store: device_attr->attr.name: enable
+<6>[    2.966891] (1)[1:init][USB] android_bind_enabled_functions:
+<6>[    2.966900] (1)[1:init]mtp_bind_config
+<6>[    2.966911] (1)[1:init][USB] usb_add_function:
+<4>[    2.966924] (1)[1:init]mtp_function_bind dev: dfbeea00
+<3>[    2.966941] (1)[1:init][USB] mtp_function_bind: reset dev->curr_mtp_func_index to 0xff
+<6>[    2.966982] (1)[1:init]/home/buildslave/jenkins_build/blade10_row_wifi_mp0516/kernel/drivers/usb/gadget/f_adb.c adb_bind_config 864
+<6>[    2.967001] (1)[1:init][USB] usb_add_function:
+<7>[    2.967033] (1)[1:init][MUSB]musb_gadget_pullup 2285: is_on=1, softconnect=0 ++
+<7>[    2.967050] (1)[1:init][MUSB]usb_cable_connected 291: iddig_state = 1
+<5>[    2.967073] (1)[1:init][Power/PMIC] [mt_charger_type_detection] Got data !!, 1, 1
+<7>[    2.967091] (1)[1:init][MUSB]musb_pullup 2235: MUSB: gadget pull up 1 start
+<7>[    2.967108] (1)[1:init][MUSB]musb_start 1074: start, is_host=0 is_active=1
+<7>[    2.967123] (1)[1:init][MUSB]mt_usb_enable 147: 0, 0
+<7>[    2.967142] (1)[1:init]enable(1), count(1) res=0
+<7>[    2.967161] (1)[1:init][MUSB]musb_readl 72: [MUSB]:access musb_readl function when usb clock is off 0xA4
+<7>[    2.967184] (1)[1:init]enable(0), count(0) res=0
+<7>[    2.967200] (1)[1:init]type=1400  count(1) res=0
+<5>[    2.967210] (2)[130:sh]type=1400 audit(1266721633.830:10): avc:  denied  { search } for  pid=130 comm="sh" name="vendor" dev="mmcblk0p6" ino=30273 scontext=u:r:shell:s0 tcontext=u:object_r:unlabeled:s0 tclass=dir
+<7>[    2.967229] (1)[1:init][MUSB]musb_writel 104: [MUSB]:access musb_writel function when usb clock is off 0xA4
+<7>[    2.967243] (1)[1:init]enable(0), count(0) res=0
+<7>[    2.967254] (1)[1:init][MUSB]mt_usb_enable 169: enable UPLL before connect
+<7>[    2.968829] (1)[126:00banner][exec] /system/etc/init.d/00banner(3)
+<7>[    2.969582] (0)[5:kworker/u:0][5:5:kworker/u:0] fork [132:132:kworker/u:0] flag=0x800711
+<7>[    2.969655] (0)[132:kworker/u:0][132:132:kworker/u:0] fork [133:133:kworker/u:0] flag=0x800111
+<7>[    2.969722] (0)[133:kworker/u:0][exec] /sbin/modprobe(3)
+<7>[    2.969736] (0)[133:kworker/u:0][133:kworker/u:0] exit
+<7>[    2.969782] (0)[133:kworker/u:0][133:kworker/u:0] sig 17 to [132:kworker/u:0]
+<7>[    2.969841] (0)[132:kworker/u:0][132:kworker/u:0] exit
+<7>[    2.969981] (2)[125:6620_launcher][125:6620_launcher] exit
+<7>[    2.970227] (2)[125:6620_launcher][125:6620_launcher] sig 17 to [1:init]
+<7>[    2.971223] (3)[118:logd][118:118:logd] fork [118:134:logd] flag=0x3d0f00
+<7>[    2.971338] (3)[118:logd][118:118:logd] fork [118:135:logd] flag=0x3d0f00
+<7>[    2.971442] (3)[118:logd][118:118:logd] fork [118:136:logd] flag=0x3d0f00
+<7>[    2.971650] (3)[2:kthreadd][2:2:kthreadd] fork [137:137:kthreadd] flag=0x800711
+<38>[    2.971928] (3)[118:logd]logd.auditd: start
+<7>[    2.973504] (2)[126:00banner][126:126:00banner] fork [138:138:00banner] flag=0x1200011
+<7>[    2.974769] (1)[130:sh][130:130:sh] fork [139:139:sh] flag=0x1200011
+<7>[    2.978959] (3)[131:su][exec] /system/xbin/su(3)
+<7>[    2.980022] (3)[138:log][exec] /system/bin/log(3)
+<7>[    2.980040] (2)[139:getprop][exec] /system/bin/getprop(3)
+<7>[    2.980704] (0)[1:init]enable(1), count(1) res=0
+<4>[    2.981599] (0)[1:init][USBPHY]slew calibration:FM_OUT =313,x=3454,value=3
+<4>[    2.981614] (0)[1:init]usb recovery success
+<7>[    2.981632] (0)[1:init][MUSB]musb_pullup 2252: MUSB: gadget pull up 1 end
+<5>[    2.981651] (0)[1:init][USB] enable_store: enable 0->1 case, device_desc.idVendor = 0x408, device_desc.idProduct = 0xb071, [RT_MONITOR]WARNNING [121:lmkd] SET NOT ALLOW RT Prio [1] for proc [121:lmkd]
+<7>[    3.006856] (2)[138:log][139:getprop] sig 4 to [139:getprop]
+<7>[    3.006869] (0)[139:getprop][139:getprop] sig 4 to [139:getprop]
+<7>[    3.007179] (0)[139:getprop][139:getprop] exit
+<7>[    3.007297] (1)[138:log][138:log] exit
+<7>[    3.007499] (0)[139:getprop][139:getprop] sig 17 to [130:sh]
+<7>[    3.007682] (0)[138:log][138:log] sig 17 to [126:00banner]
+<7>[    3.008145] (2)[130:sh][130:130:sh] fork [140:140:sh] flag=0x1200011
+<7>[    3.008155] (1)[126:00banner][126:126:00banner] fork [141:141:00banner] flag=0x1200011
+<7>[    3.009181] (2)[141:log][exec] /system/bin/log(3)
+<7>[    3.009386] (1)[140:sh][140:140:sh] fork [142:142:sh] flag=0x1200011
+<7>[    3.010850] (1)[142:id][exec] /system/bin/id(3)
+<7>[    3.015275] (2)[141:log][141:log] sig 4 to [141:log]
+<7>[    3.015725] (2)[141:log][141:log] exit
+<7>[    3.016081] (2)[141:log][141:log] sig 17 to [126:00banner]
+<7>[    3.016683] (1)[126:00banner][126:126:00banner] fork [143:143:00banner] flag=0x1200011
+<7>[    3.017237] (2)[142:id][142:id] sig 4 to [142:id]
+<7>[    3.017714] (1)[143:log][exec] /system/bin/log(3)
+<7>[    3.017767] (2)[142:id][142:id] exit
+<7>[    3.018071] (2)[142:id][142:id] sig 17 to [140:sh]
+<7>[    3.018852] (2)[140:sh][140:sh] exit
+<7>[    3.019052] (2)[140:sh][140:sh] sig 17 to [130:sh]
+<7>[    3.021078] (1)[118:logd][118:118:logd] fork [118:144:logd] flag=0x3d0f00
+<4>[    3.021511] (2)[74:mtk charger_hv_][BATTERY:bq24196] Disable check battery exist for SMT
+<36>[    3.021784] (0)[144:logd.auditd]type=1400 audit(1266721633.830:11): avc: denied { read } for pid=124 comm="surfaceflinger" name="libEGL.so" dev="mmcblk0p6" ino=859 scontext=u:r:surfaceflinger:s0 tcontext=u:object_r:unlabeled:s0 tclass=file
+<36>[    3.021940] (0)[144:logd.auditd]type=1400 audit(1266721633.830:12): avc: denied { open } for pid=124 comm="surfaceflinger" name="libEGL.so" dev="mmcblk0p6" ino=859 scontext=u:r:surfaceflinger:s0 tcontext=u:object_r:unlabeled:s0 tclass=file
+<36>[    3.022080] (0)[144:logd.auditd]type=1400 audit(1266721633.830:13): avc: denied { getattr } for pid=124 comm="surfaceflinger" path="/system/lib/libEGL.so" dev="mmcblk0p6" ino=859 scontext=u:r:surfaceflinger:s0 tcontext=u:object_r:unlabeled:s0 tclass=file
+<36>[    3.022225] (0)[144:logd.auditd]type=1400 audit(1266721633.830:14): avc: denied { execute } for pid=124 comm="surfaceflinger" path="/system/lib/libEGL.so" dev="mmcblk0p6" ino=859 scontext=u:r:surfaceflinger:s0 tcontext=u:object_r:unlabeled:s0 tclass=file
+<36>[    3.022364] (0)[144:logd.auditd]type=1400 audit(1266721633.870:15): avc: denied { read } for pid=118 comm="logd" name="tzdata" dev="mmcblk0p6" ino=45482 scontext=u:r:logd:s0 tcontext=u:object_r:unlabeled:s0 tclass=file
+<36>[    3.022505] (0)[144:logd.auditd]type=1400 audit(1266721633.870:16): avc: denied { open } for pid=118 comm="logd" name="tzdata" dev="mmcblk0p6" ino=45482 scontext=u:r:logd:s0 tcontext=u:object_r:unlabeled:s0 tclass=file
+<7>[    3.026933] (0)[143:log][143:log] sig 4 to [143:log]
+<7>[    3.027339] (0)[143:log][143:log] exit
+<7>[    3.027662] (2)[123:vold][123:vold] sig 4 to [123:vold]
+<7>[    3.027708] (0)[143:log][143:log] sig 17 to [126:00banner]
+<7>[    3.028279] (1)[126:00banner][126:126:00banner] fork [145:145:00banner] flag=0x1200011
+<7>[    3.028802] (3)[124:surfaceflinger][124:124:surfaceflinger] fork [124:146:surfaceflinger] flag=0x3d0f00
+<7>[    3.029048] (2)[124:surfaceflinger][124:124:surfaceflinger] fork [124:147:surfaceflinger] flag=0x3d0f00
+<7>[    3.029509] (0)[145:getprop][exec] /system/bin/getprop(3)
+<7>[    3.029992] (2)[146:Binder_1][124:146:Binder_1] fork [124:148:Binder_1] flag=0x3d0f00
+<7>[    3.030215] (3)[123:vold][123:123:vold] fork [123:149:vold] flag=0x3d0f00
+<7>[    3.035822] (0)[145:getprop][145:getprop] sig 4 to [145:getprop]
+<7>[    3.036089] (0)[145:getprop][145:getprop] exit
+<7>[    3.036165] (3)[123:vold][123:123:vold] fork [123:150:vold] flag=0x3d0f00
+<7>[    3.036392] (0)[145:getprop][145:getprop] sig 17 to [126:00banner]
+<7>[    3.036924] (0)[126:00banner][126:126:00banner] fork [151:151:00banner] flag=0x1200011
+<36>[    3.037816] (3)[144:logd.auditd]type=1400 audit(1266721633.890:17): avc: denied { read } for pid=124 comm="surfaceflinger" name="egl" dev="mmcblk0p6" ino=30289 scontext=u:r:surfaceflinger:s0 tcontext=u:object_r:unlabeled:s0 tclass=dir
+<36>[    3.037995] (3)[144:logd.auditd]type=1400 audit(1266721633.890:18): avc: denied { open } for pid=124 comm="surfaceflinger" name="egl" dev="mmcblk0p6" ino=30289 scontext=u:r:surfaceflinger:s0 tcontext=u:object_r:unlabeled:s0 tclass=dir
+<7>[    3.038208] (1)[151:getprop][exec] /system/bin/getprop(3)
+<7>[    3.043842] (1)[151:getprop][151:getprop] sig 4 to [151:getprop]
+<7>[    3.044086] (1)[151:getprop][151:getprop] exit
+<7>[    3.044392] (1)[151:getprop][151:getprop] sig 17 to [126:00banner]
+<7>[    3.044812] (3)[126:00banner][126:126:00banner] fork [152:152:00banner] flag=0x1200011
+<7>[    3.045740] (1)[152:log][exec] /system/bin/log(3)
+<7>[    3.051315] (1)[152:log][152:log] sig 4 to [152:log]
+<7>[    3.051641] (1)[152:log][152:log] exit
+<7>[    3.051938] (1)[152:log][152:log] sig 17 to [126:00banner]
+<7>[    3.052365] (3)[126:00banner][126:00banner] exit
+<7>[    3.052599] (3)[126:00banner][126:00banner] sig 17 to [117:run-parts]
+<7>[    3.052941] (0)[117:run-parts][117:117:run-parts] fork [153:153:run-parts] flag=0x1200011
+<7>[    3.054366] (2)[153:90userinit][exec] /system/etc/init.d/90userinit(3)
+<7>[    3.057408] (3)[124:surfaceflinger][124:surfaceflinger] sig 4 to [124:surfaceflinger]
+<7>[    3.058702] (2)[153:90userinit][153:90userinit] exit
+<7>[    3.058928] (2)[153:90userinit][153:90userinit] sig 17 to [117:run-parts]
+<7>[    3.059056] (3)[117:run-parts][117:run-parts] exit
+<7>[    3.059284] (3)[117:run-parts][117:run-parts] sig 17 to [116:sysinit]
+<7>[    3.059682] (0)[116:sysinit][116:sysinit] exit
+<7>[    3.059907] (0)[116:sysinit][116:sysinit] sig 17 to [1:init]
+<7>[    3.086953] (2)[124:surfaceflinger][124:surfaceflinger] sig 4 to [124:surfaceflinger]
+<36>[    3.131958] (0)[144:logd.auditd]type=1400 audit(1266721633.990:19): avc: denied { read write } for pid=124 comm="surfaceflinger" name="pvr_sync" dev="tmpfs" ino=3156 scontext=u:r:surfaceflinger:s0 tcontext=u:object_r:device:s0 tclass=chr_file
+<36>[    3.132118] (0)[144:logd.auditd]type=1400 audit(1266721633.990:20): avc: denied { open } for pid=124 comm="surfaceflinger" name="pvr_sync" dev="tmpfs" ino=3156 scontext=u:r:surfaceflinger:s0 tcontext=u:object_r:device:s0 tclass=chr_file
+<5>[    3.135007] (2)[124:surfaceflinger][ion_dbg] [ion_mm_heap_phys]: Error. Buffer not configured.
+<7>[    3.135170] (2)[124:surfaceflinger][124:124:surfaceflinger] fork [124:154:surfaceflinger] flag=0x3d0f00
+<7>[    3.139815] (0)[0:swapper/0][MUSB]musb_stage0_irq 952: MUSB_INTR_RESET (b_idle)
+<7>[    3.139832] (0)[0:swapper/0][MUSB]musb_sync_with_bat 349: BATTERY_SetUSBState, state=1
+<5>[    3.139848] (0)[0:swapper/0][Power/Battery] [BATTERY] BAT_SetUSBState Success! Set 1
+<5>[    3.139882] (1)[73:bat_thread_kthr][Power/Battery] [FGADC] FGADC_Reset_SW_Parameter : Start
+<5>[    3.140102] (1)[73:bat_thread_kthr][Power/Battery] #
+<5>[    3.140116] (1)[73:bat_thread_kthr][Power/Battery] [FGADC] FGADC_Reset_SW_Parameter : Done
+<5>[    3.140132] (1)[73:bat_thread_kthr][Power/Battery] [FGADC] Update DOD0(0) by 0
+<5>[    3.140164] (1)[73:bat_thread_kthr][Power/PMIC] [mt_charger_type_detection] Got data !!, 1, 1
+<5>[    3.140179] (1)[73:bat_thread_kthr][Power/Battery] [BAT_thread:bq24196] CHR_Type_num = 1
+<4>[    3.140191] (1)[73:bat_thread_kthr][MUSB] USB is ready for connect
+<4>[    3.143456] (3)[124:surfaceflinger]mtkfb_ioctl, display_id=0
+<4>[    3.143473] (3)[124:surfaceflinger][wwy]lcm_parms->physical_height = 0
+<4>[    3.143484] (3)[124:surfaceflinger][wwy]lcm_parms->physical_width = 0
+<6>[    3.143692] (3)[124:surfaceflinger][mtkfb_vsync] driver open
+<7>[    3.143775] (3)[124:surfaceflinger][124:124:surfaceflinger] fork [124:155:surfaceflinger] flag=0x3d0f00
+<7>[    3.143982] (3)[124:surfaceflinger][124:124:surfaceflinger] fork [124:156:surfaceflinger] flag=0x3d0f00
+<36>[    3.144017] (2)[144:logd.auditd]type=1400 audit(1266721634.000:21): avc: denied { net_admin } for pid=124 comm="surfaceflinger" capability=12 scontext=u:r:surfaceflinger:s0 tcontext=u:r:surfaceflinger:s0 tclass=capability
+<36>[    3.144155] (2)[144:logd.auditd]type=1400 audit(1266721634.000:22): avc: denied { sys_nice } for pid=155 comm="VSyncThreadHWC" capability=23 scontext=u:r:surfaceflinger:s0 tcontext=u:r:surfaceflinger:s0 tclass=capability
+<7>[    3.144204] (3)[124:surfaceflinger][124:124:surfaceflinger] fork [124:157:surfaceflinger] flag=0x3d0f00
+<7>[    3.144394] (3)[124:surfaceflinger][124:124:surfaceflinger] fork [124:158:surfaceflinger] flag=0x3d0f00
+<7>[    3.144481] (2)[124:surfaceflinger][124:124:surfaceflinger] fork [124:159:surfaceflinger] flag=0x3d0f00
+<4>[    3.144970] (3)[1:init]avc:  denied  { set } for property=debug.hwc.compose_level scontext=u:r:surfaceflinger:s0 tcontext=u:object_r:debug_prop:s0 tclass=property_service
+<5>[    3.152860] (2)[124:surfaceflinger][Power/GPU_DVFS] mt_gpufreq_keep_frequency_non_OD_get, mt_gpufreq_keep_specific_frequency = 0
+<5>[    3.166656] (1)[73:bat_thread_kthr][Power/Battery] [tbat_workaround] 494,521,0,642,43
+<5>[    3.167616] (1)[73:bat_thread_kthr][Power/Battery] [BATTERY:ADC:bq27541] battery temperature read raw data(2884)0.1K
+<5>[    3.167635] (1)[73:bat_thread_kthr][Power/Battery] [BATTERY:bq24196] Enable battery TT (15)
+<5>[    3.167642] (1)[73:bat_thread_kthr]
+<5>[    3.173011] (1)[73:bat_thread_kthr][Power/Battery] [BATTERY:bq27541] bq27541 read SOC raw data = 100
+<5>[    3.173927] (1)[73:bat_thread_kthr][Power/Battery] [BATTERY:AVG:bq27541] battery temperature read raw data(2884)0.1K
+<5>[    3.174851] (1)[73:bat_thread_kthr][Power/Battery] [BATTERY] gFG_booting_counter_I_FLAG is 1, soc=100
+<4>[    3.174866] (1)[73:bat_thread_kthr]--------------------------------------------------
+<4>[    3.175350] (1)[73:bat_thread_kthr][bq24196_read_interface] Reg[8]=0x84
+<4>[    3.175363] (1)[73:bat_thread_kthr][bq24196_read_interface] Val=0x0
+<4>[    3.175403] (1)[73:bat_thread_kthr]--------------------------------------------------
+<4>[    3.176192] (1)[73:bat_thread_kthr]--------------------------------------------------
+<4>[    3.176979] (1)[73:bat_thread_kthr]--------------------------------------------------
+<7>[    3.177253] (3)[124:surfaceflinger][124:124:surfaceflinger] fork [124:160:surfaceflinger] flag=0x3d0f00
+<7>[    3.177359] (3)[124:surfaceflinger][124:124:surfaceflinger] fork [124:161:surfaceflinger] flag=0x3d0f00
+<7>[    3.177437] (3)[124:surfaceflinger][124:124:surfaceflinger] fork [124:162:surfaceflinger] flag=0x3d0f00
+<7>[    3.177510] (3)[124:surfaceflinger][124:124:surfaceflinger] fork [124:163:surfaceflinger] flag=0x3d0f00
+<7>[    3.177700] (3)[124:surfaceflinger][124:124:surfaceflinger] fork [124:164:surfaceflinger] flag=0x3d0f00
+<4>[    3.177769] (1)[73:bat_thread_kthr]--------------------------------------------------
+<4>[    3.178563] (1)[73:bat_thread_kthr]--------------------------------------------------
+<7>[    3.179033] (3)[1:init][1:1:init] fork [165:165:init] flag=0x1200011
+<4>[    3.179359] (1)[73:bat_thread_kthr]--------------------------------------------------
+<36>[    3.180126] (2)[144:logd.auditd]type=1400 audit(1266721634.040:23): avc: denied { ioctl } for pid=155 comm="VSyncThreadHWC" path="/dev/mtkfb_vsync" dev="tmpfs" ino=43 scontext=u:r:surfaceflinger:s0 tcontext=u:object_r:device:s0 tclass=chr_file
+<4>[    3.180193] (1)[73:bat_thread_kthr]--------------------------------------------------
+<4>[    3.180984] (1)[73:bat_thread_kthr]--------------------------------------------------
+<7>[    3.181182] (3)[165:bootanimation][exec] /system/bin/bootanimation(3)
+<36>[    3.181730] (2)[144:logd.auditd]type=1400 audit(1266721634.040:24): avc: denied { search } for pid=165 comm="bootanimation" name="vendor" dev="mmcblk0p6" ino=30273 scontext=u:r:bootanim:s0 tcontext=u:object_r:unlabeled:s0 tclass=dir
+<4>[    3.181774] (1)[73:bat_thread_kthr]--------------------------------------------------
+<36>[    3.181861] (2)[144:logd.auditd]type=1400 audit(1266721634.040:25): avc: denied { read } for pid=165 comm="bootanimation" name="libEGL.so" dev="mmcblk0p6" ino=859 scontext=u:r:bootanim:s0 tcontext=u:object_r:unlabeled:s0 tclass=file
+<36>[    3.181989] (2)[144:logd.auditd]type=1400 audit(1266721634.040:26): avc: denied { open } for pid=165 comm="bootanimation" name="libEGL.so" dev="mmcblk0p6" ino=859 scontext=u:r:bootanim:s0 tcontext=u:object_r:unlabeled:s0 tclass=file
+<36>[    3.182115] (2)[144:logd.auditd]type=1400 audit(1266721634.040:27): avc: denied { getattr } for pid=165 comm="bootanimation" path="/system/lib/libEGL.so" dev="mmcblk0p6" ino=859 scontext=u:r:bootanim:s0 tcontext=u:object_r:unlabeled:s0 tclass=file
+<36>[    3.182238] (2)[144:logd.auditd]type=1400 audit(1266721634.040:28): avc: denied { execute } for pid=165 comm="bootanimation" path="/system/lib/libEGL.so" dev="mmcblk0p6" ino=859 scontext=u:r:bootanim:s0 tcontext=u:object_r:unlabeled:s0 tclass=file
+<4>[    3.182565] (1)[73:bat_thread_kthr]--------------------------------------------------
+<4>[    3.183351] (1)[73:bat_thread_kthr]--------------------------------------------------
+<4>[    3.184138] (1)[73:bat_thread_kthr]--------------------------------------------------
+<4>[    3.184927] (1)[73:bat_thread_kthr]--------------------------------------------------
+<4>[    3.185720] (1)[73:bat_thread_kthr]--------------------------------------------------
+<4>[    3.186507] (1)[73:bat_thread_kthr]--------------------------------------------------
+<4>[    3.187292] (1)[73:bat_thread_kthr]--------------------------------------------------
+<4>[    3.188077] (1)[73:bat_thread_kthr]--------------------------------------------------
+<4>[    3.188863] (1)[73:bat_thread_kthr]--------------------------------------------------
+<4>[    3.189649] (1)[73:bat_thread_kthr]--------------------------------------------------
+<4>[    3.190435] (1)[73:bat_thread_kthr]--------------------------------------------------
+<5>[    3.191223] (1)[73:bat_thread_kthr][Power/Battery] [BATTERY:bq24196] wait gFG_booting_counter_I_FLAG==2 (1)
+<4>[    3.195347] (1)[23:kworker/1:1]--------------------------------------------------
+<4>[    3.195820] (1)[23:kworker/1:1][bq24196_read_interface] Reg[9]=0x0
+<4>[    3.195831] (1)[23:kworker/1:1][bq24196_read_interface] Val=0x0
+<4>[    3.215349] (2)[88:kworker/2:1]--------------------------------------------------
+<4>[    3.215832] (2)[88:kworker/2:1][bq24196_read_interface] Reg[9]=0x0
+<4>[    3.215845] (2)[88:kworker/2:1][bq24196_read_interface] Val=0x0
+<6>[    3.237444] (1)[64:mmcqd/0][BLOCK_TAG] mmcqd:64 Workload < 1%, duty 0, period 500082616, req_cnt=0
+<6>[    3.237472] (1)[64:mmcqd/0][BLOCK_TAG] vmstat (FP:15476)(FD:12)(ND:80)(WB:0)(NW:68)
+<7>[    3.244406] (3)[124:surfaceflinger][124:124:surfaceflinger] fork [124:166:surfaceflinger] flag=0x3d0f00
+<7>[    3.250309] (0)[80:kworker/0:1][MUSB]usb_cable_connected 291: iddig_state = 1
+<5>[    3.250338] (0)[80:kworker/0:1][Power/PMIC] [mt_charger_type_detection] Got data !!, 1, 1
+<5>[    3.250355] (0)[80:kworker/0:1][USB] android_work: is_hwconnected=1
+<5>[    3.250486] (0)[80:kworker/0:1][USB] android_work: sent uevent USB_STATE=CONNECTED
+<7>[    3.254771] (0)[0:swapper/0][MUSB]musb_stage0_irq 952: MUSB_INTR_RESET (b_peripheral)
+<7>[    3.254791] (0)[0:swapper/0][MUSB]musb_sync_with_bat 349: BATTERY_SetUSBState, state=1
+<5>[    3.254808] (0)[0:swapper/0][Power/Battery] [BATTERY] BAT_SetUSBState Success! Set 1
+<7>[    3.254834] (0)[0:swapper/0][USB] android_disconnect:
+<6>[    3.254847] (0)[0:swapper/0][Power/Battery] [FGADC] FGADC_Reset_SW_Parameter : Start
+<5>[    3.254856] (2)[73:bat_thread_kthr][Power/Battery] [FGADC] FGADC_Reset_SW_Parameter : Start
+<7>[    3.254882] (0)[0:swapper/0][USB] android_disconnect: dev->connected = 0
+<7>[    3.254919] (0)[80:kworker/0:1][MUSB]usb_cable_connected 291: iddig_state = 1
+<5>[    3.254940] (0)[80:kworker/0:1][Power/PMIC] [mt_charger_type_detection] Got data !!, 1, 1
+<5>[    3.254954] (0)[80:kworker/0:1][USB] android_work: is_hwconnected=1
+<5>[    3.255067] (0)[80:kworker/0:1][USB] android_work: sent uevent USB_STATE=DISCONNECTED
+<5>[    3.255121] (2)[73:bat_thread_kthr][Power/Battery] #
+<5>[    3.255136] (2)[73:bat_thread_kthr][Power/Battery] [FGADC] FGADC_Reset_SW_Parameter : Done
+<5>[    3.255152] (2)[73:bat_thread_kthr][Power/Battery] [FGADC] Update DOD0(0) by 0
+<5>[    3.261355] (2)[73:bat_thread_kthr][Power/Battery] [fgauge_read_avg_I_V] AVG voltage[4256], current[6423]
+<5>[    3.296518] (0)[73:bat_thread_kthr][Power/Battery] [FGADC] update DOD0 after booting 10 s
+<5>[    3.296550] (0)[73:bat_thread_kthr][Power/FGOAM] [oam] get_hw_ocv (swchr) : adc_result_reg=925, adc_result=4335
+<5>[    3.296570] (0)[73:bat_thread_kthr][Power/FGOAM] [oam] get_hw_ocv (swchr) : adc_result_reg=925, adc_result=4335
+<5>[    3.296586] (0)[73:bat_thread_kthr][Power/FGOAM] [oam_init] oam_v_ocv_1,oam_v_ocv_2,oam_r_1,oam_r_2,oam_d0,oam_i_ori
+<5>[    3.296604] (0)[73:bat_thread_kthr][Power/FGOAM] [oam_init] 4343,4343,155,155,0,6423
+<6>[    3.296620] (0)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ret_volt=3595
+<6>[    3.296634] (0)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] (profile_p+i)->percentag=85
+<6>[    3.296649] (0)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->percentage)=86
+<6>[    3.296664] (0)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i)->voltage)=3610
+<6>[    3.296679] (0)[73:bat_thread_kthr][Power/Battery] [fgauge_read_v_by_capacity] ((profile_p+i+1)->voltage) =3595
+<5>[    3.296693] (0)[73:bat_thread_kthr][Power/Battery] [FGADC] gFG_15_vlot = 3595mV
+<5>[    3.296709] (0)[73:bat_thread_kthr][Power/Battery] [FGADC] gFG_15_vlot(3595) over range, reset to 3700
+<5>[    3.296724] (0)[73:bat_thread_kthr][Power/Battery] gFG_current_auto_detect_R_fg_total=0, need double check [2]
+<5>[    3.298581] (0)[73:bat_thread_kthr][Power/Battery] [FGADC] Detect Rfg, use FG report. (6425=64253/10)(0)
+<5>[    3.298608] (0)[73:bat_thread_kthr][Power/Battery] [FGADC] 0,6423,0,0,4256,100,100,100,6234,6234,112,0,0,1000,4183,1000,0,0,6557,98,100
+<5>[    3.302007] (0)[73:bat_thread_kthr][Power/FGOAM] [oam] get_hw_ocv (swchr) : adc_result_reg=925, adc_result=4335
+<5>[    3.320926] (1)[124:surfaceflinger][Power/GPU_DVFS] mt_gpufreq_keep_frequency_non_OD_get, mt_gpufreq_keep_specific_frequency = 0
+<5>[    3.326692] (1)[73:bat_thread_kthr][Power/Battery] [tbat_workaround] 492,519,0,641,43
+<5>[    3.327628] (3)[73:bat_thread_kthr][Power/Battery] [BATTERY:ADC:bq27541] battery temperature read raw data(2884)0.1K
+<5>[    3.332986] (1)[73:bat_thread_kthr][Power/Battery] [BATTERY:bq27541] bq27541 read SOC raw data = 100
+<5>[    3.333896] (1)[73:bat_thread_kthr][Power/Battery] [BATTERY:AVG:bq27541] battery temperature read raw data(2884)0.1K
+<4>[    3.334138] (3)[73:bat_thread_kthr]--------------------------------------------------
+<4>[    3.334639] (1)[73:bat_thread_kthr][bq24196_read_interface] Reg[8]=0x84
+<4>[    3.334653] (1)[73:bat_thread_kthr][bq24196_read_interface] Val=0x0
+<4>[    3.334687] (1)[73:bat_thread_kthr]--------------------------------------------------
+<4>[    3.335474] (1)[73:bat_thread_kthr]--------------------------------------------------
+<4>[    3.336259] (1)[73:bat_thread_kthr]--------------------------------------------------
+<4>[    3.337043] (1)[73:bat_thread_kthr]--------------------------------------------------
+<4>[    3.337830] (1)[73:bat_thread_kthr]--------------------------------------------------
+<4>[    3.338617] (1)[73:bat_thread_kthr]--------------------------------------------------
+<4>[    3.339401] (1)[73:bat_thread_kthr]--------------------------------------------------
+<4>[    3.340187] (1)[73:bat_thread_kthr]--------------------------------------------------
+<4>[    3.340976] (1)[73:bat_thread_kthr]--------------------------------------------------
+<4>[    3.341763] (1)[73:bat_thread_kthr]--------------------------------------------------
+<4>[    3.342550] (1)[73:bat_thread_kthr]--------------------------------------------------
+<4>[    3.343336] (1)[73:bat_thread_kthr]--------------------------------------------------
+<4>[    3.344122] (1)[73:bat_thread_kthr]--------------------------------------------------
+<4>[    3.344906] (1)[73:bat_thread_kthr]--------------------------------------------------
+<4>[    3.345691] (1)[73:bat_thread_kthr]--------------------------------------------------
+<4>[    3.346475] (1)[73:bat_thread_kthr]--------------------------------------------------
+<4>[    3.347262] (1)[73:bat_thread_kthr]--------------------------------------------------
+<4>[    3.348047] (1)[73:bat_thread_kthr]--------------------------------------------------
+<4>[    3.348831] (1)[73:bat_thread_kthr]--------------------------------------------------
+<4>[    3.349617] (1)[73:bat_thread_kthr]--------------------------------------------------
+<4>[    3.355348] (1)[23:kworker/1:1]--------------------------------------------------
+<4>[    3.355818] (1)[23:kworker/1:1][bq24196_read_interface] Reg[9]=0x0
+<4>[    3.355829] (1)[23:kworker/1:1][bq24196_read_interface] Val=0x0
+<7>[    3.374251] (0)[80:kworker/0:1][MUSB]usb_cable_connected 291: iddig_state = 1
+<5>[    3.374302] (0)[80:kworker/0:1][Power/PMIC] [mt_charger_type_detection] Got data !!, 1, 1
+<5>[    3.374339] (0)[80:kworker/0:1][USB] android_work: is_hwconnected=1
+<5>[    3.374537] (0)[80:kworker/0:1][USB] android_work: sent uevent USB_STATE=CONNECTED
+<6>[    3.376520] (0)[0:swapper/0] gadget: high-speed config #1: android
+<4>[    3.376534] (0)[0:swapper/0]mtp_function_set_alt intf: 0 alt: 0
+<7>[    3.376553] (0)[0:swapper/0][MUSB]fifo_setup 1463: musb type=BULK
+<7>[    3.376566] (0)[0:swapper/0][MUSB]fifo_setup 1474: EP1 supports DBBUF
+<7>[    3.376582] (0)[0:swapper/0][MUSB]fifo_setup 1485: fifo size is 22 after 512, fifo address is 512, epnum 1,hwepnum 1
+<7>[    3.376602] (0)[0:swapper/0][MUSB]musb_gadget_enable 1685: musb-hdrc periph: enabled ep1in-bulk for bulk IN, dma, maxpacket 512
+<7>[    3.376627] (0)[0:swapper/0][MUSB]fifo_setup 1463: musb type=BULK
+<7>[    3.376639] (0)[0:swapper/0][MUSB]fifo_setup 1474: EP1 supports DBBUF
+<7>[    3.376655] (0)[0:swapper/0][MUSB]fifo_setup 1485: fifo size is 22 after 512, fifo address is 1536, epnum 1,hwepnum 1
+<7>[    3.376674] (0)[0:swapper/0][MUSB]musb_gadget_enable 1685: musb-hdrc periph: enabled ep1out-bulk for bulk OUT, dma, maxpacket 512
+<7>[    3.376692] (0)[0:swapper/0][MUSB]fifo_setup 1463: musb type=INT
+<7>[    3.376707] (0)[0:swapper/0][MUSB]fifo_setup 1485: fifo size is 6 after 512, fifo address is 2560, epnum 2,hwepnum 2
+<7>[    3.376726] (0)[0:swapper/0][MUSB]musb_gadget_enable 1685: musb-hdrc periph: enabled ep2in-bulk for int IN, maxpacket 28
+<7>[    3.376744] (0)[0:swapper/0][MUSB]fifo_setup 1463: musb type=BULK
+<7>[    3.376756] (0)[0:swapper/0][MUSB]fifo_setup 1474: EP3 supports DBBUF
+<7>[    3.376772] (0)[0:swapper/0][MUSB]fifo_setup 1485: fifo size is 22 after 512, fifo address is 3072, epnum 3,hwepnum 3
+<7>[    3.376791] (0)[0:swapper/0][MUSB]musb_gadget_enable 1685: musb-hdrc periph: enabled ep3in-bulk for bulk IN, dma, maxpacket 512
+<7>[    3.376808] (0)[0:swapper/0][MUSB]fifo_setup 1463: musb type=BULK
+<7>[    3.376820] (0)[0:swapper/0][MUSB]fifo_setup 1474: EP2 supports DBBUF
+<7>[    3.376836] (0)[0:swapper/0][MUSB]fifo_setup 1485: fifo size is 22 after 512, fifo address is 4096, epnum 2,hwepnum 2
+<7>[    3.376854] (0)[0:swapper/0][MUSB]musb_gadget_enable 1685: musb-hdrc periph: enabled ep2out-bulk for bulk OUT, dma, maxpacket 512
+<7>[    3.376883] (0)[0:swapper/0][MUSB]musb_sync_with_bat 349: BATTERY_SetUSBState, state=2
+<5>[    3.376901] (0)[0:swapper/0][Power/Battery] [BATTERY] BAT_SetUSBState Success! Set 2
+<5>[    3.376933] (1)[73:bat_thread_kthr][MUSB]usb_cable_connected 291: iddig_state = 1
+<7>[    3.376944] (0)[80:kworker/0:1][MUSB]usb_cable_connected 291: iddig_state = 1
+<5>[    3.376961] (0)[80:kworker/0:1][Power/PMIC] [mt_charger_type_detection] Got data !!, 1, 1
+<5>[    3.376975] (0)[80:kworker/0:1][USB] android_work: is_hwconnected=1
+<5>[    3.377081] (0)[80:kworker/0:1][USB] android_work: sent uevent USB_STATE=CONFIGURED
+<5>[    3.377153] (1)[73:bat_thread_kthr][Power/Battery] #
+<5>[    3.377166] (1)[73:bat_thread_kthr][Power/Battery] [FGADC] FGADC_Reset_SW_Parameter : Done
+<5>[    3.377181] (1)[73:bat_thread_kthr][Power/Battery] [FGADC] Update DOD0(0) by 0
+<5>[    3.383356] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_avg_I_V] AVG voltage[4317], current[6415]
+<7>[    3.387897] (2)[165:bootanimation][165:165:bootanimation] fork [165:167:bootanimation] flag=0x3d0f00
+<7>[    3.388390] (3)[167:Binder_1][165:167:Binder_1] fork [165:168:Binder_1] flag=0x3d0f00
+<7>[    3.388976] (3)[165:bootanimation][165:165:bootanimation] fork [165:169:bootanimation] flag=0x3d0f00
+<7>[    3.391315] (0)[0:swapper/0][MUSB]service_zero_data_request 314: restarting the request
+<7>[    3.407317] (2)[120:adbd][120:120:adbd] fork [170:170:adbd] flag=0x1200011
+<36>[    3.407380] (1)[144:logd.auditd]type=1400 audit(1266721634.270:29): avc: denied { read } for pid=169 comm="BootAnimation" name="egl" dev="mmcblk0p6" ino=30289 scontext=u:r:bootanim:s0 tcontext=u:object_r:unlabeled:s0 tclass=dir
+<36>[    3.407558] (1)[144:logd.auditd]type=1400 audit(1266721634.270:30): avc: denied { open } for pid=169 comm="BootAnimation" name="egl" dev="mmcblk0p6" ino=30289 scontext=u:r:bootanim:s0 tcontext=u:object_r:unlabeled:s0 tclass=dir
+<7>[    3.407636] (2)[120:adbd][120:120:adbd] fork [120:171:adbd] flag=0x3d0f00
+<7>[    3.408806] (2)[170:sh][exec] /system/bin/sh(3)
+<7>[    3.414866] (2)[170:logcat][exec] /system/bin/logcat(3)
+<5>[    3.416566] (1)[73:bat_thread_kthr][Power/Battery] [FGADC] 0,6415,0,0,4257,100,100,100,6234,6234,112,0,0,1000,4256,1000,0,0,6546,98,100
+<7>[    3.417367] (3)[169:BootAnimation][169:BootAnimation] sig 4 to [169:BootAnimation]
+<5>[    3.418115] (0)[124:surfaceflinger][Power/GPU_DVFS] mt_gpufreq_keep_frequency_non_OD_get, mt_gpufreq_keep_specific_frequency = 0
+<7>[    3.418718] (2)[134:logd.reader][118:134:logd.reader] fork [118:172:logd.reader] flag=0x3d0f00
+<5>[    3.420286] (1)[73:bat_thread_kthr][Power/FGOAM] [oam] get_hw_ocv (swchr) : adc_result_reg=925, adc_result=4335
+<6>[    3.421745] (2)[157:UIComposeThread][DISP/MTKFB] L0 set_overlay:0,0
+<6>[    3.421762] (2)[157:UIComposeThread][DISP/MTKFB] L1 set_overlay:0,0
+<6>[    3.421775] (2)[157:UIComposeThread][DISP/MTKFB] L2 set_overlay:0,0
+<6>[    3.421788] (2)[157:UIComposeThread][DISP/MTKFB] L3 set_overlay:1,1
+<7>[    3.445084] (3)[169:BootAnimation][169:BootAnimation] sig 4 to [169:BootAnimation]
+<5>[    3.446684] (1)[73:bat_thread_kthr][Power/Battery] [tbat_workaround] 502,529,0,642,43
+<5>[    3.447613] (1)[73:bat_thread_kthr][Power/Battery] [BATTERY:ADC:bq27541] battery temperature read raw data(2884)0.1K
+<5>[    3.452964] (1)[73:bat_thread_kthr][Power/Battery] [BATTERY:bq27541] bq27541 read SOC raw data = 100
+<5>[    3.453878] (1)[73:bat_thread_kthr][Power/Battery] [BATTERY:AVG:bq27541] battery temperature read raw data(2884)0.1K
+<4>[    3.454115] (2)[73:bat_thread_kthr]--------------------------------------------------
+<4>[    3.454594] (1)[73:bat_thread_kthr][bq24196_read_interface] Reg[8]=0x64
+<4>[    3.454608] (1)[73:bat_thread_kthr][bq24196_read_interface] Val=0x2
+<4>[    3.454643] (1)[73:bat_thread_kthr]--------------------------------------------------
+<4>[    3.455434] (1)[73:bat_thread_kthr]--------------------------------------------------
+<4>[    3.456222] (1)[73:bat_thread_kthr]--------------------------------------------------
+<4>[    3.457008] (1)[73:bat_thread_kthr]--------------------------------------------------
+<4>[    3.457796] (1)[73:bat_thread_kthr]--------------------------------------------------
+<4>[    3.458583] (1)[73:bat_thread_kthr]--------------------------------------------------
+<4>[    3.459370] (1)[73:bat_thread_kthr]--------------------------------------------------
+<4>[    3.460154] (1)[73:bat_thread_kthr]--------------------------------------------------
+<4>[    3.460939] (1)[73:bat_thread_kthr]--------------------------------------------------
+<4>[    3.461723] (1)[73:bat_thread_kthr]--------------------------------------------------
+<4>[    3.462507] (1)[73:bat_thread_kthr]--------------------------------------------------
+<4>[    3.463291] (1)[73:bat_thread_kthr]--------------------------------------------------
+<4>[    3.464075] (1)[73:bat_thread_kthr]--------------------------------------------------
+<4>[    3.464859] (1)[73:bat_thread_kthr]--------------------------------------------------
+<4>[    3.465660] (1)[73:bat_thread_kthr]--------------------------------------------------
+<4>[    3.466447] (1)[73:bat_thread_kthr]--------------------------------------------------
+<4>[    3.467233] (1)[73:bat_thread_kthr]--------------------------------------------------
+<4>[    3.468017] (1)[73:bat_thread_kthr]--------------------------------------------------
+<4>[    3.468802] (1)[73:bat_thread_kthr]--------------------------------------------------
+<4>[    3.469586] (1)[73:bat_thread_kthr]--------------------------------------------------
+<5>[    3.487131] (2)[169:BootAnimation][Power/GPU_DVFS] mt_gpufreq_keep_frequency_non_OD_get, mt_gpufreq_keep_specific_frequency = 0
+<4>[    3.521587] (3)[74:mtk charger_hv_][BATTERY:bq24196] Disable check battery exist for SMT
+<7>[    3.890794] (2)[120:adbd][120:adbd] sig 1 to [170:logcat]
+<7>[    3.890824] (2)[120:adbd][120:adbd] sig 18 to [170:logcat]
+<7>[    3.890843] (3)[170:logcat][170:logcat] exit
+<7>[    3.891173] (3)[75:kworker/3:1]release_one_tty: grab tty(ptm0/de563000)'s work de5630c8 before free it
+<7>[    3.891285] (3)[170:logcat][170:logcat] sig 1 to [170:logcat]
+<7>[    3.891300] (3)[170:logcat][170:logcat] sig 18 to [170:logcat]
+<7>[    3.891321] (3)[170:logcat][170:logcat] sig 17 to [120:adbd]
+<7>[    3.891359] (3)[75:kworker/3:1]release_one_tty: grab tty(pts0/de63b000)'s work de63b0c8 before free it
+<7>[    3.891405] (2)[172:logd.reader.per][172:logd.reader.per] exit
+<7>[    3.891508] (1)[171:adbd][171:adbd] exit
+<4>[    4.021675] (0)[74:mtk charger_hv_][BATTERY:bq24196] Disable check battery exist for SMT
+<4>[    4.521771] (1)[74:mtk charger_hv_][BATTERY:bq24196] Disable check battery exist for SMT
+<4>[    4.885383] (0)[80:kworker/0:1]dbs_check_cpu: turn off CPU
+<4>[    4.895371] (0)[80:kworker/0:1][power/hotplug] hp_work_handler(4)(100)(100)(36)(0)(8061)(1)(4) begin
+<7>[    4.895536] (1)[2:kthreadd][2:2:kthreadd] fork [173:173:kthreadd] flag=0x800711
+<7>[    4.895633] (1)[2:kthreadd][2:2:kthreadd] fork [174:174:kthreadd] flag=0x800711
+<4>[    4.895746] (0)[80:kworker/0:1][Sched] build_sched_domains
+<4>[    4.895954] (3)[13:migration/3][Power/hotplug] platform_cpu_disable, cpu: 3
+<4>[    4.896587] (3)[0:swapper/3][Power/hotplug] platform_cpu_die, cpu: 3
+<5>[    4.896603] (0)[80:kworker/0:1]CPU3: shutdown
+<4>[    4.896612] (0)[80:kworker/0:1][Power/hotplug] platform_cpu_kill, cpu: 3
+<7>[    4.897212] (0)[15:ksoftirqd/3][15:ksoftirqd/3] exit
+<4>[    4.897373] (0)[80:kworker/0:1][WDK]cpu 3 plug off, kick wdt
+<7>[    4.897424] (0)[13:migration/3][13:migration/3] exit
+<7>[    4.897496] (1)[174:kworker/3:2][174:kworker/3:2] exit
+<7>[    4.897613] (1)[2:kthreadd][2:2:kthreadd] fork [175:175:kthreadd] flag=0x800711
+<7>[    4.907725] (1)[2:kthreadd][2:2:kthreadd] fork [176:176:kthreadd] flag=0x800711
+<4>[    4.907824] (0)[80:kworker/0:1][Sched] build_sched_domains
+<4>[    4.908006] (2)[10:migration/2][Power/hotplug] platform_cpu_disable, cpu: 2
+<4>[    4.908482] (2)[0:swapper/2][Power/hotplug] platform_cpu_die, cpu: 2
+<5>[    4.908500] (0)[80:kworker/0:1]CPU2: shutdown
+<4>[    4.908510] (0)[80:kworker/0:1][Power/hotplug] platform_cpu_kill, cpu: 2
+<7>[    4.909124] (0)[12:ksoftirqd/2][12:ksoftirqd/2] exit
+<4>[    4.909281] (0)[80:kworker/0:1][WDK]cpu 2 plug off, kick wdt
+<7>[    4.909331] (0)[10:migration/2][10:migration/2] exit
+<7>[    4.909402] (1)[176:kworker/2:2][176:kworker/2:2] exit
+<4>[    4.909433] (0)[80:kworker/0:1][power/hotplug] hp_work_handler end
+<7>[    4.999859] (0)[75:kworker/3:1][75:kworker/3:1] exit
+<7>[    4.999931] (0)[14:kworker/3:0][14:kworker/3:0] exit
+<7>[    4.999965] (1)[173:workqueue_trust][173:workqueue_trust] exit
+<7>[    5.005411] (0)[88:kworker/2:1][88:kworker/2:1] exit
+<7>[    5.005458] (0)[11:kworker/2:0][11:kworker/2:0] exit
+<7>[    5.005532] (0)[175:workqueue_trust][175:workqueue_trust] exit
+<4>[    5.021866] (0)[74:mtk charger_hv_][BATTERY:bq24196] Disable check battery exist for SMT
+<4>[    5.521955] (1)[74:mtk charger_hv_][BATTERY:bq24196] Disable check battery exist for SMT
+<4>[    6.022048] (1)[74:mtk charger_hv_][BATTERY:bq24196] Disable check battery exist for SMT
+<5>[    6.026634] (1)[73:bat_thread_kthr][Power/Battery] [fgauge_read_avg_I_V] AVG voltage[4347], current[5331]
+<5>[    6.066500] (0)[73:bat_thread_kthr][Power/Battery] [FGADC] 0,5331,0,0,4260,100,100,100,6234,6234,93,0,0,1000,4257,1000,0,0,5440,98,100
+<5>[    6.069880] (0)[73:bat_thread_kthr][Power/FGOAM] [oam] get_hw_ocv (swchr) : adc_result_reg=925, adc_result=4335
+<5>[    6.096675] (1)[73:bat_thread_kthr][Power/Battery] [tbat_workaround] 505,527,0,532,43
+<5>[    6.097605] (1)[73:bat_thread_kthr][Power/Battery] [BATTERY:ADC:bq27541] battery temperature read raw data(2884)0.1K
+<5>[    6.102959] (1)[73:bat_thread_kthr][Power/Battery] [BATTERY:bq27541] bq27541 read SOC raw data = 100
+<5>[    6.103879] (1)[73:bat_thread_kthr][Power/Battery] [BATTERY:AVG:bq27541] battery temperature read raw data(2884)0.1K
+<4>[    6.104173] (1)[73:bat_thread_kthr]--------------------------------------------------
+<4>[    6.104647] (1)[73:bat_thread_kthr][bq24196_read_interface] Reg[8]=0x6c
+<4>[    6.104659] (1)[73:bat_thread_kthr][bq24196_read_interface] Val=0x2
+<4>[    6.104694] (1)[73:bat_thread_kthr]--------------------------------------------------
+<4>[    6.105480] (1)[73:bat_thread_kthr]--------------------------------------------------
+<4>[    6.106268] (1)[73:bat_thread_kthr]--------------------------------------------------
+<4>[    6.107054] (1)[73:bat_thread_kthr]--------------------------------------------------
+<4>[    6.107842] (1)[73:bat_thread_kthr]--------------------------------------------------
+<4>[    6.108630] (1)[73:bat_thread_kthr]--------------------------------------------------
+<4>[    6.109419] (1)[73:bat_thread_kthr]--------------------------------------------------
+<4>[    6.110206] (1)[73:bat_thread_kthr]--------------------------------------------------
+<4>[    6.110993] (1)[73:bat_thread_kthr]--------------------------------------------------
+<4>[    6.111780] (1)[73:bat_thread_kthr]--------------------------------------------------
+<4>[    6.112568] (1)[73:bat_thread_kthr]--------------------------------------------------
+<4>[    6.113355] (1)[73:bat_thread_kthr]--------------------------------------------------
+<4>[    6.114142] (1)[73:bat_thread_kthr]--------------------------------------------------
+<4>[    6.114926] (1)[73:bat_thread_kthr]--------------------------------------------------
+<4>[    6.115713] (1)[73:bat_thread_kthr]--------------------------------------------------
+<4>[    6.116500] (1)[73:bat_thread_kthr]--------------------------------------------------
+<4>[    6.117284] (1)[73:bat_thread_kthr]--------------------------------------------------
+<4>[    6.118070] (1)[73:bat_thread_kthr]--------------------------------------------------
+<4>[    6.118855] (1)[73:bat_thread_kthr]--------------------------------------------------
+<4>[    6.119641] (1)[73:bat_thread_kthr]--------------------------------------------------
+<4>[    6.522137] (1)[74:mtk charger_hv_][BATTERY:bq24196] Disable check battery exist for SMT
+<4>[    7.022225] (1)[74:mtk charger_hv_][BATTERY:bq24196] Disable check battery exist for SMT
+<3>[    7.201767] (1)[1:init]init: Warning!  Service 662x_launcher needs a SELinux domain defined; please fix!
+<7>[    7.202074] (1)[1:init][1:1:init] fork [177:177:init] flag=0x1200011
+<7>[    7.202850] (1)[177:6620_launcher][exec] /system/bin/6620_launcher(3)
+<7>[    7.206139] (1)[5:kworker/u:0][5:5:kworker/u:0] fork [178:178:kworker/u:0] flag=0x800711
+<7>[    7.206206] (1)[178:kworker/u:0][178:178:kworker/u:0] fork [179:179:kworker/u:0] flag=0x800111
+<7>[    7.206277] (1)[179:kworker/u:0][exec] /sbin/modprobe(3)
+<7>[    7.206290] (1)[179:kworker/u:0][179:kworker/u:0] exit
+<7>[    7.206329] (1)[179:kworker/u:0][179:kworker/u:0] sig 17 to [178:kworker/u:0]
+<7>[    7.206376] (1)[178:kworker/u:0][178:kworker/u:0] exit
+<7>[    7.206519] (1)[177:6620_launcher][177:6620_launcher] exit
+<7>[    7.206739] (1)[177:6620_launcher][177:6620_launcher] sig 17 to [1:init]
+<7>[    7.244745] (0)[166:surfaceflinger][166:surfaceflinger] exit
+<4>[    7.522321] (0)[74:mtk charger_hv_][BATTERY:bq24196] Disable check battery exist for SMT
+<4>[    7.885385] (0)[80:kworker/0:1]dbs_check_cpu: turn off CPU
+<4>[    7.895383] (0)[80:kworker/0:1][power/hotplug] hp_work_handler(4)(100)(100)(37)(333)(3495)(1)(4) begin
+<7>[    7.895518] (1)[2:kthreadd][2:2:kthreadd] fork [180:180:kthreadd] flag=0x800711
+<7>[    7.895615] (1)[2:kthreadd][2:2:kthreadd] fork [181:181:kthreadd] flag=0x800711
+<4>[    7.895717] (0)[80:kworker/0:1][Sched] build_sched_domains
+<4>[    7.895878] (1)[7:migration/1][Power/hotplug] platform_cpu_disable, cpu: 1
+<4>[    7.896521] (1)[0:swapper/1]<5>CPU1: shutdown
+<5>[    7.896534] (0)[80:kworker/0:1]CPU1: shutdown
+<4>[    7.896543] (0)[80:kworker/0:1][Power/hotplug] platform_cpu_kill, cpu: 1
+<7>[    7.897101] (0)[9:ksoftirqd/1][9:ksoftirqd/1] exit
+<4>[    7.897260] (0)[80:kworker/0:1][WDK]cpu 1 plug off, kick wdt
+<7>[    7.897307] (0)[7:migration/1][7:migration/1] exit
+<7>[    7.897372] (0)[181:kworker/1:2][181:kworker/1:2] exit
+<4>[    7.897396] (0)[80:kworker/0:1][power/hotplug] hp_work_handler end
+<7>[    7.995380] (0)[23:kworker/1:1][23:kworker/1:1] exit
+<7>[    7.995453] (0)[8:kworker/1:0][8:kworker/1:0] exit
+<7>[    7.995493] (0)[180:workqueue_trust][180:workqueue_trust] exit
+<6>[    8.005518] (0)[64:mmcqd/0][BLOCK_TAG] MMC Queue Thread:64, 66, 65, 0, 0
+<6>[    8.005533] (0)[64:mmcqd/0][BLOCK_TAG] MMC CID: 0 0 0 0
+<6>[    8.005548] (0)[64:mmcqd/0][BLOCK_TAG] mmcqd:64 Workload < 1%, duty 0, period 4768083615, req_cnt=0
+<6>[    8.005566] (0)[64:mmcqd/0][BLOCK_TAG] vmstat (FP:20264)(FD:12)(ND:80)(WB:0)(NW:68)
+<4>[    8.022410] (0)[74:mtk charger_hv_][BATTERY:bq24196] Disable check battery exist for SMT
+<7>[    8.522451] (0)[120:adbd][120:120:adbd] fork [182:182:adbd] flag=0x1200011
+<7>[    8.522742] (0)[120:adbd][120:120:adbd] fork [120:183:adbd] flag=0x3d0f00
+<4>[    8.523044] (0)[74:mtk charger_hv_][BATTERY:bq24196] Disable check battery exist for SMT
+<7>[    8.523879] (0)[182:sh][exec] /system/bin/sh(3)
+<7>[    8.528071] (0)[182:sh][182:182:sh] fork [184:184:sh] flag=0x1200011
+<7>[    8.535057] (0)[184:getprop][exec] /system/bin/getprop(3)
+<7>[    8.540719] (0)[184:getprop][184:getprop] sig 4 to [184:getprop]
+<7>[    8.541111] (0)[184:getprop][184:getprop] exit
+<7>[    8.541406] (0)[184:getprop][184:getprop] sig 17 to [182:sh]
+<7>[    8.542001] (0)[182:sh][182:182:sh] fork [185:185:sh] flag=0x1200011
+<7>[    8.542864] (0)[185:sh][185:185:sh] fork [186:186:sh] flag=0x1200011
+<7>[    8.544009] (0)[186:id][exec] /system/bin/id(3)
+<7>[    8.555446] (0)[186:id][186:id] sig 4 to [186:id]
+<7>[    8.556036] (0)[186:id][186:id] exit
+<7>[    8.556336] (0)[186:id][186:id] sig 17 to [185:sh]
+<7>[    8.557105] (0)[185:sh][185:sh] exit
+<7>[    8.557310] (0)[185:sh][185:sh] sig 17 to [182:sh]
+<7>[    8.558376] (0)[182:sh][182:182:sh] fork [187:187:sh] flag=0x1200011
+<7>[    8.559404] (0)[187:resize][exec] /system/xbin/resize(3)
+<7>[    8.570268] (0)[187:resize][187:resize] sig 28 to [187:resize]
+<7>[    8.570445] (0)[187:resize][187:resize] exit
+<7>[    8.570686] (0)[187:resize][187:resize] sig 17 to [182:sh]
+<4>[    9.023126] (0)[74:mtk charger_hv_][BATTERY:bq24196] Disable check battery exist for SMT
+<4>[    9.523215] (0)[74:mtk charger_hv_][BATTERY:bq24196] Disable check battery exist for SMT
+<6>[    9.891179] (0)[64:mmcqd/0][BLOCK_TAG] mmcqd:64 Workload < 1%, duty 0, period 1885652000, req_cnt=0
+<6>[    9.891201] (0)[64:mmcqd/0][BLOCK_TAG] vmstat (FP:20272)(FD:48)(ND:128)(WB:0)(NW:80)
+<4>[   10.023306] (0)[74:mtk charger_hv_][BATTERY:bq24196] Disable check battery exist for SMT
+<7>[   10.202331] (0)[182:sh][182:182:sh] fork [188:188:sh] flag=0x1200011
+<7>[   10.209515] (0)[188:dmesg][exec] /system/bin/dmesg(3)
+<7>[   10.215125] (0)[188:dmesg][188:dmesg] sig 4 to [188:dmesg]
